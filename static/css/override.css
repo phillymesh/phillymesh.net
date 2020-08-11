@@ -1,0 +1,5 @@
+.common-header {
+    padding-bottom: 0;
+    border-bottom: thin solid var(--hr-color);
+    margin-top: 7px;
+} 

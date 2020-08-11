@@ -1,0 +1,51 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Philly Mesh"
+theme = "anubis"
+paginate = 3
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+  name = "Mike Dank"
+
+[params]
+   author = "Philly Mesh"
+   description = "Playing with mesh networks and decentralized technology"
+   dateFormat = "2006-01-02"
+   paginationSinglePost = true
+   style = "dark-without-switcher"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 1
+	
+#  [[menu.main]]
+#    identifier = "tags"
+#    name = "Tags"
+#    url = "/tags/"
+#    weight = 2
+
+  [[menu.main]]
+    name = "Archive"
+    identifier = "archive"
+    url = "/posts/"
+    weight = 3
+	
+  [[menu.main]]
+    name = "RSS"
+    identifier = "rss"
+    url = "/post/index.xml"
+    weight = 4
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true

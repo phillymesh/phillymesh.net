@@ -1,0 +1,12 @@
+<h1 class="site-title" style="margin-top:0">
+    <!--a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a-->
+    <a href="{{ .Site.BaseURL | relLangURL }}"><img src="{{ "images/phillymesh_logo_77.png" | absURL }}" height="77px"></a>
+</h1>
+
+<nav style="margin-top:auto;margin-bottom:auto;padding-bottom: 7px;">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+    {{ end }}
+</nav>
+

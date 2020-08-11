@@ -1,0 +1,16 @@
+<footer class="common-footer">
+    {{ $languagesCount := $.Site.Home.AllTranslations }}
+    {{ if gt $languagesCount 1 }}
+        {{ partial "languageSelect.html" . }}
+    {{ end }}
+
+    <div class="common-footer-bottom">
+        <div class="copyright">
+            <p>(cc) <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">BY-NC-SA 4.0</a> {{ if isset .Site.Params "author"}}{{ .Site.Params.author }}, {{end}}2013 - {{ now.Year }}<br>
+            {{ i18n "powered" | humanize }} <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a> with  <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+            </p>  
+        </div> 
+    </div>
+
+    {{ partial "themeSwitcher.html" . }}    
+</footer>
