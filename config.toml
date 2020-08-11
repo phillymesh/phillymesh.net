@@ -1,4 +1,4 @@
-baseURL = "https:/phillymesh.net"
+baseURL = "https://phillymesh.net/"
 languageCode = "en-us"
 title = "Philly Mesh"
 theme = "anubis"
