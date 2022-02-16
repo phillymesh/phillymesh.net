@@ -6,9 +6,7 @@ type: page
 Feel free to reach out and introduce yourself! The best way to get in contact is through Matrix chat as outlined below.
 
   * Chat with us via Matrix at [#phillymesh:matrix.org][1]
-  * Email us via <hello@phillymesh.net>
-<!--      * [Looking for a GPG Key?][2]-->
-<!--     * Something super-sensitive? <phillymesh@protonmail.ch> -->
+  * Email us via <hello@phillymesh.net><!--      * [Looking for a GPG Key?][2]--><!--     * Something super-sensitive? <phillymesh@protonmail.ch> -->
   * Tweet us at [@phillymesh][3]
   * Fork us on the [phillymesh GitHub organization][4]
 
