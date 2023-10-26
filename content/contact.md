@@ -10,7 +10,7 @@ Feel free to reach out and introduce yourself! The best way to get in contact is
   * Tweet us at [@phillymesh][3]
   * Fork us on the [phillymesh GitHub organization][4]
 
-We also maintain an IRC channel at [#phillymesh/Libera][5]. If you have previously used the Slack or EFNet IRC channel, they are no longer supported.
+<!-- We also maintain an IRC channel at [#phillymesh/Libera][5]. If you have previously used the Slack or EFNet IRC channel, they are no longer supported. -->
 
  [1]: https://matrix.to/#/#phillymesh:matrix.org
  [2]: /gpg/
