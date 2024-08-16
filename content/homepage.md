@@ -6,7 +6,7 @@ type: homepage
 ---
 Philly Mesh is a group for people who enjoy experimenting with mesh networking and related decentralized/distributed technologies.
 
-**We are currently running several [Meshtastic](https://meshtastic.org/) nodes in the Greater Philadelphia area. If you are interested in Meshtastic and LoRa and are in the area we highly recommend [Iffy Books' Meshtastic 101 Meetups](https://iffybooks.net/series/📡-meshtastic-101/) to get connected.**
+**We are currently running several [Meshtastic](https://meshtastic.org/) nodes [in the Greater Philadelphia area](https://meshmap.net/). If you are interested in Meshtastic and LoRa and are in the area we highly recommend [Iffy Books' Meshtastic 101 Meetups](https://iffybooks.net/series/📡-meshtastic-101/) to get connected.**
 
 ---
 
