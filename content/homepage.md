@@ -8,7 +8,7 @@ Philly Mesh is a group for people who enjoy experimenting with mesh networking a
 
 **We are currently running several [Meshtastic](https://meshtastic.org/) nodes [in the Greater Philadelphia area](https://meshmap.net/). If you are interested in Meshtastic and LoRa and are in the area we highly recommend [Iffy Books' Meshtastic 101 Meetups](https://iffybooks.net/series/📡-meshtastic-101/) to get connected.**
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Zi9XvyqAW56dq4zsYGZdge8KWYaxoxk&ehbc=2E312F" width="auto" height="400"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Zi9XvyqAW56dq4zsYGZdge8KWYaxoxk&ehbc=2E312F" width="100%" height="400"></iframe>
 
 ___
 
