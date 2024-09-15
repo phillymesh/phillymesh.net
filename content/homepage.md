@@ -10,7 +10,7 @@ Philly Mesh is a group for people who enjoy experimenting with mesh networking a
 
 Join the [**US - Philadelphia PA/Delaware Valley** room in the official Meshtastic Discord](https://discord.com/channels/867578229534359593/1280671409995255809) to chat with others in the area.  
 
-If you are interested in learning more about Meshtastic and LoRa and are in the area we highly recommend [Iffy Books' Meshtastic 101 Meetups](https://iffybooks.net/series/📡-meshtastic-101/) to get connected and meet others.**  
+If you are interested in learning more about Meshtastic and LoRa and are in the area we highly recommend [Iffy Books' Meshtastic 101 Meetups](https://iffybooks.net/series/📡-meshtastic-101/) to get connected and meet others.  
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Zi9XvyqAW56dq4zsYGZdge8KWYaxoxk&ehbc=2E312F" width="100%" height="500"></iframe>
 
