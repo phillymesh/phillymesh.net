@@ -4,7 +4,6 @@ author: Mike Dank (Famicoman)
 type: post
 date: 2025-03-24T00:00:01+00:00
 url: /2025/03/24/station-g2-node-installation/
-draft: true
 categories:
   - Philly Mesh
 tags:
