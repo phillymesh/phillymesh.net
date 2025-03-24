@@ -32,8 +32,8 @@ googleAnalytics = ""
 #    weight = 2
 
   [[menu.main]]
-    name = "Archive"
-    identifier = "archive"
+    name = "Posts"
+    identifier = "posts"
     url = "/posts/"
     weight = 3
 	
