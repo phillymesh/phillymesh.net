@@ -5,7 +5,7 @@ type: post
 date: 2016-03-31T21:42:38+00:00
 url: /2016/03/31/cjdns-on-openwrt-part-1-installing-openwrt-on-the-wd-n600/
 categories:
-  - Philly Mesh
+  - Tutorial
 tags:
   - firmware
   - n600

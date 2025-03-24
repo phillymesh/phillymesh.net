@@ -44,6 +44,12 @@ googleAnalytics = ""
     weight = 3
 	
   [[menu.main]]
+    name = "Resources"
+    identifier = "resources"
+    url = "/resources/"
+    weight = 3
+	
+  [[menu.main]]
     name = "RSS"
     identifier = "rss"
     url = "/post/index.xml"

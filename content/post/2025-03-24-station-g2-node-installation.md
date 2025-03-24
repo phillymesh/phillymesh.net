@@ -7,7 +7,8 @@ url: /2025/03/24/station-g2-node-installation/
 categories:
   - Philly Mesh
 tags:
-  - Meshtastic
+  - meshtastic
+  - stationg2
 
 ---
 
