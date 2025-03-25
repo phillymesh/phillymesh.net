@@ -67,10 +67,10 @@ $ sudo mosquitto_passwd -c /etc/mosquitto/pwfile phillymesh
 
 ## Adding Bridges
 
-Additional configuration can be added to `/etc/mosquitto/conf.d`, so let's create a file for each of our bridges:
+Additional configuration can be added to `/etc/mosquitto/conf.d/`, so let's create a file for each of our bridges:
 
 ```
-$ sudo cat mqtt.meshtastic.org.conf
+$ sudo cat /etc/mosquitto/conf.d/mqtt.meshtastic.org.conf
 connection mqtt_meshtastic.org
 address mqtt.meshtastic.org:1883
 
@@ -97,7 +97,7 @@ restart_timeout 10
 ```
 
 ```
-$ sudo cat mqtt.meshtastic.liamcottle.net.conf
+$ sudo cat /etc/mosquitto/conf.d/mqtt.meshtastic.liamcottle.net.conf
 connection mqtt_meshtastic_liamcottle_net
 address mqtt.meshtastic.liamcottle.net:1883
 
@@ -109,7 +109,6 @@ remote_password uplink
 bridge_protocol_version mqttv311
 
 # Forward all traffic from msh/*/2/map/ to the remote server
-#topic msh/# out 0
 topic msh/+/2/map/# out 0
 
 # Enable encryption
