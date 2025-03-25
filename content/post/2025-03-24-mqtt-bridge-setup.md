@@ -13,7 +13,7 @@ tags:
 
 ---
 
-On August 2024, Meshtastic made changes to their official MQTT server due to potential safety issues of third parties tracking and storing user location data. While one of the main Meshtastic node mapping websites [meshmap.net](https://meshmap.net/) continues to rely on the official MQTT server, another popular site [meshtastic.liamcottle.net](https://meshtastic.liamcottle.net/) now runs their own separate MQTT server.
+In August 2024 Meshtastic made changes to their official MQTT server due to potential safety issues of third parties tracking and storing user location data. While one of the main Meshtastic node mapping websites [meshmap.net](https://meshmap.net/) continues to rely on the official MQTT server, another popular site [meshtastic.liamcottle.net](https://meshtastic.liamcottle.net/) now runs their own separate MQTT server.
 
 While MQTT can be leveraged to connect Meshtastic nodes to one another over-the-Internet to bridge separated networks or isolated nodes, many people instead use this feature specifically for contributing to node maps so others can see what nodes may be operating in their area. As already outlined, there are now two separate MQTT servers for node maps. However, the Meshtastic application only allows one MQTT server to be configured per node, which requires the user to make a choice of which one they will use and ultimately which site they will not contribute to.
 
@@ -83,6 +83,7 @@ bridge_protocol_version mqttv311
 
 # Forward all traffic from msh/*/2/map/ to the remote server
 topic msh/+/2/map/# out 0
+topic msh/# out 0
 
 # Enable encryption
 use_identity_as_username false
@@ -110,6 +111,7 @@ bridge_protocol_version mqttv311
 
 # Forward all traffic from msh/*/2/map/ to the remote server
 topic msh/+/2/map/# out 0
+topic msh/# out 0
 
 # Enable encryption
 use_identity_as_username false
