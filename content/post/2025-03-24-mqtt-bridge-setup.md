@@ -165,3 +165,11 @@ Client configuration can be set as follows for **Channels > LongFast**:
 * Downlink enabled: *off*
 * Postion enabled: *on*
 * Precise location *off* and minimum of *1194 ft* to comply with `mqtt.meshtastic.org`
+
+## Sources
+
+* https://www.reddit.com/r/meshtastic/comments/1f04xdu/is_it_possible_to_connect_to_two_mqtt_servers_at/
+* https://cedalo.com/blog/mosquitto-bridge-configuration/#Bridging_multiple_brokers
+* https://adrelien.com/blog/how-to-host-your-own-mqtt-for-your-meshtastic-nodes/
+* https://meshtastic.org/docs/configuration/module/mqtt/#connect-to-the-default-public-server
+* https://www.reddit.com/r/meshtastic/comments/1cneou7/deleted_by_user/
