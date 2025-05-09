@@ -17,3 +17,4 @@ Philly Mesh members host and administrate several nodes within the Meshtastic ne
 | PM04        | Redacted    |
 | PM07        | Redacted    |
 | PM08        | BODA        |
+| PM069       | Redacted    |
