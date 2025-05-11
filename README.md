@@ -1,11 +1,19 @@
 # phillymesh.net
-This is the repository for the `phillymesh.net` website! Anyone is welcome to submit updates to this site via [pull request]((https://github.com/phillymesh/phillymesh.net/pulls). Merged updates will go live automatically.
-
-## Local Development
+This is the repository for the `phillymesh.net` website!
 
 This site is built with the open-source [Hugo](https://gohugo.io/) static site generator, which converts Mardown posts and pages into HTML. 
 
-If you want to run the site locally to test changes, you can do the following on a Debian Linux host. Hugo maintains a [gettiny started guide](https://gohugo.io/getting-started/quick-start/) if uou use a different operating system.
+## Making Changes & New Content
+
+Anyone is welcome to submit updates to this site via [pull request](https://github.com/phillymesh/phillymesh.net/pulls). GitHub maintains a [great guide for creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) if you've never made one before.
+
+After submitting a PR, someone in the organization will review the changes and either approve them or request updates.
+
+Merged updates will go live automatically via a GitHub Actions workflow.
+
+## Local Development
+
+If you want to run the site locally to test changes, you can do the following on a Debian Linux host. Hugo maintains a [getting started guide](https://gohugo.io/getting-started/quick-start/) if you use a different operating system, though many steps will be similar.
 
 First, install `git` and grab Hugo extended:
 
@@ -16,7 +24,7 @@ tar -xzf hugo_*.tar.gz && rm hugo_*.tar.gz
 chmod +x hugo
 ```
 
-Now, clone the `phillymesh.net` repo and pull down the theme via submodules:
+Now, clone the `phillymesh.net` repo and pull down the theme via submodule update:
 
 ```
 git clone https://github.com/phillymesh/phillymesh.net.git
@@ -30,7 +38,7 @@ Finally, run `hugo` and build the site, hosting it on a live webserver:
 hugo server
 ```
 
-You know have a live server of the site running at <http://127.0.0.1:1313>
+You now have a live server of the site running at <http://127.0.0.1:1313>
 
 ## Deploying on a Server
 
