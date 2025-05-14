@@ -11,6 +11,38 @@ After submitting a PR, someone in the organization will review the changes and e
 
 Merged updates will go live automatically via a GitHub Actions workflow.
 
+## New Post
+
+New posts are incredibly easy! Make a new page in the [content/post](https://github.com/phillymesh/phillymesh.net/tree/master/content/post) directory in the format `YYYY-MM-DD-your-post-slug.md`. The resulting rendered URL will be `phillymesh.net/YYYY/MM-DD/your-post-slug`. The `YYYY-MM-DD` should be the date you start working on the post or intend to have it published.
+
+At the top of your `.md` file you need to include *front matter* that acts as metadata about the post. Here is an example:
+
+```
+---
+title: Station G2 Node Installation
+author: Mike Dank (Famicoman)
+type: post
+date: 2025-03-24T00:00:01+00:00
+url: /2025/03/24/station-g2-node-installation/
+categories:
+  - Philly Mesh
+tags:
+  - meshtastic
+  - stationg2
+
+---
+```
+
+This format is pretty self-explanatory and as long as you have a sensible `title`, your preferred name for the `author`, the proper `date`, and a `url` that matches your filename, you should be good. Currently, most posts use `Philly Mesh` as the category and include some `tags` that pertain to the content of the most. For a full explanation of front matter fields, you can consult [this reference](https://gohugo.io/content-management/front-matter/).
+
+Posts are written in Markdown, and a quick refernece is available [here](https://www.markdownguide.org/tools/hugo/).
+
+If your post needs images, you can make a new folder in the [static/images/uploads](https://github.com/phillymesh/phillymesh.net/tree/master/static/images/uploads) directory with the same name as your post file, such as `YYYY-MM-DD-your-post-slug`. In this directory you can upload any images (or other files really) that you would like to include in the post. Pictures can be referenced in your post with the following syntax:
+
+```
+{{< figure src="/images/uploads/YYYY-MM-DD-your-post-slug/your-cool-photo.png" caption="Your cool caption." link="/images/uploads/YYYY-MM-DD-your-post-slug/your-cool-photo.png">}}
+```
+
 ## Local Development
 
 If you want to run the site locally to test changes, you can do the following on a Debian Linux host. Hugo maintains a [getting started guide](https://gohugo.io/getting-started/quick-start/) if you use a different operating system, though many steps will be similar.
