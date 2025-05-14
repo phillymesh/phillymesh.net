@@ -11,7 +11,7 @@ After submitting a PR, someone in the organization will review the changes and e
 
 Merged updates will go live automatically via a GitHub Actions workflow.
 
-## New Post
+### New Post
 
 New posts are incredibly easy! Make a new page in the [content/post](https://github.com/phillymesh/phillymesh.net/tree/master/content/post) directory in the format `YYYY-MM-DD-your-post-slug.md`. The resulting rendered URL will be `phillymesh.net/YYYY/MM-DD/your-post-slug`. The `YYYY-MM-DD` should be the date you start working on the post or intend to have it published.
 
