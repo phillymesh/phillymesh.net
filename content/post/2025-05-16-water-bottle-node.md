@@ -28,19 +28,28 @@ The WisBlock with a 1200mAh battery lasts about a week between charges. This is 
 
 ## Parts list
 
+### Essential parts
+
 | Parts | Price | Description |
 | ----- | ----- | ----------- |
 | [WisBlock Starter Kit](https://store.rakwireless.com/products/wisblock-starter-kit?srsltid=AfmBOoqGNa6h2MSgg5oLSWXtv6xPEiVNtHl4h6oP_BMcHh4kBFPVji3x&variant=41786685063366) | $24.99 | This is the Meshtastic node. You want the RAK19007+RAK4631 (not -R) version. Pick the frequency for your region, USA is 915. |
 | [Water Bottle](https://www.specialized.com/us/en/purist-moflo-22oz/p/157653) | $11.99 | I had a Specialized MoFlo 22oz bike water bottle lying around. It barely fits this 17cm Gizont whip antenna (that's actually slightly less than 17cm) that I had, but may not fit other 17cm whip antennas. I'd recommend grabbing whatever antenna you have available and finding a water bottle that fits that. |
 | [Antenna](https://ovvys.com/products/gizont-long-range-whip-antenna?srsltid=AfmBOorSCCA6EwAnSAkfMoFwI7ncjHl4AFluoO8OGU7GVjI1yp73MW33) | $13.00 | I can't vouch for this particular distributer, but I've used Gizont whip antennas for many projects and always had good results. I think I bought this one on eBay, so just search the name of the antenna and find it wherever is most convenient. |
-| [Right angle SMA to IPEX cable](https://www.amazon.com/Female-Right-Angle-Coaxial-12inch/dp/B098QFZ2DB?th=1) | $10.99 | If you have tight clearances you'll need one of these right angle cables rather than the usual straight ones. |
 | [MuziWorks H1 Battery (1200 mAh)](https://muzi.works/products/h1-battery?srsltid=AfmBOorybyZ_2L17M_H8qQfEdhiu6lNvZm79b52aTs1dyez0qWbZaAZX) | $9.90 | I had a couple of these because I made some of their 3D printed nodes previously |
+
+**Essential parts cost: $59.88 + shipping**
+
+### Parts you may already have laying around
+
+*I break this section out because 1) you may already have some of these parts laying around, 2) you could get many of them individually for very cheap if you buy local, and 3) if you do have to buy online and in bulk, you will have some on hand and they will not contribute to the cost of your next build.*
+
+| Parts | Price | Description |
+| ----- | ----- | ----------- |
+| [Right angle SMA to IPEX cable](https://www.amazon.com/Female-Right-Angle-Coaxial-12inch/dp/B098QFZ2DB?th=1) | $10.99 | If you have tight clearances you'll need one of these right angle cables rather than the usual straight ones. |
 | JST Connectors [2mm male](https://www.amazon.com/Upgraded-Connector-Battery-Inductrix-Eachine/dp/B07NWD5NTN/) and [1.25mm female](https://www.amazon.com/Chanzon-Connector-Electrical-Terminal-Lighting/dp/B0B2DBTVJC/) | $14.98 | The battery is 1.25mm JST and the WisBlock is 2mm JST, so you'll need to solder two connectors together to make them connect. |
 | [M2.5 screws and nuts](https://www.amazon.com/HVAZI-M1-2-M1-4-M1-6-M2-5/dp/B0CJJFFCW2/) | $7-18 | You can get just M2.5 screws and nuts for much cheaper, but if you don't already have a set of metric screws and nuts, it's worth it to get a variety pack, which is what I have linked. |
 
 **Total cost: $92.85 + shipping**
-
-**Cost excluding small parts you might already own: $59.88 + shipping**
 
 ## Assembly
 
