@@ -22,6 +22,8 @@ To fill this gap, I came up with a plan for a portable node with a longer range 
 
 Since I built and started using this water bottle node, I don't know how more people don't do something like this! You can stick it in a water bottle pocket of a backpack and it stays vertically polarized. The antenna doesn't get bent or unscrewed in your bag. It's entirely waterproof so you don't have to worry about getting caught in the rain. And it doesn't get any curious looks from cursory bag checks at hospitals or museums. As a general disclaimer, I would NOT recommend bringing this to any high security location like an airport. TSA is generally fine with radio and Meshtastic equipment, but something like this might get you pulled into a room and interrogated about why you're hiding wires, batteries, and antennas in a normal looking object.
 
+{{< figure src="/images/uploads/2025-05-16-water-bottle-node/water_bottle_top.jpg" caption="Easy charging at the top" link="/images/uploads/2025-05-16-water-bottle-node/water_bottle_top.jpg">}}
+
 The WisBlock with a 1200mAh battery lasts about a week between charges. This is plenty for me, but feel free to use a battery with more capacity to make it last longer, there's plenty of extra space in the water bottle!
 
 ## Parts list
@@ -46,6 +48,12 @@ I threw together a 3D printed bracket that holds all of the components together 
 
 Screw the antenna into the bracket and feed the end of the pigtail through the top. The WisBlock goes on the side where the antenna pigtail feeds. It should slot in and then you can screw it in with the M2.5 screws and nuts to secure it.
 
+{{< figure src="/images/uploads/2025-05-16-water-bottle-node/interior.jpg" caption="Interior, WisBlock side" link="/images/uploads/2025-05-16-water-bottle-node/interior.jpg">}}
+
 You will need to solder the two JST connectors you got together to make a connector for the battery to the WisBlock. The connector will be 1.25mm female to 2mm male. *Pay attention to the positive and negative terminals on the WisBlock!!* It will likely be the *reverse* of what the battery sends out. You may need to solder the red leads of one connector to the black of the other and vice versa. If you mess this up, you will likely kill your WisBlock.
 
+{{< figure src="/images/uploads/2025-05-16-water-bottle-node/interior_rear.jpg" caption="Interior, battery side" link="/images/uploads/2025-05-16-water-bottle-node/interior_rear.jpg">}}
+
 Slide the battery into the other side of the bracket and you're good to go!
+
+{{< figure src="/images/uploads/2025-05-16-water-bottle-node/water_bottle.jpg" caption="Interior" link="/images/uploads/2025-05-16-water-bottle-node/water_bottle.jpg">}}
