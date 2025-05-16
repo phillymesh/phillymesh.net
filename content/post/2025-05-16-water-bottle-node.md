@@ -18,9 +18,11 @@ For most of the day, I can be found carrying a T-1000e in my pocket. My home has
 
 To fill this gap, I came up with a plan for a portable node with a longer range antenna that I could easily stick in a backpack or leave on my bike that wouldn't raise any alarms. While I'm not averse to carrying around large antennas, I like to save this activity for radio meetups or cons, and be a little less obvious in my day to day life. I realized this bike waterbottle I had was exactly the right length for the whip antenna I had laying around.
 
+{{< figure src="/images/uploads/2025-05-16-water-bottle-node/water_bottle_side.jpg" caption="RAK19007 Voltage and Connectors" link="/images/uploads/2025-05-16-water-bottle-node/water_bottle_side.jpg">}}
+
 Since I built and started using this water bottle node, I don't know how more people don't do something like this! You can stick it in a water bottle pocket of a backpack and it stays vertically polarized. The antenna doesn't get bent or unscrewed in your bag. It's entirely waterproof so you don't have to worry about getting caught in the rain. And it doesn't get any curious looks from cursory bag checks at hospitals or museums. As a general disclaimer, I would NOT recommend bringing this to any high security location like an airport. TSA is generally fine with radio and Meshtastic equipment, but something like this might get you pulled into a room and interrogated about why you're hiding wires, batteries, and antennas in a normal looking object.
 
-The WisBlock lasts 
+The WisBlock with a 1200mAh battery lasts about a week between charges. This is plenty for me, but feel free to use a battery with more capacity to make it last longer, there's plenty of extra space in the water bottle!
 
 ## Parts list
 
