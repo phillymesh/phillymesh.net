@@ -21,6 +21,8 @@ For now, here's a reasonably reliable node that costs around $100 for just the e
 
 ## Parts List
 
+### Essential Parts
+
 | Parts | Price | Description |
 | ----- | ----- | ----------- |
 | [WisBlock Starter Kit](https://store.rakwireless.com/products/wisblock-starter-kit?srsltid=AfmBOoqGNa6h2MSgg5oLSWXtv6xPEiVNtHl4h6oP_BMcHh4kBFPVji3x&variant=41786685063366) | $24.99 | This is the Meshtastic node. You want the RAK19007+RAK4631 (not -R) version. Pick the frequency for your region, USA is 915. |
@@ -28,12 +30,21 @@ For now, here's a reasonably reliable node that costs around $100 for just the e
 | [Enclosure Mounting Kit](https://store.rakwireless.com/products/unify-enclosure-mounting-kit?variant=42457063424198) | $4.00 | I picked type A, the vertical mounting version. This is optional, but great if you want to mount on a pole. Keep an eye on the recommended pole diameter (65-89mm). |
 | [Alfa 915 5dbi antenna](https://store.rokland.com/products/alfa-aoa-915-5acm-5-dbi-omni-outdoor-915mhz-802-11ah-mini-antenna-for-lora-halow-application?srsltid=AfmBOop9lzm8PeK3QjFWUSCN1gY2lYVX7E8y4QnfFWo_uJd6ewXJo9St) | $17.97 | I picked this one because I've tested a couple and they seem to be well-tuned and the quality seems consistent. YMMV.|
 | [Adapter from RP SMA Female to N Type Male](https://www.amazon.com/Goupchn-Connectors-Polarity-Convertor-Transceiver/dp/B08Q2TQMTR?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A39XGWEDWDBDR&gQT=0) | $8.99 | The enclosure comes with a waterproofed RP SMA female adapater (reverse polarity) which is atypical, and the Alfa antennas are N Type Male. The included is an example, but you may also want one with a length of cable between them so as to separately attach the antenna to wherever you're mounting it. |
-| [Antenna Tape](https://store.rokland.com/products/tape-helium-antenna-and-coaxial-cable-self-fusing-silicone-heat-water-resistant?srsltid=AfmBOop-whs6Uw0qzwS5PTJkUya-_C6Og1qUdySATHus-7WdkKyOgMxJ) | $8.80 | Although the antenna connector on the top is waterproofed, your adapter connections are not. This is a great option to waterproof your connections. |
 | Two 18650 rechargable batteries| varies, maybe $10? | I bought mine from Amazon, but this is not recommended. Check out [this list](http://batteries.parametrek.com/index.html?size=18650) that someone made of reputable distributers. |
+
+**Essential parts cost:: $111.95 + shipping**
+
+### Parts you may already have laying around
+
+*I break this section out because 1) you may already have some of these parts laying around, 2) you could get many of them individually for very cheap if you buy local, and 3) if you do have to buy online and in bulk, you will have some on hand and they will not contribute to the cost of your next build.*
+
+| Parts | Price | Description |
+| ----- | ----- | ----------- |
+| [Antenna Tape](https://store.rokland.com/products/tape-helium-antenna-and-coaxial-cable-self-fusing-silicone-heat-water-resistant?srsltid=AfmBOop-whs6Uw0qzwS5PTJkUya-_C6Og1qUdySATHus-7WdkKyOgMxJ) | $8.80 | Although the antenna connector on the top is waterproofed, your adapter connections are not. This is a great option to waterproof your connections. |
 | [Battery holders](https://www.amazon.com/dp/B00LSG5BKO?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1) | $7.99 | I bought this pack of a million from Amazon. I had to solder them in series. If you're not good at soldering find one that you don't need to solder. Make sure the ones you buy are in parallel (not in series!). When I doubt, check the voltage with a multimeter before installation. |
 | [JST PHR-2 2mm connector](https://www.amazon.com/20Pair-JST-PH-Connector-Female-Cables/dp/B09JP1S2RD?th=1) | $8.39 | The WisBlock board uses a 2mm JST connector. Depending on what kind of battery pack you buy, you may need to solder these JST connectors on. |
 
-**Total: about $137.13 + shipping**
+**Total cost: $137.13 + shipping**
 
 ## Picking a Meshtastic Node
 
