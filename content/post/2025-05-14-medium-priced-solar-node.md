@@ -17,7 +17,7 @@ tags:
 
 I'm calling this a "medium priced" node because I didn't really budget and just bought parts as they became necessary. There are also many examples of cheaper nodes, such as the [Harbor Breeze Solar Light Hack](https://meshtastic.org/docs/community/enclosures/rak/harbor-breeze-solar-hack/), which I will perhaps attempt another time. 
 
-For now, here's a reasonably reliable node that costs around $80 for just the essential parts, or a total of $125 for all the parts you need (plus extras for your next build).
+For now, here's a reasonably reliable node that costs around $80 for just the essential parts, or a total of $130 for all the parts you need (plus extras for your next build).
 
 ## Parts List
 
@@ -30,9 +30,10 @@ For now, here's a reasonably reliable node that costs around $80 for just the es
 | [Adapter from RP SMA Female to N Type Male](https://www.amazon.com/Goupchn-Connectors-Polarity-Convertor-Transceiver/dp/B08Q2TQMTR?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A39XGWEDWDBDR&gQT=0) | $8.99 | The enclosure comes with a waterproofed RP SMA female adapater (reverse polarity) which is atypical, and the Alfa antennas are N Type Male. The included is an example, but you may also want one with a length of cable between them so as to separately attach the antenna to wherever you're mounting it. |
 | [Antenna Tape](https://store.rokland.com/products/tape-helium-antenna-and-coaxial-cable-self-fusing-silicone-heat-water-resistant?srsltid=AfmBOop-whs6Uw0qzwS5PTJkUya-_C6Og1qUdySATHus-7WdkKyOgMxJ) | $8.80 | Although the antenna connector on the top is waterproofed, your adapter connections are not. This is a great option to waterproof your connections. |
 | Two 18650 rechargable batteries| varies, maybe $10? | I bought mine from Amazon, but this is not recommended. Check out [this list](http://batteries.parametrek.com/index.html?size=18650) that someone made of reputable distributers. |
-| [Battery holders](https://www.amazon.com/dp/B00LSG5BKO?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1) | $7.99 | I bought this pack of a million from Amazon. I had to solder them in series. If you're not good at soldering find one that you don't need to solder. |
+| [Battery holders](https://www.amazon.com/dp/B00LSG5BKO?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1) | $7.99 | I bought this pack of a million from Amazon. I had to solder them in series. If you're not good at soldering find one that you don't need to solder. Make sure the ones you buy are in parallel (not in series!). When I doubt, check the voltage with a multimeter before installation. |
+| [JST PHR-2 2mm connector](https://www.amazon.com/20Pair-JST-PH-Connector-Female-Cables/dp/B09JP1S2RD?th=1) | $8.39 | The WisBlock board uses a 2mm JST connector. Depending on what kind of battery pack you buy, you may need to solder these JST connectors on. |
 
-**Total: about $123.25 + shipping**
+**Total: about $131.64 + shipping**
 
 ## Picking a Meshtastic Node
 
@@ -46,9 +47,9 @@ You may also wish to add environmental sensors to your RAK4631. See [this page](
 
 From what I understand, these recommended charging temperatures aren't as big of a deal as they might seem to be at first glance. A group from Alberta wrote a [great article](https://yycmesh.com/2025/04/19/cold-weather-charging-of-lithium-ion-batteries-real-world-lessons-from-the-meshtastic-community/) about their node deployements in the frozen Canadian winters. They recommend overspeccing the batter capacity (three 18650s instead of two) in your node due to reduced charging performance during the winter, but other than that their nodes are pretty much fine. There's no long term capacity effects.
 
-I couldn't find a similar article about hight temps, but I've heard of any nodes exploding or catching fire from the heat. I'm of the opinion that I'm likely going to have to open up this node probably once a year to do firmware updates, so I might as well take that opportunity to replace the 18650s as well. If you buy them in bulk, the cost will be closer to $2-3 each, so it's a relatively small maintenance cost.
+I'm not as worried about high heat either. I'm of the opinion that I'm likely going to have to open up this node probably once a year to do firmware updates, so I might as well take that opportunity to replace the 18650s as well. If you buy them in bulk, the cost will be closer to $2-3 each, so it's a relatively small maintenance cost.
 
-## Installation
+## Installation Location
 
 The best place to install a node in very high up. Unforunately for most of us, this means mounting the node somewhere like the roof, which is difficult to get to.
 
@@ -74,3 +75,11 @@ As a result, at least for me, I am planning to retreive my solar node from its m
 If your node is easily within bluetooth range, you can manage it from your phone. However, if your solar node is installed somewhere where it's inconvenient to connect via bluetooth (say, on the roof of a public building you don't have regular access to), it's recommended to set up an admin channel on your node so you can manage it via the mesh.
 
 The Meshtastic docs explain this [here](https://meshtastic.org/docs/configuration/remote-admin/). 
+
+## Putting all the pieces together
+
+The WisBlock board has a spot in the top left of the enclosure where it screws into the backplate. I printed a small plate to hold my two battery holders together, and they fit snuggly at the bottom of the enclosure. I don't think that more than two batteries will fit inside this enclosure, so if you want more buy a bigger enclosure.
+
+When soldering the battery holders together, you want them to be in parallel. Some battery holders on Amazon don't specify which they are. It's worth checking the voltage with a multimeter before connecting to your WisBlock, as your WisBlock will let out magic smoke if you connect too high a voltage. The voltage should be around 3.7V (if it's closer to 7.4V, that means the batteries are in parallel).
+
+You battery holder will likely not come with the correct JST connector for the WisBlock board. Even if you buy a battery with JST connectors, they're usually smaller than the correct size. Also, very important to note: the WisBlock battery connections are REVERSED from the standard (the solar connectors are normal). Check the connectors you buy! I had to solder the red lead to the black lead and the reverse to make the connector attach properly, which continues to confuse me every time I open the enclosure. To reduce confusion, I wrote in sharpie on the interior of my enclosure which color is positive and which is negative. You WILL kill your board if you reverse the connectors. 
