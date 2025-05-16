@@ -17,7 +17,7 @@ tags:
 
 I'm calling this a "medium priced" node because I didn't really budget and just bought parts as they became necessary. There are also many examples of cheaper nodes, such as the [Harbor Breeze Solar Light Hack](https://meshtastic.org/docs/community/enclosures/rak/harbor-breeze-solar-hack/), which I will perhaps attempt another time. 
 
-For now, here's a reasonably reliable node that costs around $100 for just the essential parts, or a total of $137 for all the parts you need (plus extras for your next build).
+For now, here's a reasonably reliable node that costs around $110 for just the essential parts.
 
 ## Parts List
 
