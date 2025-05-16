@@ -23,7 +23,7 @@ For now, here's a reasonably reliable node that costs around $100 for just the e
 
 | Parts | Price | Description |
 | ----- | ----- | ----------- |
-| [WisBlock Starter Kit](https://store.rakwireless.com/products/wisblock-starter-kit?srsltid=AfmBOoqGNa6h2MSgg5oLSWXtv6xPEiVNtHl4h6oP_BMcHh4kBFPVji3x&variant=41786685063366) | $24.99 | This is the Meshtastic node. You want the RAK19007+RAK4631 version (I don't know what -R means). Pick the frequency for your region, USA is 915. |
+| [WisBlock Starter Kit](https://store.rakwireless.com/products/wisblock-starter-kit?srsltid=AfmBOoqGNa6h2MSgg5oLSWXtv6xPEiVNtHl4h6oP_BMcHh4kBFPVji3x&variant=41786685063366) | $24.99 | This is the Meshtastic node. You want the RAK19007+RAK4631-R version. Pick the frequency for your region, USA is 915. |
 | [Unify Enclosure 150x100x45mm](https://store.rakwireless.com/products/unify-enclosure-ip67-150x100x45mm-with-pre-mounted-m8-5-pin-and-rp-sma-antenna-ip-rated-connectors?variant=42861623738566)| $46.00 | This one comes with pre-drilled antenna holes and is the right size for our RAK4631 and some batteries. |
 | [Enclosure Mounting Kit](https://store.rakwireless.com/products/unify-enclosure-mounting-kit?variant=42457063424198) | $4.00 | I picked type A, the vertical mounting version. This is optional, but great if you want to mount on a pole. Keep an eye on the recommended pole diameter (65-89mm). |
 | [Alfa 915 5dbi antenna](https://store.rokland.com/products/alfa-aoa-915-5acm-5-dbi-omni-outdoor-915mhz-802-11ah-mini-antenna-for-lora-halow-application?srsltid=AfmBOop9lzm8PeK3QjFWUSCN1gY2lYVX7E8y4QnfFWo_uJd6ewXJo9St) | $17.97 | I picked this one because I've tested a couple and they seem to be well-tuned and the quality seems consistent. YMMV.|
