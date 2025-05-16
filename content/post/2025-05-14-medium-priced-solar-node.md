@@ -32,7 +32,7 @@ For now, here's a reasonably reliable node that costs around $110 for just the e
 | [Adapter from RP SMA Female to N Type Male](https://www.amazon.com/Goupchn-Connectors-Polarity-Convertor-Transceiver/dp/B08Q2TQMTR?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A39XGWEDWDBDR&gQT=0) | $8.99 | The enclosure comes with a waterproofed RP SMA female adapater (reverse polarity) which is atypical, and the Alfa antennas are N Type Male. The included is an example, but you may also want one with a length of cable between them so as to separately attach the antenna to wherever you're mounting it. |
 | Two 18650 rechargable batteries| varies, maybe $10? | I bought mine from Amazon, but this is not recommended. Check out [this list](http://batteries.parametrek.com/index.html?size=18650) that someone made of reputable distributers. |
 
-**Essential parts cost:: $111.95 + shipping**
+**Essential parts cost: $111.95 + shipping**
 
 ### Parts you may already have laying around
 
