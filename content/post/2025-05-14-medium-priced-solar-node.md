@@ -68,13 +68,17 @@ Option two is outlined [in the Meshtastic docs here](https://meshtastic.org/docs
 
 There currently is no other options. Even if you power your via POE, there is no way to update the node via Ethernet. You may be able to power a Pi via POE and use option one from a more suitable location, however it is likely the Pi will not be able to survive summer heat in the enclosure. I am testing that this summer to see. Regardless, the Pi takes too much power for a solar node.
 
-As a result, at least for me, I am planning to retreive my solar node from its mounting spot and update its firmware about one a year. 
+As a result, at least for me, I am planning to retreive my solar node from its mounting spot and update its firmware about once a year. 
 
 ## Management
 
 If your node is easily within bluetooth range, you can manage it from your phone. However, if your solar node is installed somewhere where it's inconvenient to connect via bluetooth (say, on the roof of a public building you don't have regular access to), it's recommended to set up an admin channel on your node so you can manage it via the mesh.
 
 The Meshtastic docs explain this [here](https://meshtastic.org/docs/configuration/remote-admin/). 
+
+## Good Meshtastic user best practices
+
+If this device is outside the range of bluetooth and you won't be able to regularly check DMs, it's recommended to make sure that the casual mesh user will be able to figure out how to contact you. For example, if the node is your roof node and you also have a handheld "mobile" node, you might want to make the long name "JS Base Station" and the mobile node "JS Mobile" so users can try to contact you on multiple devices. If you have a personal domain or an identifiable username, you could put the URL or your handle in your long name. Some people also say you should add the text "unmonitored" or the satellite dish emoji (📡) to the long name of any unmonitored nodes. 
 
 ## Putting all the pieces together
 
@@ -83,3 +87,7 @@ The WisBlock board has a spot in the top left of the enclosure where it screws i
 When soldering the battery holders together, you want them to be in parallel. Some battery holders on Amazon don't specify which they are. It's worth checking the voltage with a multimeter before connecting to your WisBlock, as your WisBlock will let out magic smoke if you connect too high a voltage. The voltage should be around 3.7V (if it's closer to 7.4V, that means the batteries are in parallel).
 
 You battery holder will likely not come with the correct JST connector for the WisBlock board. Even if you buy a battery with JST connectors, they're usually smaller than the correct size. Also, very important to note: the WisBlock battery connections are REVERSED from the standard (the solar connectors are normal). Check the connectors you buy! I had to solder the red lead to the black lead and the reverse to make the connector attach properly, which continues to confuse me every time I open the enclosure. To reduce confusion, I wrote in sharpie on the interior of my enclosure which color is positive and which is negative. You WILL kill your board if you reverse the connectors. 
+
+{{< figure src="/images/uploads/2025-05-14-medium-priced-solar-node/RAK19007 Board.jfif" caption="RAK19007 Voltage and Connectors" link="/images/uploads/2025-05-14-medium-priced-solar-node/RAK19007 Board.jfif">}}
+
+*Source: https://meshtastic.org/docs/hardware/devices/rak-wireless/wisblock/base-board/*
