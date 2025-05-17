@@ -49,13 +49,15 @@ For now, here's a reasonably reliable node that costs around $110 for just the e
 
 **Total cost: $137.13 + shipping**
 
+<img src="../../static/images/uploads/2025-05-14-medium-priced-solar-node/solar-interior.JPG" alt="Interior of the node" width="300">
+
 ## Picking a Meshtastic Node
 
 nRF Meshtastic devices (like the RAK4631) are far superious to other types when it comes to power efficiency. While an ESP32 Meshastic device (like a Heltec v3) might last 24 hours on a battery, that same battery will power a RAK4631 device for a week. For that reason, for solar powered devices, the RAK4631 is a great pick. 
 
 You may also wish to add environmental sensors to your RAK4631. See [this page](https://meshtastic.org/docs/hardware/devices/rak-wireless/wisblock/peripherals/?rakmodules=Sensors) on Meshtastic's website for supported sensors. This will allow your device to report measurements like temperature and humidity. Keep in mine those measurements will be from *inside* the enclosure, so they're better for reporting the status of your node's environment than the outside weather.
 
-<img src="../../static/images/uploads/2025-05-14-medium-priced-solar-node/solar-wis-close.JPG" alt="Medium priced solar node" width="300">
+<img src="../../static/images/uploads/2025-05-14-medium-priced-solar-node/solar-wis-close.JPG" alt="Close up of the WisBlock" width="300">
 
 ## What about high/low temps?
 
@@ -104,11 +106,11 @@ All of these best practices make the mesh a friendlier place!
 
 The WisBlock board has a spot in the top left of the enclosure where it screws into the backplate. I printed a small plate to hold my two battery holders together, and they fit snugly at the bottom of the enclosure. They fit so snugly that duct tape might also work. I don't think that more than two batteries will fit inside this enclosure, so if you want more buy a bigger enclosure.
 
-<img src="../../static/images/uploads/2025-05-14-medium-priced-solar-node/solar-interior.JPG" alt="Medium priced solar node" width="300">
-
 When soldering the battery holders together, you want them to be in parallel. Some battery holders on Amazon don't specify whether they're in series or parallel. It's worth checking the voltage with a multimeter before connecting to your WisBlock, as your WisBlock will let out magic smoke if you connect too high a voltage. The voltage should be around 3.7V (if it's closer to 7.4V, that means the batteries are in series and you do *not* want that).
 
 You battery holder will likely not come with the correct JST connector for the WisBlock board. Even if you buy a battery with JST connectors, they're usually smaller than the correct size. Also, very important to note: the WisBlock battery connections are *reversed* from the standard (the solar connectors are normal). Rak claims "there is no standard", but considering all the JST connectors I order on Amazon are the opposite of Rak's choice, I disagree. Check the connectors you buy! I had to solder the red lead to the black lead and the reverse to make the connector attach properly, which continues to confuse me every time I open the enclosure. To reduce confusion, I wrote in sharpie on the interior of my enclosure which color is positive and which is negative. You *will* kill your board if you reverse the connectors. 
+
+<img src="../../static/images/uploads/2025-05-14-medium-priced-solar-node/rak-voltage-connectors.png" alt="Voltage and connector diagram from the Meshtastic docs" width="300">
 
 *Source: https://meshtastic.org/docs/hardware/devices/rak-wireless/wisblock/base-board/*
 
