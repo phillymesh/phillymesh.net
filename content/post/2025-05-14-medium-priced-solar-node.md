@@ -19,6 +19,9 @@ I'm calling this a "medium priced" node because I didn't really budget and just 
 
 For now, here's a reasonably reliable node that costs around $110 for just the essential parts.
 
+<img src="../../static/images/uploads/2025-05-14-medium-priced-solar-node/solar-front.JPG" alt="Medium priced solar node" width="300">
+
+
 ## Parts List
 
 ### Essential Parts
@@ -51,6 +54,8 @@ For now, here's a reasonably reliable node that costs around $110 for just the e
 nRF Meshtastic devices (like the RAK4631) are far superious to other types when it comes to power efficiency. While an ESP32 Meshastic device (like a Heltec v3) might last 24 hours on a battery, that same battery will power a RAK4631 device for a week. For that reason, for solar powered devices, the RAK4631 is a great pick. 
 
 You may also wish to add environmental sensors to your RAK4631. See [this page](https://meshtastic.org/docs/hardware/devices/rak-wireless/wisblock/peripherals/?rakmodules=Sensors) on Meshtastic's website for supported sensors. This will allow your device to report measurements like temperature and humidity. Keep in mine those measurements will be from *inside* the enclosure, so they're better for reporting the status of your node's environment than the outside weather.
+
+<img src="../../static/images/uploads/2025-05-14-medium-priced-solar-node/solar-wis-close.JPG" alt="Medium priced solar node" width="300">
 
 ## What about high/low temps?
 
@@ -98,6 +103,8 @@ All of these best practices make the mesh a friendlier place!
 ## Putting all the pieces together
 
 The WisBlock board has a spot in the top left of the enclosure where it screws into the backplate. I printed a small plate to hold my two battery holders together, and they fit snugly at the bottom of the enclosure. They fit so snugly that duct tape might also work. I don't think that more than two batteries will fit inside this enclosure, so if you want more buy a bigger enclosure.
+
+<img src="../../static/images/uploads/2025-05-14-medium-priced-solar-node/solar-interior.JPG" alt="Medium priced solar node" width="300">
 
 When soldering the battery holders together, you want them to be in parallel. Some battery holders on Amazon don't specify whether they're in series or parallel. It's worth checking the voltage with a multimeter before connecting to your WisBlock, as your WisBlock will let out magic smoke if you connect too high a voltage. The voltage should be around 3.7V (if it's closer to 7.4V, that means the batteries are in series and you do *not* want that).
 
