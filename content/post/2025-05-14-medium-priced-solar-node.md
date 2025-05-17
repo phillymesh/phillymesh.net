@@ -110,8 +110,6 @@ When soldering the battery holders together, you want them to be in parallel. So
 
 You battery holder will likely not come with the correct JST connector for the WisBlock board. Even if you buy a battery with JST connectors, they're usually smaller than the correct size. Also, very important to note: the WisBlock battery connections are *reversed* from the standard (the solar connectors are normal). Rak claims "there is no standard", but considering all the JST connectors I order on Amazon are the opposite of Rak's choice, I disagree. Check the connectors you buy! I had to solder the red lead to the black lead and the reverse to make the connector attach properly, which continues to confuse me every time I open the enclosure. To reduce confusion, I wrote in sharpie on the interior of my enclosure which color is positive and which is negative. You *will* kill your board if you reverse the connectors. 
 
-{{< figure src="/images/uploads/2025-05-14-medium-priced-solar-node/RAK19007Board.jfif" caption="RAK19007 Voltage and Connectors" link="/images/uploads/2025-05-14-medium-priced-solar-node/RAK19007Board.jfif">}}
-
 *Source: https://meshtastic.org/docs/hardware/devices/rak-wireless/wisblock/base-board/*
 
 ## Happy Meshing!
