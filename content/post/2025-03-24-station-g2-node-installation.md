@@ -23,5 +23,5 @@ The hardware used for this installation is:
 * [Anker USB C Charger with USB C Cable, 20W (2-pack)](https://www.amazon.com/Anker-Charger-2-Pack-Foldable-Samsung/dp/B0CPDMQW5B)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TDg8m4Wa1so?si=EXf2z38juwSFPpPn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<img src="../../static/images/phillymesh_logo.png" width="300">
+  
+{{<img src="../../static/images/phillymesh_logo.png" alt="Example image" width="300" >}}
