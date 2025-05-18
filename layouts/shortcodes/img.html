@@ -1,4 +1,7 @@
-<img src="{{ .Get "src" | replace "../../static/images" "/images"}}"
+{{- $raw := .Get "src" -}}
+{{- $src := $raw | replace "../../static/images" "/images" -}}
+
+<img src="{{ $src }}"
      alt="{{ .Get "alt" }}"
      {{ with .Get "width" }}width="{{ . }}"{{ end }}
      {{ with .Get "height" }}height="{{ . }}"{{ end }} />
