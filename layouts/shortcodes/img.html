@@ -1,0 +1,4 @@
+<img src="{{ .Get "src" | replace "../../static/images" "/images" | relURL }}"
+     alt="{{ .Get "alt" }}"
+     {{ with .Get "width" }}width="{{ . }}"{{ end }}
+     {{ with .Get "height" }}height="{{ . }}"{{ end }} />
