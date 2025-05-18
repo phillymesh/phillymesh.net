@@ -13,8 +13,6 @@ tags:
 
 ---
 
-# Medium Priced Solar Node
-
 I'm calling this a "medium priced" node because I didn't really budget and just bought parts as they became necessary. There are also many examples of cheaper nodes, such as the [Harbor Breeze Solar Light Hack](https://meshtastic.org/docs/community/enclosures/rak/harbor-breeze-solar-hack/), which I will perhaps attempt another time. 
 
 For now, here's a reasonably reliable node that costs around $110 for just the essential parts.
