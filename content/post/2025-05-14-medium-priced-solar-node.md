@@ -69,7 +69,7 @@ I'm not as worried about high heat either. I'm of the opinion that I'm likely go
 
 ## Installation Location
 
-The best place to install a node in very high up. Unforunately for most of us, this means mounting the node somewhere like the roof, which is difficult to get to.
+The best place to install a node is very high up. Unforunately for most of us, this means mounting the node somewhere like the roof, which is difficult to get to.
 
 Wherever you mount your node, plan to have to update the firmware at least once a year, perhaps more often.
 
