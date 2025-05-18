@@ -1,7 +1,6 @@
-{{- $raw := .Get "src" -}}
-{{- $src := $raw | replace "../../static/images" "/images" -}}
-
-<img src="{{ $src }}"
+{{- $input := .Get "src" -}}
+{{- $relative := strings.TrimPrefix $input "../../static" -}}
+<img src="{{ $relative }}"
      alt="{{ .Get "alt" }}"
      {{ with .Get "width" }}width="{{ . }}"{{ end }}
      {{ with .Get "height" }}height="{{ . }}"{{ end }} />
