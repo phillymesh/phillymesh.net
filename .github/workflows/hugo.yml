@@ -54,7 +54,6 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
-            --cleanDestinationDir \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
