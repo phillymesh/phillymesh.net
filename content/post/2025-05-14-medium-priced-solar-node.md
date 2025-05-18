@@ -19,7 +19,7 @@ I'm calling this a "medium priced" node because I didn't really budget and just 
 
 For now, here's a reasonably reliable node that costs around $110 for just the essential parts.
 
-<img src="/images/uploads/2025-05-14-medium-priced-solar-node/solar-front.JPG" alt="Medium priced solar node" width="300">
+<img src="/images/uploads/2025-05-14-medium-priced-solar-node/solar-front.jpg" alt="Medium priced solar node" width="300">
 
 
 ## Parts List
@@ -49,7 +49,7 @@ For now, here's a reasonably reliable node that costs around $110 for just the e
 
 **Total cost: $137.13 + shipping**
 
-<img src="/images/uploads/2025-05-14-medium-priced-solar-node/solar-interior.JPG" alt="Interior of the node" width="300">
+<img src="/images/uploads/2025-05-14-medium-priced-solar-node/solar-interior.jpg" alt="Interior of the node" width="300">
 
 ## Picking a Meshtastic Node
 
