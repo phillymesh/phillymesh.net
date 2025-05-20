@@ -37,7 +37,7 @@ This format is pretty self-explanatory and as long as you have a sensible `title
 
 Posts are written in Markdown, and a quick refernece is available [here](https://www.markdownguide.org/tools/hugo/).
 
-If your post needs images, you can make a new folder in the [static/images/uploads](https://github.com/phillymesh/phillymesh.net/tree/master/static/images/uploads) directory with the same name as your post file, such as `YYYY-MM-DD-your-post-slug`. In this directory you can upload any images (or other files really) that you would like to include in the post. Pictures can be referenced in your post in a variety of ways, with the most popular being [a markdown approach(https://alexwlchan.net/2021/markdown-image-syntax/). Howver, if you need more control over your images there are a few options. **NOTE:** We highly encourage alt text for accessibility!
+If your post needs images, you can make a new folder in the [static/images/uploads](https://github.com/phillymesh/phillymesh.net/tree/master/static/images/uploads) directory with the same name as your post file, such as `YYYY-MM-DD-your-post-slug`. In this directory you can upload any images (or other files really) that you would like to include in the post. Pictures can be referenced in your post in a variety of ways, with the most popular being [a markdown approach](https://alexwlchan.net/2021/markdown-image-syntax/). Howver, if you need more control over your images there are a few options. **NOTE:** We highly encourage alt text for accessibility!
 
 This figure shortcode is great if you want to include captions with your images:
 
