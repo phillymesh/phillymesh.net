@@ -12,6 +12,8 @@ Join the [**Philly Radio & Meshtastic Discord**](https://discord.gg/MWWbAkRR9v) 
 
 If you are interested in learning more about Meshtastic and LoRa and are in the area we highly recommend [Iffy Books' Meshtastic 101 Meetups](https://iffybooks.net/series/📡-meshtastic-101/) to get connected and meet others.  
 
+If you are interested in helping support PhillyMesh and Philly Radio & Meshtastic, please consider using our [affiliate link at Rokland when you purchase Meshtastic hardware](https://store.rokland.com/?ref=phillymesh).
+
   
 <iframe src="https://meshtastic.liamcottle.net/?lat=39.93790865601035&lng=284.81369018554693&zoom=11" width="100%" height="500"></iframe>
 
