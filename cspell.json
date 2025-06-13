@@ -1,0 +1,32 @@
+//Spellcheck using cspell (https://cspell.org) or the "Code Spell Checker" in VSCodium
+{
+    "version": "0.2",
+    "words": [
+        "Anker",
+        "AREDN",
+        "BODA",
+        "Drexel",
+        "Famicoman",
+        "hackerspaces",
+        "Heltec",
+        "homeserver",
+        "Hyperboria",
+        "IPEX",
+        "Libera",
+        "meshtastic",
+        "phillymesh",
+        "Rokland",
+        "wisblock",
+        "mosquitto",
+    ],
+    "ignoreWords": [
+        "Gizont",
+        "MuziWorks",
+        "overspeccing",
+        "stationg2",
+        "autoplay",
+        "meshmap",
+        "meshdev",
+        "liamcottle",
+    ]
+}
