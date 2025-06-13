@@ -3,7 +3,7 @@ title: MQTT Bridge Setup
 author: Mike Dank (Famicoman)
 type: post
 date: 2025-03-24T00:00:02+00:00
-url: /2025/03/24/mqqt-bridge-setup/
+url: /2025/03/24/mqtt-bridge-setup/
 categories:
   - Tutorial
 tags:
@@ -163,7 +163,7 @@ Client configuration can be set as follows for **Channels > LongFast**:
 
 * Uplink enabled: *on*
 * Downlink enabled: *off*
-* Postion enabled: *on*
+* Position enabled: *on*
 * Precise location *off* and minimum of *1194 ft* to comply with `mqtt.meshtastic.org`
 
 ## Sources

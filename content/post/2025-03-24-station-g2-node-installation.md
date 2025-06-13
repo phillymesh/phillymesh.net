@@ -17,7 +17,7 @@ Last year I documented the process of upgrading the PM03 Meshtastic node to use 
 The hardware used for this installation is:
 
 * [Station G2](https://shop.uniteng.com/product/meshtastic-mesh-device-station-edition/)
-* [Rockland 5.8 dBi Outdoor Antenna](https://store.rokland.com/products/5-8-dbi-n-male-omni-outdoor-915-mhz-antenna-large-profile-32-height-for-helium-rak-miner-2-nebra-indoor-bobcat?srsltid=AfmBOopSqi63aAtLLUefZoacu5dKMQpltDRCYIgll_Tej2sz8fP8w7tm)
+* [Rokland 5.8 dBi Outdoor Antenna](https://store.rokland.com/products/5-8-dbi-n-male-omni-outdoor-915-mhz-antenna-large-profile-32-height-for-helium-rak-miner-2-nebra-indoor-bobcat?srsltid=AfmBOopSqi63aAtLLUefZoacu5dKMQpltDRCYIgll_Tej2sz8fP8w7tm)
 * [Antenna Mount Bracket](https://www.amazon.com/gp/aw/d/B0D7WBM1DF)
 * [SMA Antenna Adapter N-Type to SMA](https://www.amazon.com/dp/B07DC2B295)
 * [Anker USB C Charger with USB C Cable, 20W (2-pack)](https://www.amazon.com/Anker-Charger-2-Pack-Foldable-Samsung/dp/B0CPDMQW5B)
