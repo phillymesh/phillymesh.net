@@ -1,4 +1,15 @@
-# Getting Started with Meshtastic in Philly
+---
+title: Getting Started with Meshtastic in Philly
+author: Emily Boda
+type: post
+date: 2025-06-16
+url: /2025/06/16/getting-started/
+categories:
+  - Philly Mesh
+tags:
+  - meshtastic
+
+---
 
 So you're interested in getting started with Meshtastic and you live in or around Philly. There are plenty of resources online to help you get started, but this article will walk you through some things that are specific to our area.
 
@@ -104,4 +115,4 @@ PM08 records information about the mesh and posts about it in the PRM Discord. T
 
 An \* indicates that this statistics is based on nodes seen by PM08 during one week in June 2025. The reference chart is here:
 
-<img src="/images/uploads/2025-06-16-getting-started/hardware_chart_edited.png" alt="Chart showing what hardware is popular in Philly" width="300">
+![Chart showing what hardware is popular in Philly](/images/uploads/2025-06-16-getting-started/hardware_chart_edited.png)
