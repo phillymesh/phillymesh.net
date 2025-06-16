@@ -12,9 +12,9 @@ tags:
 
 ---
 
-For most of the day, I can be found carrying a T-1000e in my pocket. My home has (or will have ) a node on the roof with a longer range antenna, and my T-1000e works perfectly to keep myself connected to the mesh, even if my phone can't connect all the way to my roof node via bluetooth. However, when I travel outside of the house the tiny antenna in the T-1000e leaves something to be desired.
+For most of the day, I can be found carrying a T-1000e in my pocket. My home has (or will have) a node on the roof with a longer range antenna, and my T-1000e works perfectly to keep myself connected to the mesh, even if my phone can't connect all the way to my roof node via bluetooth. However, when I travel outside of the house the tiny antenna in the T-1000e leaves something to be desired.
 
-To fill this gap, I came up with a plan for a portable node with a longer range antenna that I could easily stick in a backpack or leave on my bike that wouldn't raise any alarms. While I'm not averse to carrying around large antennas, I like to save this activity for radio meetups or cons, and be a little less obvious in my day to day life. I realized this bike waterbottle I had was exactly the right length for the whip antenna I had laying around.
+To fill this gap, I came up with a plan for a portable node with a longer range antenna that I could easily stick in a backpack or leave on my bike that wouldn't raise any alarms. While I'm not averse to carrying around large antennas, I like to save this activity for radio meetups or cons, and be a little less obvious in my day to day life. I realized this bike water bottle I had was exactly the right length for the whip antenna I had laying around.
 
 <img src="/images/uploads/2025-05-16-water-bottle-node/water_bottle_side.JPG" alt="Stealthy water bottle node" width="300">
 

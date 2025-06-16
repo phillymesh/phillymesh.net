@@ -30,8 +30,8 @@ For now, here's a reasonably reliable node that costs around $110 for just the e
 | [Unify Enclosure 150x100x45mm](https://store.rakwireless.com/products/unify-enclosure-ip67-150x100x45mm-with-pre-mounted-m8-5-pin-and-rp-sma-antenna-ip-rated-connectors?variant=42861623738566)| $46.00 | This one comes with pre-drilled antenna holes and is the right size for our RAK4631 and some batteries. |
 | [Enclosure Mounting Kit](https://store.rakwireless.com/products/unify-enclosure-mounting-kit?variant=42457063424198) | $4.00 | I picked type A, the vertical mounting version. This is optional, but great if you want to mount on a pole. Keep an eye on the recommended pole diameter (65-89mm). |
 | [Alfa 915 5dbi antenna](https://store.rokland.com/products/alfa-aoa-915-5acm-5-dbi-omni-outdoor-915mhz-802-11ah-mini-antenna-for-lora-halow-application?srsltid=AfmBOop9lzm8PeK3QjFWUSCN1gY2lYVX7E8y4QnfFWo_uJd6ewXJo9St) | $17.97 | I picked this one because I've tested a couple and they seem to be well-tuned and the quality seems consistent. YMMV.|
-| [Adapter from RP SMA Female to N Type Male](https://www.amazon.com/Goupchn-Connectors-Polarity-Convertor-Transceiver/dp/B08Q2TQMTR?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A39XGWEDWDBDR&gQT=0) | $8.99 | The enclosure comes with a waterproofed RP SMA female adapater (reverse polarity) which is atypical, and the Alfa antennas are N Type Male. The included is an example, but you may also want one with a length of cable between them so as to separately attach the antenna to wherever you're mounting it. |
-| Two 18650 rechargable batteries| varies, maybe $10? | I bought mine from Amazon, but this is not recommended. Check out [this list](http://batteries.parametrek.com/index.html?size=18650) that someone made of reputable distributers. |
+| [Adapter from RP SMA Female to N Type Male](https://www.amazon.com/Goupchn-Connectors-Polarity-Convertor-Transceiver/dp/B08Q2TQMTR?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A39XGWEDWDBDR&gQT=0) | $8.99 | The enclosure comes with a waterproofed RP SMA female adapter (reverse polarity) which is atypical, and the Alfa antennas are N Type Male. The included is an example, but you may also want one with a length of cable between them so as to separately attach the antenna to wherever you're mounting it. |
+| Two 18650 rechargeable batteries| varies, maybe $10? | I bought mine from Amazon, but this is not recommended. Check out [this list](http://batteries.parametrek.com/index.html?size=18650) that someone made of reputable distributors. |
 
 **Essential parts cost: $111.95 + shipping**
 
@@ -51,7 +51,7 @@ For now, here's a reasonably reliable node that costs around $110 for just the e
 
 ## Picking a Meshtastic Node
 
-nRF Meshtastic devices (like the RAK4631) are far superious to other types when it comes to power efficiency. While an ESP32 Meshastic device (like a Heltec v3) might last 24 hours on a battery, that same battery will power a RAK4631 device for a week. For that reason, for solar powered devices, the RAK4631 is a great pick. 
+nRF Meshtastic devices (like the RAK4631) are far superior to other types when it comes to power efficiency. While an ESP32 Meshtastic device (like a Heltec v3) might last 24 hours on a battery, that same battery will power a RAK4631 device for a week. For that reason, for solar powered devices, the RAK4631 is a great pick. 
 
 You may also wish to add environmental sensors to your RAK4631. See [this page](https://meshtastic.org/docs/hardware/devices/rak-wireless/wisblock/peripherals/?rakmodules=Sensors) on Meshtastic's website for supported sensors. This will allow your device to report measurements like temperature and humidity. Keep in mine those measurements will be from *inside* the enclosure, so they're better for reporting the status of your node's environment than the outside weather.
 
@@ -61,13 +61,13 @@ You may also wish to add environmental sensors to your RAK4631. See [this page](
 
 18650 batteries generally have a stated temperature range for charging between 0 and 45C (32 to 113F). While your summer might top out at 90F, the temperatures inside a sealed enclosure in the direct sunlight might be closer to 135F. I've actually seen nodes in the [Pioneer Valley](pvmesh.org) reporting that temperature in the summer. On the other end of the spectrum, most of North America reaches below 32F in the winter for weeks at a time.
 
-From what I understand, these recommended charging temperatures aren't as big of a deal as they might seem to be at first glance. A group from Alberta wrote a [great article](https://yycmesh.com/2025/04/19/cold-weather-charging-of-lithium-ion-batteries-real-world-lessons-from-the-meshtastic-community/) about their node deployements in the frozen Canadian winters. They recommend overspeccing the battery capacity (three 18650s instead of two) in your node due to reduced charging performance during the winter, but other than that their nodes are pretty much fine. There's no long term capacity effects.
+From what I understand, these recommended charging temperatures aren't as big of a deal as they might seem to be at first glance. A group from Alberta wrote a [great article](https://yycmesh.com/2025/04/19/cold-weather-charging-of-lithium-ion-batteries-real-world-lessons-from-the-meshtastic-community/) about their node deployments in the frozen Canadian winters. They recommend overspeccing the battery capacity (three 18650s instead of two) in your node due to reduced charging performance during the winter, but other than that their nodes are pretty much fine. There's no long term capacity effects.
 
 I'm not as worried about high heat either. I'm of the opinion that I'm likely going to have to open up this node probably once a year to do firmware updates, so I might as well take that opportunity to replace the 18650s as well. If you buy them in bulk, the cost will be closer to $2-3 each, so it's a relatively small maintenance cost.
 
 ## Installation Location
 
-The best place to install a node is very high up. Unforunately for most of us, this means mounting the node somewhere like the roof, which is difficult to get to.
+The best place to install a node is very high up. Unfortunately for most of us, this means mounting the node somewhere like the roof, which is difficult to get to.
 
 Wherever you mount your node, plan to have to update the firmware at least once a year, perhaps more often.
 
@@ -84,7 +84,7 @@ Option two is outlined [in the Meshtastic docs here](https://meshtastic.org/docs
 
 There currently are no other options. Even if you power your node via POE, there is no way to update the node via Ethernet. You may be able to power a Pi via POE and use option one from a more suitable location, however it is likely the Pi will not be able to survive summer heat in the enclosure. I am testing that this summer to see. Regardless, the Pi takes too much power for a solar node.
 
-As a result, at least for me, I am planning to retreive my solar node from its mounting spot and update its firmware about once a year. 
+As a result, at least for me, I am planning to retrieve my solar node from its mounting spot and update its firmware about once a year. 
 
 ## Management
 
@@ -96,7 +96,7 @@ The Meshtastic docs explain this [here](https://meshtastic.org/docs/configuratio
 
 If this device is outside the range of bluetooth and you won't be able to regularly check DMs, it's recommended that you make sure a casual mesh user will be able to figure out how to contact you. For example, if the node is your roof node and you also have a handheld mobile node, you might want to make the long name "JS Base Station" and the mobile node's long name "JS Mobile" so users can try to contact you on the mobile node if you don't respond to the base station. If you have a personal domain or an identifiable username, you could put the URL or your handle in your long name. Some people also say you should add the text "unmonitored" or the satellite dish emoji (📡) to the long name of any unmonitored nodes. 
 
-In Philly, all of our phillymesh.net nodes are named as such! This solar node is phillymesh.net-08. We also add secondary and teritary management keys of other members so that if one member is out of town or unable to reach the mesh, the nodes can be administered by other trusted members.
+In Philly, all of our phillymesh.net nodes are named as such! This solar node is phillymesh.net-08. We also add secondary and tertiary management keys of other members so that if one member is out of town or unable to reach the mesh, the nodes can be administered by other trusted members.
 
 All of these best practices make the mesh a friendlier place!
 
