@@ -8,7 +8,7 @@ So you're interested in getting started with Meshtastic and you live in or aroun
 
 The official Meshtastic Discord has a [PA/Delaware Valley channel](https://discord.com/channels/867578229534359593/1280671409995255809). It has mostly been superseded by the above PRM Discord, but is still used infrequently by people in Central-Eastern PA. Depending on how far west your suburb lies, you may find some local friends in that channel.
 
-If you’re south of Philly, you may be interested in the [Delaware Meshtastic Facebook group](https://www.facebook.com/share/g/15fKQpacWR/?mibextid=wwXIfr). The Philly mesh gets connected to nodes in Delaware about once a month through either weird weather propagation or node flyovers, so we're familiar with them.
+If you're south of Philly, you may be interested in the [Delaware Meshtastic Facebook group](https://www.facebook.com/share/g/15fKQpacWR/?mibextid=wwXIfr). The Philly mesh gets connected to nodes in Delaware about once a month through either weird weather propagation or node flyovers, so we're familiar with them.
 
 ## Local Meshtastic Events
 
@@ -60,7 +60,7 @@ If you want a pocket node that "just works", try a Seeed Studio T1000-e. These a
 
 If you want to DIY a pocket node, I recommend a nRF-based device. These have great battery life compared to the ESP32-based nodes. The RAK4631 is a great option; these make up around 20% of the devices in Philly\*.
 
-You may also want to upgrade the antenna on your window node at this point. For a window node, you don't need to spend a lot, you just need to buy a node from a reputable source. Check out the [Meshtastic antenna reports](https://github.com/meshtastic/antenna-reports) page for recommended brands. In Philly we have found that you don't need a high gain (high dBi value) antenna in your window or on the roof of your townhome, and in fact a high gain antenna might actually perform worse in our urban environment.
+You may also want to upgrade the antenna on your window node at this point. For a window node, you don't need to spend a lot, you just need to buy a node from a reputable source. Check out the [Meshtastic antenna reports](https://github.com/meshtastic/antenna-reports) page for recommended brands. In Philly we have found that you don't need a high gain (high dBi value) antenna in your window or on the roof of your townhouse, and in fact a high gain antenna might actually perform worse in our urban environment.
 
 #### Should I change my window node's role to a Router?
 
@@ -77,14 +77,14 @@ At minimum, this node must be waterproof. In most cases this will also need to b
 You'll need to consider:
 
 - **Mounting**: make sure it won't fly away in a hurricane.
-- **Waterproofing**: even if it's completely sealed, you may still want a weap valve since Philly is a very humid environment.
+- **Waterproofing**: even if it's completely sealed, you may still want a weep valve since Philly is a very humid environment.
 - **Device management**: make sure you can remotely administer the device if you're not able to get your phone near it to connect via Bluetooth. More on that [here](https://meshtastic.org/docs/configuration/remote-admin/).
 - **Testing**: make sure you test this on the ground for a few weeks before mounting it somewhere that's difficult to reach.
 - **Updating**: this will be difficult without connecting your device to a computer. Technically nRF nodes can be updated over Bluetooth, however this method isn't very reliable and a failure can result in a device that is bricked until you can connect it to a computer again.
 
 Check out the article on this site on [a Medium Priced Solar Node](https://phillymesh.net/2025/05/14/medium-priced-solar-node/) for one example and lessons learned making a solar node in Philly.
 
-AustinMesh.org also has a great article on [Lessons Learned Buliding Solar Nodes](https://www.austinmesh.org/devices/#solar) in their area. They have a lot more experience than we at PhillyMesh.org.
+AustinMesh.org also has a great article on [Lessons Learned Building Solar Nodes](https://www.austinmesh.org/devices/#solar) in their area. They have a lot more experience than we at PhillyMesh.org.
 
 #### Placement
 
