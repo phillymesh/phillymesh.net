@@ -11,6 +11,10 @@
 header nav {
     flex: auto;
 }
-:root{
-    --nav-bg-color: transparent
+.post-short-list .post-header {
+    margin-bottom: 0.2em;
+}
+
+:root {
+    --nav-bg-color: unset;
 }
