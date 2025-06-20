@@ -2,4 +2,19 @@
     padding-bottom: 0;
     border-bottom: thin solid var(--hr-color);
     margin-top: 7px;
-} 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: auto
+}
+
+header nav {
+    flex: auto;
+}
+.post-short-list .post-header {
+    margin-bottom: 0.2em;
+}
+
+:root {
+    --nav-bg-color: unset;
+}
