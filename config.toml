@@ -2,13 +2,6 @@ baseURL = "https://phillymesh.net/"
 languageCode = "en-us"
 title = "Philly Mesh"
 theme = "anubis"
-paginate = 3
-
-disqusShortname = ""
-googleAnalytics = ""
-
-[author]
-  name = "Mike Dank"
 
 [params]
    author = "Philly Mesh"
