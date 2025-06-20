@@ -27,7 +27,7 @@ theme = "anubis"
   [[menu.main]]
     name = "Posts"
     identifier = "posts"
-    url = "/posts/"
+    url = "/post/"
     weight = 3
 	
   [[menu.main]]
