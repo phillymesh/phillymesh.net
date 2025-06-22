@@ -17,7 +17,7 @@ I'm calling this a "medium priced" node because I didn't really budget and just 
 
 For now, here's a reasonably reliable node that costs around $110 for just the essential parts.
 
-<img src="/images/uploads/2025-05-14-medium-priced-solar-node/solar-front.jpg" alt="Medium priced solar node" width="300">
+<img src="/images/uploads/2025-05-14-medium-priced-solar-node/solar-front.jpg" alt="Medium priced solar node" width="50%">
 
 ## Parts List
 
@@ -46,7 +46,7 @@ _I break this section out because 1) you may already have some of these parts la
 
 **Total cost: $137.13 + shipping**
 
-<img src="/images/uploads/2025-05-14-medium-priced-solar-node/solar-interior.jpg" alt="Interior of the node" width="300">
+<img src="/images/uploads/2025-05-14-medium-priced-solar-node/solar-interior.jpg" alt="Interior of the node" width="80%">
 
 ## Picking a Meshtastic Node
 
@@ -54,7 +54,7 @@ nRF Meshtastic devices (like the RAK4631) are far superior to other types when i
 
 You may also wish to add environmental sensors to your RAK4631. See [this page](https://meshtastic.org/docs/hardware/devices/rak-wireless/wisblock/peripherals/?rakmodules=Sensors) on Meshtastic's website for supported sensors. This will allow your device to report measurements like temperature and humidity. Keep in mine those measurements will be from _inside_ the enclosure, so they're better for reporting the status of your node's environment than the outside weather.
 
-<img src="/images/uploads/2025-05-14-medium-priced-solar-node/solar-wis-close.JPG" alt="Close up of the WisBlock" width="300">
+<img src="/images/uploads/2025-05-14-medium-priced-solar-node/solar-wis-close.JPG" alt="Close up of the WisBlock" width="80%">
 
 ## What about high/low temps?
 
@@ -107,7 +107,7 @@ When soldering the battery holders together, you want them to be in parallel. So
 
 You battery holder will likely not come with the correct JST connector for the WisBlock board. Even if you buy a battery with JST connectors, they're usually smaller than the correct size. Also, very important to note: the WisBlock battery connections are _reversed_ from the standard (the solar connectors are normal). Rak claims "there is no standard", but considering all the JST connectors I order on Amazon are the opposite of Rak's choice, I disagree. Check the connectors you buy! I had to solder the red lead to the black lead and the reverse to make the connector attach properly, which continues to confuse me every time I open the enclosure. To reduce confusion, I wrote in sharpie on the interior of my enclosure which color is positive and which is negative. You _will_ kill your board if you reverse the connectors.
 
-<img src="/images/uploads/2025-05-14-medium-priced-solar-node/rak-voltage-connectors.png" alt="Voltage and connector diagram from the Meshtastic docs" width="300">
+<img src="/images/uploads/2025-05-14-medium-priced-solar-node/rak-voltage-connectors.png" alt="Voltage and connector diagram from the Meshtastic docs" width="80%">
 
 _Source: https://meshtastic.org/docs/hardware/devices/rak-wireless/wisblock/base-board/_
 
