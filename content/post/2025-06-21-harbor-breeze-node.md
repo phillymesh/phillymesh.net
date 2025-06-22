@@ -10,6 +10,7 @@ tags:
   - meshtastic
   - wisblock
   - solar
+# cspell:ignore Lowes Muzi Gustafson Tavis Hackaday
 ---
 
 After building my [Medium Priced Solar Node](/2025/05/14/medium-priced-solar-node), I wanted to explore cheaper options. I wanted to be able to build nodes to give to friends or community members to place in advantageous locations, and not feel like I was losing $100+ if it doesn't work out.

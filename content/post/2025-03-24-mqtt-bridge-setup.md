@@ -10,6 +10,7 @@ tags:
   - meshtastic
   - mosquito
   - mqtt
+# cspell:ignore liamcottle meshmap cleansession meshdev mqttv pwfile
 
 ---
 
