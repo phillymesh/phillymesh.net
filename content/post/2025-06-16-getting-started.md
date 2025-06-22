@@ -8,7 +8,7 @@ categories:
   - Philly Mesh
 tags:
   - meshtastic
-
+# cspell:ignore Yinzer Bridesburg Manayunk SDRH Rittenhouse Shunk
 ---
 
 So you're interested in getting started with Meshtastic and you live in or around Philly. There are plenty of resources online to help you get started, but this article will walk you through some things that are specific to our area.
@@ -17,9 +17,11 @@ So you're interested in getting started with Meshtastic and you live in or aroun
 
 [Phillymesh.net](phillymesh.net) has been around forever, focused on Mesh networks in Philly, but has recently been revived as a hub for Meshtastic enthusiasts in the area. We generally congregate in our [Philly Radio & Meshtastic (PRM) Discord](https://discord.gg/MWWbAkRR9v) server. If you have any questions or want to get connected with other users, please join!
 
-The official Meshtastic Discord has a [PA/Delaware Valley channel](https://discord.com/channels/867578229534359593/1280671409995255809). It has mostly been superseded by the above PRM Discord, but is still used infrequently by people in Central-Eastern PA. Depending on how far west your suburb lies, you may find some local friends in that channel.
+If you're south of Philly, you may be interested in the [Delaware Meshtastic Facebook group](https://www.facebook.com/share/g/15fKQpacWR/?mibextid=wwXIfr), also accessible at [deme.sh](https://deme.sh). The Philly mesh gets connected to nodes in Delaware about once a month through either weird weather propagation or node flyovers, so we're familiar with them.
 
-If you're south of Philly, you may be interested in the [Delaware Meshtastic Facebook group](https://www.facebook.com/share/g/15fKQpacWR/?mibextid=wwXIfr). The Philly mesh gets connected to nodes in Delaware about once a month through either weird weather propagation or node flyovers, so we're familiar with them.
+The official Meshtastic Discord has a [PA/Delaware Valley channel](https://discord.com/channels/867578229534359593/1280671409995255809). Since PhillyMesh started our own Discord server, traffic in that channel has slowed down, but it is still used infrequently by people in Central-Eastern PA. Depending on how far west your suburb lies, you may find some local friends in that channel.
+
+If you're even further west than those in the PA/Del Valley channel, you may want to check out [WPAMesh.net](https://wpamesh.net/), for our Yinzer friends. They list a Discord server on their site as their main communication platform (besides the Mesh of course!).
 
 ## Local Meshtastic Events
 
@@ -29,7 +31,7 @@ A few times a year there are also Meshtastic meetups or events hosted by groups 
 
 ## Buying Locally
 
-Iffy Books sells Heltec V3s (and maybe other hardware, too) for a reasonably low price. They generally include a basic case and an antenna, and if you buy them during a Meshtastic 101 event they also include a personal "getting started" session from Steve!
+[Iffy Books](https://iffybooks.net/) sells Heltec V3s (and maybe other hardware, too) for a reasonably low price. They generally include a basic case and an antenna, and if you buy them during a Meshtastic 101 event they also include a personal "getting started" session from Steve!
 
 It is not uncommon for new Meshtastic users to be unsure if they haven't set up their device correctly, or if there just aren't any nodes nearby. By setting up your device up at Iffy you can guarantee you'll be within range of other nodes, and skip that part of the troubleshooting process.
 
