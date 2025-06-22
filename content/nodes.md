@@ -13,7 +13,7 @@ Check out these write-ups of node builds that PhillyMesh members are running:
 
 - [Low Priced Solar Node (Harbor Breeze Hack v3)](/2025/06/21/harbor-breeze-node)
 - [Medium Priced Solar Node](/2025/05/14/medium-priced-solar-node)
-- [Stealthy Node in a Water Bottle](2025/05/16/water-bottle-node)
+- [Stealthy Node in a Water Bottle](/2025/05/16/water-bottle-node)
 
 ## Philly Mesh Map
 
