@@ -27,7 +27,7 @@ I've seen another variation discussed in the Meshtastic Discord that includes us
 
 The approach I'm going with is the one that I found in the description of this [3D printed mount for the light](https://www.printables.com/model/1275240-minimalist-sma-harbor-breeze-meshtastic-off-grid-s). This allows us to use the power button and doesn't require any modifications to the included solar management board to keep the node on during the day.
 
-<img src="/images/uploads/2025-06-21-harbor-breeze-node/labels.jpg" alt="I had to go to a bunch of different stores so when I finally found them I bought many" width="300">
+<img src="/images/uploads/2025-06-21-harbor-breeze-node/labels.jpg" alt="I had to go to a bunch of different stores so when I finally found them I bought many" width="500">
 
 ## Parts List
 
