@@ -16,7 +16,7 @@ So you're interested in getting started with Meshtastic and you live in or aroun
 
 [Phillymesh.net](phillymesh.net) has been around forever, focused on Mesh networks in Philly, but has recently been revived as a hub for Meshtastic enthusiasts in the area. We generally congregate in our [Philly Radio & Meshtastic (PRM) Discord](https://discord.gg/MWWbAkRR9v) server. If you have any questions or want to get connected with other users, please join!
 
-If you're south of Philly, you may be interested in the [Delaware Meshtastic Facebook group](https://www.facebook.com/share/g/15fKQpacWR/?mibextid=wwXIfr), also accessible at [deme.sh](deme.sh). The Philly mesh gets connected to nodes in Delaware about once a month through either weird weather propagation or node flyovers, so we're familiar with them.
+If you're south of Philly, you may be interested in the [Delaware Meshtastic Facebook group](https://www.facebook.com/share/g/15fKQpacWR/?mibextid=wwXIfr), also accessible at [deme.sh](https://deme.sh). The Philly mesh gets connected to nodes in Delaware about once a month through either weird weather propagation or node flyovers, so we're familiar with them.
 
 The official Meshtastic Discord has a [PA/Delaware Valley channel](https://discord.com/channels/867578229534359593/1280671409995255809). Since PhillyMesh started our own Discord server, traffic in that channel has slowed down, but it is still used infrequently by people in Central-Eastern PA. Depending on how far west your suburb lies, you may find some local friends in that channel.
 
