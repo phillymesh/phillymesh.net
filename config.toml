@@ -2,6 +2,7 @@ baseURL = "https://phillymesh.net/"
 languageCode = "en-us"
 title = "Philly Mesh"
 theme = "anubis"
+assetDir = "static"
 
 [params]
    author = "Philly Mesh"
@@ -54,3 +55,10 @@ tag = "tags"
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+        block = true
