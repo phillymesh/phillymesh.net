@@ -45,10 +45,11 @@ This figure shortcode is great if you want to include captions with your images:
 {{< figure src="/images/uploads/YYYY-MM-DD-your-post-slug/your-cool-photo.png" caption="Your cool caption." alt="Describe the picture" link="/images/uploads/YYYY-MM-DD-your-post-slug/your-cool-photo.png">}}
 ```
 
-If you need control over styling and width/height, raw HTML is also supported:
+If you need control over styling and width/height, you can add html attributes with braces on the next line
 
 ```
-<img src="/images/uploads/YYYY-MM-DD-your-post-slug/your-cool-photo.png" alt="Stealthy water bottle node" width="300" alt="Describe the picture">
+![Describe the picture](/images/uploads/YYYY-MM-DD-your-post-slug/your-cool-photo.png)
+{width="50%"}
 ```
 
 **NOTE:** Due to the way pathing is set up in Hugo, your images will not preview properly because the `src` is set to an absolute path starting with `/images`. For drafting a new post you may want to use `../../static/images` instead but this will not work properly after the page is rendered for the site. Please make sure to use absolute pathing for the time being.
