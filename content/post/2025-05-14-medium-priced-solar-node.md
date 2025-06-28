@@ -10,7 +10,7 @@ tags:
   - meshtastic
   - wisblock
   - solar
-# cspell:ignore unmessagable overspeccing
+#cspell:ignore unmessagable overspeccing
 ---
 
 I'm calling this a "medium priced" node because I didn't really budget and just bought parts as they became necessary. There are also many examples of cheaper nodes, such as the [Low Priced Solar Node (Harbor Breeze)](/2025/06/21/harbor-breeze-node). The low cost node depends on the availability of the Harbor Breeze solar lights, whereas this node uses more generic parts that will almost surely be available in the future.

@@ -20,7 +20,7 @@ New posts are incredibly easy! Make a new page in the [content/post](https://git
 
 At the top of your `.md` file you need to include *front matter* that acts as metadata about the post. Here is an example:
 
-```
+```yaml
 ---
 title: Station G2 Node Installation
 author: Mike Dank (Famicoman)
@@ -66,7 +66,7 @@ Otherwise you can run it from the command line with
 `npx cspell your-file-name.md` which requires you to have node installed.
 
 If you want to check all the files for spelling issues, you can run
-`npx cspell *.md content/**/*.md`
+`npx cspell` and check the output
 
 
 If your post includes some proper nouns or other words that aren't likely to be in the dictionary, you can suppress spellcheck errors by adding that word to the "ignore" list in the "front matter" with the `cspell:ignore` command as a comment

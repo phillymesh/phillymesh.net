@@ -3,7 +3,7 @@ title: Installing Yggdrasil – A Toy Implementation of an Encrypted IPv6 Networ
 author: Mike Dank (Famicoman)
 type: post
 date: 2018-01-05T14:46:04+00:00
-url: /2018/01/05/installing-yggdrasil-a-toy-implementation-of-an-ecrypted-ipv6-network/
+url: /2018/01/05/installing-yggdrasil-a-toy-implementation-of-an-encrypted-ipv6-network/
 categories:
   - Tutorial
 tags:
@@ -11,7 +11,7 @@ tags:
   - go
   - ipv7
   - Yggdrasil
-
+#cspell:ignore Arceliar
 ---
 _**2018-08-29 Update: This tutorial is now very out of date. The Yggdrasil team now maintains great installation guides [here][1].**_
 

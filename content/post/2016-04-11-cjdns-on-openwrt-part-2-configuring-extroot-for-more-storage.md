@@ -16,7 +16,7 @@ tags:
   - partition
   - rootfs
   - Western digital
-
+#cspell:ignore rootfs fdisk opkg
 ---
 If you have any low-memory OpenWRT device (4MB of flash) you will probably fill up any free space quickly after the initial OpenWRT install and need more room to grow. Luckily, you can transfer your root file system to a flash drive and boot off of it as long as your access point has a USB port.
 

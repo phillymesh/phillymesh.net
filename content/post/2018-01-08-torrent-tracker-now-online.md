@@ -16,9 +16,9 @@ tags:
   - torrent
   - tracker
   - udp
-
+#cspell:ignore Engling opentracker
 ---
-I've gone ahead and set up a BitTorrent tracker that only faces the Hyperboria network. This tracker runs the opensource [OpenTracker][1] software written by Dirk Engling, compiled with IPv6 support. It is available via either udp or tcp (udp preferred, as it is less resource intensive):
+I've gone ahead and set up a BitTorrent tracker that only faces the Hyperboria network. This tracker runs the open source [OpenTracker][1] software written by Dirk Engling, compiled with IPv6 support. It is available via either udp or tcp (udp preferred, as it is less resource intensive):
 
 ```
 udp://h.tracker.phillymesh.net:6969 

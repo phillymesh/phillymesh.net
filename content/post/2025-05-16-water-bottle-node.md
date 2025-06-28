@@ -9,7 +9,7 @@ categories:
 tags:
   - meshtastic
   - wisblock
-# cspell:ignore Gizont Muzi
+#cspell:ignore Gizont Muzi
 ---
 
 For most of the day, I can be found carrying a T-1000e in my pocket. My home has (or will have) a node on the roof with a longer range antenna, and my T-1000e works perfectly to keep myself connected to the mesh, even if my phone can't connect all the way to my roof node via bluetooth. However, when I travel outside of the house the tiny antenna in the T-1000e leaves something to be desired.

@@ -13,7 +13,7 @@ tags:
   - hyperboria
   - mesh
   - openwrt
-
+#cspell:ignore Guifi
 ---
 _Now that the article has been printed in [2600 magazine, Volume 33, Issue 3](https://www.amazon.com/2600-Magazine-Hacker-Quarterly-ebook/dp/B01M1NJI3U/2600magazi-20) (2016-10-10), I’m able to republish it on the web. The article below is my submission to 2600 with some slight formatting changes for hyperlinks._
 
