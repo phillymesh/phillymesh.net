@@ -13,7 +13,7 @@ tags:
   - dnscrypt
   - hyperboria
   - opennic
-
+#cspell:ignore opennic dnscrypt ICANN
 ---
 I've recently configured a public DNS server in Amsterdam that resolves domains within the [OpenNIC][1] root, as well as the traditional ICANN registry. This means you can resolve domains using free OpenNIC TLDs (such as .geek, .null, and .pirate) as well as all of your old favorites (you know, those sites on .com, .net, and all the others).
 

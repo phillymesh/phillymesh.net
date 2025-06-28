@@ -12,7 +12,7 @@ tags:
   - hyperboria
   - raspberry pi
   - raspbian
-
+#cspell:words configurator raspi
 ---
 If you’re like me, you have a few [Raspberry Pis][1] kicking around, waiting for a job to do. I adopted early and purchased (at least one) original Model B with 256MB of RAM. This was a nifty little box four years ago, but has since been overshadowed by its older brother, the revised Model B with 512MB of RAM, and its cousins: the B+ and RPi 2. These originals still have life left in them, and can often be found below the original $35 price tag. When it comes to running cjdns, they do a fantastic job!
 
@@ -107,7 +107,7 @@ systemctl stop cjdns
 /opt/cjdns/cjdroute < /etc/cjdroute.conf
 ```
   
-Ocasionally, you may get a *Configurator* error like this below:
+Occasionally, you may get a *Configurator* error like this below:
 
 ```
 1454470218 CRITICAL Configurator.c:97 Failed to make function call [Timed out waiting for a response], error: [UDPInterface_beginConnection]

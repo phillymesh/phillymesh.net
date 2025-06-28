@@ -24,7 +24,7 @@ tags:
   - tomato
   - tp-link
   - zigbee
-
+#cspell:ignore fonera cantenna cantennas Linksys Seattleites
 ---
 The first time I remember hearing about mesh networks was sometime around 2005. Through rigorous searches, I had finally tracked down a complete run of Seattle Wireless TV, a proto-podcast that ran from July of 2003 until June of 2004. This hunt was undergone for my own personal interests; I was and am something of an online-video-series junkie, and I have since [posted all the episodes for download on Archive.org](https://archive.org/details/seattlewirelesstv) where they will be preserved for anyone to watch for years to come. The topics of these episodes varied from interviews with operators, to wardriving tips, and even antenna creation. Pretty popular topics back then, but now the show serves as a fantastic time capsule from a technologically-simpler time. Even ten years ago, “getting into” wireless networking seemed radically different. Everyone tried their hand at wardriving, embraced 802.11g, and wired cantennas to their Orinoco cards. [Here](http://vilos.com/new_mast/) is a prime example of the times — some Seattleites setting up their own mesh network in 2002. Essentially, Wi-Fi was king and you could have it in your own home. I didn’t end up jumping into the mix until years later. I got my first laptop in 2006 and even then I usually embraced a wired connection. Watching these video shows was my own little outlet into what the cool kids were doing. It wasn’t until a little later that I decided it was time to play.
 

@@ -9,7 +9,7 @@ categories:
 tags:
   - meshtastic
   - stationg2
-# cspell:ignore stationg2 Anker autoplay
+#cspell:ignore stationg2 Anker autoplay
 ---
 
 Last year I documented the process of upgrading the PM03 Meshtastic node to use a Station G2 and outdoor-rated 5.8 dBi antenna (though it was installed indoors).

@@ -2,13 +2,7 @@ baseURL = "https://phillymesh.net/"
 languageCode = "en-us"
 title = "Philly Mesh"
 theme = "anubis"
-paginate = 3
-
-disqusShortname = ""
-googleAnalytics = ""
-
-[author]
-  name = "Mike Dank"
+assetDir = "static"
 
 [params]
    author = "Philly Mesh"
@@ -34,7 +28,7 @@ googleAnalytics = ""
   [[menu.main]]
     name = "Posts"
     identifier = "posts"
-    url = "/posts/"
+    url = "/post/"
     weight = 3
 	
   [[menu.main]]
@@ -61,3 +55,10 @@ tag = "tags"
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+        block = true

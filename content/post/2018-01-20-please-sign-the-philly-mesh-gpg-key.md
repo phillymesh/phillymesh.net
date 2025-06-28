@@ -17,7 +17,7 @@ tags:
   - sign
   - sks
   - web of trust
-
+#cspell:ignore uids
 ---
 Now that we have erected an [SKS keyserver][1], I invite everyone to sign the [Philly Mesh GPG key][2] to help verify our identity. There are many GPG/PGP applications out there, but below I will provide steps for the `gpg` utility available on many POSIX systems (Linux, Darwin, etc.). Ideally, with enough signatures, the Philly Mesh key has a higher probability of entering the [Web of Trust strong set][3], the largest collection of strongly-connected gpg keys.
 

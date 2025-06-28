@@ -1,18 +1,40 @@
 //Spellcheck using cspell (https://cspell.org) or the "Code Spell Checker" in VSCodium
 {
     "version": "0.2",
+    "import": [
+        "cspell.yaml"
+    ],
+    "allowCompoundWords": true,
+    "useGitignore": true,
+    "files": [
+        "*.md",
+        "content/**/*.md"
+    ],
     "words": [
         "AREDN",
         "boda",
+        "cjdns",
+        "cjdroute",
+        "Drexel",
         "Famicoman",
         "Heltec",
         "Hyperboria",
         "IPEX",
+        "keybase",
+        "keyserver",
+        "keyservers",
+        "luci",
         "meshtastic",
         "mosquitto",
+        "OLSR",
+        "openpgp",
+        "openwrt",
         "phillymesh",
         "Rokland",
         "Seeed",
-        "wisblock",
-    ],
+        "tomesh",
+        "ubiquiti",
+        "wekan",
+        "wisblock"
+    ]
 }

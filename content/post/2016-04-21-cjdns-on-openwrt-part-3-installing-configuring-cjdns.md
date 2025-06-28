@@ -53,4 +53,4 @@ PING h.peer0.famicoman.com (fc9f:990d:2b0f:75ad:8783:5d59:7c84:520b): 56 data by
 round-trip min/avg/max = 3800.924/4199.398/4594.193 ms
 ```
 
-If all went as expected, you now have cjdns running on your OpenWRT router! This can be expanded in the future by copying an OpwnWRT configuration onto several routers, and then linking them together wirelessly.
+If all went as expected, you now have cjdns running on your OpenWRT router! This can be expanded in the future by copying an OpenWRT configuration onto several routers, and then linking them together wirelessly.

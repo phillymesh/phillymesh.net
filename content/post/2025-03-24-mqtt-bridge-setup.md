@@ -10,8 +10,7 @@ tags:
   - meshtastic
   - mosquito
   - mqtt
-# cspell:ignore liamcottle meshmap cleansession meshdev mqttv pwfile
-
+#cspell:ignore liamcottle meshmap cleansession meshdev mqttv pwfile
 ---
 
 In August 2024 Meshtastic made changes to their official MQTT server due to potential safety issues of third parties tracking and storing user location data. While one of the main Meshtastic node mapping websites [meshmap.net](https://meshmap.net/) continues to rely on the official MQTT server, another popular site [meshtastic.liamcottle.net](https://meshtastic.liamcottle.net/) now runs their own separate MQTT server.
