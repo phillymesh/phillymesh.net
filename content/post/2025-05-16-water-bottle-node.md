@@ -46,6 +46,7 @@ _I break this section out because 1) you may already have some of these parts la
 | [Right angle SMA to IPEX cable](https://www.amazon.com/Female-Right-Angle-Coaxial-12inch/dp/B098QFZ2DB?th=1)                                                                                                            | $10.99 | If you have tight clearances you'll need one of these right angle cables rather than the usual straight ones.                                                                            |
 | JST Connectors [2mm male](https://www.amazon.com/Upgraded-Connector-Battery-Inductrix-Eachine/dp/B07NWD5NTN/) and [1.25mm female](https://www.amazon.com/Chanzon-Connector-Electrical-Terminal-Lighting/dp/B0B2DBTVJC/) | $14.98 | The battery is 1.25mm JST and the WisBlock is 2mm JST, so you'll need to solder two connectors together to make them connect.                                                            |
 | [M2.5 screws and nuts](https://www.amazon.com/HVAZI-M1-2-M1-4-M1-6-M2-5/dp/B0CJJFFCW2/)                                                                                                                                 | $7-18  | You can get just M2.5 screws and nuts for much cheaper, but if you don't already have a set of metric screws and nuts, it's worth it to get a variety pack, which is what I have linked. |
+| [3D Printed Node/Battery/Antenna Holder](https://www.printables.com/model/1346010-stealthy-rak4630-water-bottle-meshtastic-node) | free | This holds everything together |
 
 **Total cost: $92.85 + shipping**
 
