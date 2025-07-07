@@ -15,7 +15,7 @@ tags:
   - dynamic dns
   - freedns
   - linux
-
+#cspell:ignore duckdns famicomans
 ---
 *Note: As of cjdns version 18, cjdns peering credentials will not be valid if they use domain names as opposed to IP addresses. If you are reading this in the year 2017 or later, the below guide is essentially obsolete from a peering perspective but may still be useful for automatically updating DNS records for other purposes.*  
 

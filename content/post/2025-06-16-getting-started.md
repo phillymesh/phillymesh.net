@@ -8,7 +8,7 @@ categories:
   - Philly Mesh
 tags:
   - meshtastic
-# cspell:ignore Yinzer Bridesburg Manayunk SDRH Rittenhouse Shunk
+#cspell:ignore Yinzer Bridesburg Manayunk SDRH Rittenhouse Shunk
 ---
 
 So you're interested in getting started with Meshtastic and you live in or around Philly. There are plenty of resources online to help you get started, but this article will walk you through some things that are specific to our area.

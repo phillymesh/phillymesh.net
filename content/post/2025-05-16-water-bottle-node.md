@@ -9,18 +9,20 @@ categories:
 tags:
   - meshtastic
   - wisblock
-# cspell:ignore Gizont Muzi
+#cspell:ignore Gizont Muzi
 ---
 
 For most of the day, I can be found carrying a T-1000e in my pocket. My home has (or will have) a node on the roof with a longer range antenna, and my T-1000e works perfectly to keep myself connected to the mesh, even if my phone can't connect all the way to my roof node via bluetooth. However, when I travel outside of the house the tiny antenna in the T-1000e leaves something to be desired.
 
 To fill this gap, I came up with a plan for a portable node with a longer range antenna that I could easily stick in a backpack or leave on my bike that wouldn't raise any alarms. While I'm not averse to carrying around large antennas, I like to save this activity for radio meetups or cons, and be a little less obvious in my day to day life. I realized this bike water bottle I had was exactly the right length for the whip antenna I had laying around.
 
-<img src="/images/uploads/2025-05-16-water-bottle-node/water_bottle_side.JPG" alt="Stealthy water bottle node" width="80%">
+![Stealthy water bottle node](/images/uploads/2025-05-16-water-bottle-node/water_bottle_side.JPG)
+{width="80%"}
 
 Since I built and started using this water bottle node, I don't know how more people don't do something like this! You can stick it in a water bottle pocket of a backpack and it stays vertically polarized. The antenna doesn't get bent or unscrewed in your bag. It's entirely waterproof so you don't have to worry about getting caught in the rain. And it doesn't get any curious looks from cursory bag checks at hospitals or museums. As a general disclaimer, I would NOT recommend bringing this to any high security location like an airport. TSA is generally fine with radio and Meshtastic equipment, but something like this might get you pulled into a room and interrogated about why you're hiding wires, batteries, and antennas in a normal looking object.
 
-<img src="/images/uploads/2025-05-16-water-bottle-node/water_bottle_top.JPG" alt="Easy charging at the top" width="80%">
+![Easy charging at the top](/images/uploads/2025-05-16-water-bottle-node/water_bottle_top.JPG)
+{width="80%"}
 
 The WisBlock with a 1200mAh battery lasts about a week between charges. This is plenty for me, but feel free to use a battery with more capacity to make it last longer, there's plenty of extra space in the water bottle!
 
@@ -56,12 +58,15 @@ I threw together a 3D printed bracket that holds all of the components together 
 
 Screw the antenna into the bracket and feed the end of the pigtail through the top. The WisBlock goes on the side where the antenna pigtail feeds. It should slot in and then you can screw it in with the M2.5 screws and nuts to secure it.
 
-<img src="/images/uploads/2025-05-16-water-bottle-node/interior.JPG" alt="Interior, WisBlock side" width="80%">
+![Interior, WisBlock side](/images/uploads/2025-05-16-water-bottle-node/interior.JPG)
+{width="80%"}
 
 You will need to solder the two JST connectors you got together to make a connector for the battery to the WisBlock. The connector will be 1.25mm female to 2mm male. _Pay attention to the positive and negative terminals on the WisBlock!!_ It will likely be the _reverse_ of what the battery sends out. You may need to solder the red leads of one connector to the black of the other and vice versa. If you mess this up, you will likely kill your WisBlock.
 
-<img src="/images/uploads/2025-05-16-water-bottle-node/interior_rear.JPG" alt="Interior, battery side" width="80%">
+![Interior, battery side](/images/uploads/2025-05-16-water-bottle-node/interior_rear.JPG)
+{width="80%"}
 
 Slide the battery into the other side of the bracket and you're good to go!
 
-<img src="/images/uploads/2025-05-16-water-bottle-node/water_bottle.JPG" alt="All assembled" width="80%">
+![All assembled](/images/uploads/2025-05-16-water-bottle-node/water_bottle.JPG)
+{width="80%"}

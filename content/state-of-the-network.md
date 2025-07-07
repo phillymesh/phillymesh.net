@@ -4,6 +4,7 @@ author: Mike Dank (Famicoman)
 type: page
 date: 2017-11-24T16:01:53+00:00
 draft: true
+#cspell:ignore FOSSCON
 ---
 *This is an organic page that reflects the current state of Philly Mesh and the growing network it maintains. This page is subject to change as the project advances. Last updated: 2020-04-29.*
 

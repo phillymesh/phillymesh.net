@@ -21,7 +21,7 @@ tags:
   - pgp
   - sks
   - tor
-
+#cspell:ignore HKPS phillygoh7mkcb44
 ---
 Hey all,
 
@@ -29,7 +29,7 @@ After a trial run of setting up a keyserver over the summer, I am now making the
 
 The keyserver currently runs [SKS][2], and is ideal for uploading or downloading [gpg/pgp][3] keys. A great feature of SKS is that it has what are known as "gossip peers." Gossip peers help with the transmission of keys uploaded on each node by sending them to all other nodes they gossip with. This creates a web that allows all nodes to communicate and transfer keys through one another. Ultimately, if a key is uploaded to one node, it will end up on all of the others in the network.
 
-The Philly Mesh keyserver, available at [gpg.phillymesh.net][4], is now part of several official server pools run by [sks-keyservers.net][5]. If you currently use the `gpg` utiliy, you may already be accessing it!
+The Philly Mesh keyserver, available at [gpg.phillymesh.net][4], is now part of several official server pools run by [sks-keyservers.net][5]. If you currently use the `gpg` utility, you may already be accessing it!
 
 Of course, you can always use **gpg.phillymesh.net** specifically instead of via a server pool. The server has unencrypted HKP available on ports 80 and 11371, and encrypted HKPS available on ports 443 and 11372.
 

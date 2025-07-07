@@ -10,14 +10,15 @@ tags:
   - meshtastic
   - wisblock
   - solar
-# cspell:ignore Lowes Muzi Gustafson Tavis Hackaday
+#cspell:ignore Lowes Muzi Gustafson Tavis Hackaday
 ---
 
 After building my [Medium Priced Solar Node](/2025/05/14/medium-priced-solar-node), I wanted to explore cheaper options. I wanted to be able to build nodes to give to friends or community members to place in advantageous locations, and not feel like I was losing $100+ if it doesn't work out.
 
 If you've been around the Meshtastic community for more than a month, you've almost certainly heard of the Harbor Breeze Solar Light hack. This involves using the solar panel, solar management board, battery, and enclosure from a low-cost solar light available in the USA at Lowes for less than $10. The availability of these lights can vary, but if you search hard enough you can find them.
 
-<img src="/images/uploads/2025-06-21-harbor-breeze-node/finished-node-mounted.jpg" alt="A Harbor Breeze solar light modified to include a Meshtastic node" width="50%">
+![A Harbor Breeze solar light modified to include a Meshtastic node](/images/uploads/2025-06-21-harbor-breeze-node/finished-node-mounted.jpg)
+{width="50%"}
 
 ### Variations
 
@@ -27,7 +28,8 @@ I've seen another variation discussed in the Meshtastic Discord that includes us
 
 The approach I'm going with is the one that I found in the description of this [3D printed mount for the light](https://www.printables.com/model/1275240-minimalist-sma-harbor-breeze-meshtastic-off-grid-s). This allows us to use the power button and doesn't require any modifications to the included solar management board to keep the node on during the day.
 
-<img src="/images/uploads/2025-06-21-harbor-breeze-node/labels.jpg" alt="I had to go to a bunch of different stores so when I finally found them I bought many" width="80%">
+![I had to go to a bunch of different stores so when I finally found them I bought many](/images/uploads/2025-06-21-harbor-breeze-node/labels.jpg)
+{width="80%"}
 
 ## Parts List
 
@@ -61,7 +63,8 @@ Press the power button and verify that the light comes on, then press it again t
 
 2. Open up the node
 
-<img src="/images/uploads/2025-06-21-harbor-breeze-node/before_modification.jpg" alt="The inside of the light with the battery removed" width="50%">
+![The inside of the light with the battery removed](/images/uploads/2025-06-21-harbor-breeze-node/before_modification.jpg)
+{width="50%"}
 
 Remove the battery and turn the solar panel upside down on a flat surface to ensure there won't be any electricity running through the circuits while you solder.
 
@@ -77,7 +80,8 @@ Don't skip this step! The JST connectors don't have a standard and the one's you
 
 Solder the negative end of the JST connector to the spot marked negative and the positive end to the tab on the positive side the battery. You might need the JST connector cable to be a little longer (do a test fit before soldering), if so you can use the wire from one of the extra female JST cables that you don't need.
 
-<img src="/images/uploads/2025-06-21-harbor-breeze-node/wiring.png" alt="Wiring diagram" width="50%">
+![Wiring diagram](/images/uploads/2025-06-21-harbor-breeze-node/wiring.png)
+{width="50%"}
 
 The above picture is instructions I found online, the color of your wires may be reversed!
 
@@ -87,7 +91,8 @@ _Warning: if you accidentally power on your RAK board without the antenna connec
 
 To be safe, you should connect your antenna to the RAK before plugging the JST connector into the battery connector. Verify that the RAK didn't power on (that the power button is still off) and then unplug the IPEX connector and feed it though the hole where the light cables used to be, then plug it back into the RAK. Then put the battery back into the battery holder and hit the power button.
 
-<img src="/images/uploads/2025-06-21-harbor-breeze-node/after_modification.jpg" alt="Full assembly" width="50%">
+![Full assembly](/images/uploads/2025-06-21-harbor-breeze-node/after_modification.jpg)
+{width="50%"}
 
 You can see the original IPEX antenna cable at the top of the image, it was not long enough to reach back out the pre-drilled antenna cable hole.
 
@@ -97,7 +102,8 @@ You can also see that in my case, the wire running to the positive end of the ba
 
 You will want to waterproof any holes that you've made in your case, including the original one that the light cables were running through. I also ended up adding a little extra sealant to the screws on the rear of the case.
 
-<img src="/images/uploads/2025-06-21-harbor-breeze-node/finished-node-mounted-waterproofing.jpg" alt="Rear view to include waterproofing" width="50%">
+![Rear view to include waterproofing](/images/uploads/2025-06-21-harbor-breeze-node/finished-node-mounted-waterproofing.jpg)
+{width="50%"}
 
 ## Mounting
 
@@ -105,4 +111,8 @@ If you have a pole to mount to, you may be interested in printing a [remix of th
 
 Many of the 3D printed mounts online, such as the example below that another Philly Mesh member made, do not include an antenna mount, so you're required to drill an antenna hole directly into the case. Oftentimes this requires the antenna to be bent 90-degrees. The Muzi antenna I linked does not offer this option and in practice many of the cheap plastic antennas have reduced range when bent. Make sure you test your antenna and confirm that it still performs well when bent, if that's how you plan to use it.
 
-<img src="/images/uploads/2025-06-21-harbor-breeze-node/mounted.jpg" alt="Another Philly mesh member made this" width="50%">
+<!-- ![Another Philly mesh member made this](/images/uploads/2025-06-21-harbor-breeze-node/mounted.jpg)
+{width="50%"} -->
+
+![Another Phillymesh member made this](/images/uploads/2025-06-21-harbor-breeze-node/mounted.jpg)
+{width="50%"}
