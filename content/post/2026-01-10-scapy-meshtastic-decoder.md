@@ -82,7 +82,7 @@ I'll walk you through them.
 - Encrypted protobuf containing the actual data
 - Encrypted with AES256-CTR stream cipher
   - Uses the channel key and packet ID to encrypt/decrypt
-- "Port Number" - determines what app protocol is being used
+- "Port Number" determines what app protocol is being used
 - Additional metadata like request/reply IDs and the source/dest ID
 
 ### Layer 4: MeshApp or MeshText
@@ -106,10 +106,15 @@ in an to get a holistic view of all the Meshtastic traffic in the city.
 # The Results
 Now that I had a process to collect and record all Meshtastic traffic happening around me, without the limits of using a proper Meshtastic node,
 I could determine the cause of the inconsistent connectivity if I knew where to look.
-Unfortunately, I didn't see anything obviously symptomatic of an unreliable network.
-I was introduced to a tool called [Malla](https://github.com/zenitraM/malla) which does a ton of Mesh analytics using MQTT, and now run a [PhillyMesh Instance](https://api.phillymesh.net/)
 
-I did, however, learn a ton when working on this project over a few months:
+Unfortunately, I didn't see anything obviously symptomatic of an unreliable network and adding advanced analytics, a webUI, and distributed data collection was beyond my skills and interest.
+Lucky I was introduced to a tool called [Malla](https://github.com/zenitraM/malla),
+which can collect data from multiple sources using MQTT and display them all in a much slicker WebUI than I would have been able to make.
+So rather than reinvent the wheel I started a [PhillyMesh Malla Instance](https://api.phillymesh.net/) with a number of gateways feeding data into the platform.
+The one limitation of Malla over the raw LoRa decoding is that by default, nodes don't have "Ok to MQTT" enabled so we don't have a complete picture,
+but I doubt I could convince multiple people to setup a whole mini PC for raw LoRa sniffing, so I think the trade-off is worth it.
+
+While I didn't end up using this project long-term to learn about our Mesh, I did learn plenty of new things along the way:
 - I hadn't done embedded development in a very long time and learned about platform.io
 - This was my first time dealing with binary data, bitmasking, and endianness
 - I had never dealt with protobufs before but now understand why they're used everywhere
@@ -117,8 +122,11 @@ I did, however, learn a ton when working on this project over a few months:
 - I learned that I should continue avoiding low-level cryptography
   - It's a bad sign when you start calling functions with "hazmat" in the name
 
-I also got to show off my project at Jawncon 0x2 and it was so cool to see people interested in something I worked on.
+I also got to show off my project at Jawncon 0x2 and it was so cool to see people interested in something I worked on,
+especially those working on the [Kismet](https://www.kismetwireless.net/) RF analysis suite.
+The idea that something I wrote as a side project could get integrated into a larger project is very exciting.
 
+For now it's a mostly-stanalone set of scripts that are tedious to get working, but it's as feature-complete as I plan to make it.
 All the source code for this project, including the firmware, build instructions, and sample SQL queries,
-is available at https://github.com/calefrey/scapy-meshtastic
+are available at https://github.com/calefrey/scapy-meshtastic.
 
