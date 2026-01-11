@@ -5,6 +5,7 @@ date: 2026-01-10T21:19:45-05:00
 draft: false
 tags:
   - meshtastic
+  - mqtt
 ---
 # The Goal
 When I powered on my first Meshtastic node, I was blown away at the ability to exchange messages with people over multiple hops without even needing a license.
