@@ -83,17 +83,17 @@ For my use case, I needed interior access to the node in the attic and planned t
 
 ## Assembly
 
-I started by cutting the conduit to a length that made sense for the vent location and roof line. There’s no exact number here. You are better off leaving yourself extra length and trimming some off versus going too short and cutting a whole new piece, wasting material.
+I started by cutting the conduit to a length that made sense for the vent location and roof line. There’s no exact number here. You are better off leaving yourself extra length and trimming some off versus going too short and cutting a whole new piece. If that does happen you could use the bad piece as material for the arm(s).
 
 The main mast gets a T fitting with a short side arm, about a foot. That arm is what braces against the inside of the vent frame. I adjusted the angle so it roughly matched the angle of the louvers. Hold off on any threadlocker until you have done a test fit.
 
 If, like me, you can’t easily reach the outside of the vent, tighten the bottom fitting fully and carefully slide most of the assembly out through the vent opening. This part is interesting, because you feed it downward to get it out the vent. I positioned it one or two louvers up from the bottom so the base of the mast lined up with the bottom of the vent. That left room for the coax to exit cleanly and form a small loop downward before feeding back through the lowest louver.
 
-Once it was roughly where I wanted it, I slowly rotated the mast until it was vertical. Take your time here.
+Once it was roughly where I wanted it, I slowly rotated the mast until it was vertical. Take your time here, you don't want to drop it. A second set of hands or a firm hold on the antenna cable may alleviate any anxiety.
 
 For the top support, I used a simple pipe hanger. I slid it out through the top of the vent, hooked it onto the conduit, and gently pulled until it snapped into place. It's smaller and less noticeable than a full second T fitting bracket, and with the bottom fitting tightened down, the top support is there mostly to keep the mast vertical. Either method works.
 
-With the mast held in position, I ran screws through the pre drilled holes in the side arms and into the interior vent frame. I avoided over tightening. The assembly already felt solid, held against the wall by friction alone. I added a couple of screws to the pipe hanger up top as well.
+With the mast held in position, I ran screws through the pre drilled holes in the side arms and into the interior vent frame. I avoided over tightening. The assembly already felt solid. If you have a gap between the vent opening and inner frame a small block of wood or plastic standoff may be needed. I added a couple of screws to the pipe hanger up top as well.
 
 ## Cable routing and power up
 
@@ -107,7 +107,7 @@ Once inside, route the cable to your setup. The less coax you use, the better.
   alt="Full mast assembly"
 >}}
 
-Power the node up before closing anything out in case you need to make adjustments. My node is in a simple IP65 case right inside the vent. RSSI and SNR were showing improved values over the old setup. Once everything looked stable and reasonable, I buttoned it up and double checked the mounts and connections.
+Power the node up before closing anything up, you may need to make adjustments, my node is in a simple IP65 case right inside the vent. RSSI and SNR were showing improved values over the old setup. Once everything looked stable and reasonable, I buttoned it up and double checked the mounts and connections.
 
 ## Final notes
 
@@ -115,6 +115,6 @@ For a higher wind location or a taller mast, I’d skip the pipe hanger and go w
 
 Some folks will want to add a lightning arrestor here, and that’s fair. An inline arrestor tied into a proper ground can help with static and nearby activity, but it’s not magic. A direct strike is still a direct strike. I chose to keep this install simple, but if your location or risk tolerance is different, it’s an easy addition.
 
-Getting the antenna fully outside and above the roof line was the main goal. So far, the vent louvers haven’t shown any meaningful impact on performance. There may be a more elegant or permanent way to do this, but this hit a good balance for me. It solved an RF problem without turning into a home improvement project, and it blends in well with the siding of the house. It’s also easy to undo if I ever need to move or rethink it.
+Getting the antenna fully outside and above the roof line was my main goal. Currently, the vent louvers haven’t shown any meaningful impact on performance. There may be a more elegant or permanent way to do this, but this hit a good balance for me. It solved an RF problem without turning into a home improvement project, and it blends in well with the siding of the house. It’s also easy to undo if I ever need to move or rethink it.
 
 I also did and alternative version with another vent to mount a weather sealed yagi. It provided an easy way to mount the yagi, and allowed for easy adjustment/rotation.
