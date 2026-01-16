@@ -24,7 +24,7 @@ This ended up being a simple solution using conduit and off-the-shelf fittings. 
 This was built around a louvered attic vent, but could possibly be adapted to other vent styles and window types.
 
 {{< figure
-  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-installed.jpeg"
+  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-installed.jpg"
   caption="Mast installed through the attic vent, with the antenna up above the roof line."
   alt="Attic vent antenna mast mount installed"
 >}}
@@ -34,7 +34,7 @@ This was built around a louvered attic vent, but could possibly be adapted to ot
 Most of this came from a big box hardware store, nothing exotic. I used a 1 inch outer diameter non-conductive electrical conduit in a 10 foot length. It was under $10 and gave me plenty of room to cut and adjust without worrying about being short. One length was more than enough to complete the project, and then build a second one to document for this guide.
 
 {{< figure
-  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-parts.jpeg"
+  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-parts.jpg"
   caption="The basic parts pile. Conduit, fittings, the feedthrough parts, and the access panel box."
   alt="Attic vent antenna mast mount parts"
 >}}
@@ -64,13 +64,13 @@ There is also the option of adding an access fitting at the top of the mast, mou
 There are inline straight-through and right-angle access panel options. My local store did not have the straight-through option, and online pricing was running three to four times higher than the right-angle option, so that's what I used for this guide.
 
 {{< figure
-  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-feedthrough-exploded.jpeg"
+  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-feedthrough-exploded.jpg"
   caption="Exploded view of the access-panel feedthrough before it got assembled and sealed up."
   alt="Feedthrough exploded view"
 >}}
 
 {{< figure
-  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-feedthrough.jpeg"
+  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-feedthrough.jpg"
   caption="Same feedthrough assembled, with the coax pigtail running to the node inside the box."
   alt="Feedthrough assembled"
 >}}
@@ -102,7 +102,7 @@ I ran the coax inside the conduit and exited at the bottom of the mast, avoiding
 Once inside, route the cable to your setup. The less coax you use, the better.
 
 {{< figure
-  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-assembly.jpeg"
+  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-assembly.jpg"
   caption="Full mast assembly laid out before the install. This is the part you end up feeding through the vent."
   alt="Full mast assembly"
 >}}
