@@ -24,7 +24,7 @@ This ended up being a simple solution using conduit and off-the-shelf fittings. 
 This was built around a louvered attic vent, but could possibly be adapted to other vent styles and window types.
 
 {{< figure
-  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-installed.jpg"
+  src="/images/uploads/2026-01-17-attic-vent-antenna-mast-mount/2026-01-17-attic-vent-antenna-mast-mount-installed-inline.jpg"
   caption="Mast installed through the attic vent, with the antenna up above the roof line."
   alt="Attic vent antenna mast mount installed"
 >}}
