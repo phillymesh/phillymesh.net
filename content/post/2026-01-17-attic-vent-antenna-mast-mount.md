@@ -116,3 +116,5 @@ For a higher wind location or a taller mast, I’d skip the pipe hanger and go w
 Some folks will want to add a lightning arrestor here, and that’s fair. An inline arrestor tied into a proper ground can help with static and nearby activity, but it’s not magic. A direct strike is still a direct strike. I chose to keep this install simple, but if your location or risk tolerance is different, it’s an easy addition.
 
 Getting the antenna fully outside and above the roof line was the main goal. So far, the vent louvers haven’t shown any meaningful impact on performance. There may be a more elegant or permanent way to do this, but this hit a good balance for me. It solved an RF problem without turning into a home improvement project, and it blends in well with the siding of the house. It’s also easy to undo if I ever need to move or rethink it.
+
+I also did and alternative version with another vent to mount a weather sealed yagi. It provided an easy way to mount the yagi, and allowed for easy adjustment/rotation.
