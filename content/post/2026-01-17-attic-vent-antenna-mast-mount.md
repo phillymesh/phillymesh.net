@@ -10,7 +10,7 @@ tags:
   - diy
   - antenna
   - deployment
-#cspell:ignore Meshtastic
+#cspell:ignore Meshtastic yagi
 ---
 
 As someone who is averse to high unsecured locations and wobbly ladders, I faced a problem. My attic node was underperforming. I tried a quick test with the antenna sticking out the louvered vent and saw a marked improvement, but it was still well below the roof line, and the house itself was shadowing a large portion of the signal.
