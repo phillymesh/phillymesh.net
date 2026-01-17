@@ -13,8 +13,6 @@ tags:
 #cspell:ignore Meshtastic
 ---
 
-## Attic vent antenna mast mount
-
 As someone who is averse to high unsecured locations and wobbly ladders, I faced a problem. My attic node was underperforming. I tried a quick test with the antenna sticking out the louvered vent and saw a marked improvement, but it was still well below the roof line, and the house itself was shadowing a large portion of the signal.
 
 I needed a way to get an antenna outside, and above the ridge line, without drilling into siding or doing anything that felt permanent. I also didn't want it to look temporary or sketchy once it was in place. It had to pass the spouse and neighborhood sniff test.
