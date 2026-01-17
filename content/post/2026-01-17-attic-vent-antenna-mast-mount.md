@@ -10,7 +10,6 @@ tags:
   - diy
   - antenna
   - deployment
-#cspell:ignore Meshtastic yagi
 ---
 
 As someone who is averse to high unsecured locations and wobbly ladders, I faced a problem. My attic node was underperforming. I tried a quick test with the antenna sticking out the louvered vent and saw a marked improvement, but it was still well below the roof line, and the house itself was shadowing a large portion of the signal.
@@ -39,17 +38,17 @@ Most of this came from a big box hardware store, nothing exotic. I used a 1 inch
 
 For bracing, I used standard pivot T fittings sized for the OD of the conduit. They allow you to adjust the angle to match your install location exactly. The exact number depends on how you want to support the mast. For my build, I used one main T for the side arms and a pipe hanger from the plumbing aisle near the top as a guide and secondary support. You could also use a second T fitting if you want everything to match, or to provide additional support. I was not able to locate the T fitting at the local store but was able to purchase them online for next day delivery.
 
-You’ll also need an end cap or similar fitting to drill for the antenna mount, or find one that already supports your connector size. In this guide I used a bulkhead style SMA connector, but Type N would work just as well. In fact, that is what I used for my installed build.
+You'll also need an end cap or similar fitting to drill for the antenna mount, or find one that already supports your connector size. In this guide I used a bulkhead style SMA connector, but Type N would work just as well. In fact, that is what I used for my installed build.
 
 For coax, use the lowest loss cable you can reasonably get and keep it short. Four to six feet max if possible. Shorter is always better here and makes a big difference with these devices. But remember, height usually wins. You may suffer some loss but gain more from the improved antenna position.
 
-Beyond that, it’s mostly just basic hardware. A few screws to secure the side arms to the vent frame, and some sealant to protect the antenna connector if it’s recessed or exposed to moisture. Self sealing tape is your friend. The pipe fittings also have secondary holes that you can put a short self tapping screw into for peace of mind.
+Beyond that, it's mostly just basic hardware. A few screws to secure the side arms to the vent frame, and some sealant to protect the antenna connector if it's recessed or exposed to moisture. Self sealing tape is your friend. The pipe fittings also have secondary holes that you can put a short self tapping screw into for peace of mind.
 
 ## Before you start cutting
 
 Before cutting conduit or tightening anything down, think through where the antenna connector and coax are going to live.
 
-If you’re mounting the antenna in a recessed fitting, drill a small drain hole at the lowest point. Water will find its way in eventually, and giving it a way out is easier than pretending sealant alone will solve it forever.
+If you're mounting the antenna in a recessed fitting, drill a small drain hole at the lowest point. Water will find its way in eventually, and giving it a way out is easier than pretending sealant alone will solve it forever.
 
 Plan your coax path. The cleanest route is down the inside of the conduit, exiting at the bottom. Leave some slack to form a drip loop before it enters the vent. That loop becomes very important over time.
 
@@ -81,11 +80,11 @@ For my use case, I needed interior access to the node in the attic and planned t
 
 ## Assembly
 
-I started by cutting the conduit to a length that made sense for the vent location and roof line. There’s no exact number here. You are better off leaving yourself extra length and trimming some off versus going too short and cutting a whole new piece. If that does happen you could use the bad piece as material for the arm(s).
+I started by cutting the conduit to a length that made sense for the vent location and roof line. There's no exact number here. You are better off leaving yourself extra length and trimming some off versus going too short and cutting a whole new piece. If that does happen you could use the bad piece as material for the arm(s).
 
 The main mast gets a T fitting with a short side arm, about a foot. That arm is what braces against the inside of the vent frame. I adjusted the angle so it roughly matched the angle of the louvers. Hold off on any threadlocker until you have done a test fit.
 
-If, like me, you can’t easily reach the outside of the vent, tighten the bottom fitting fully and carefully slide most of the assembly out through the vent opening. This part is interesting, because you feed it downward to get it out the vent. I positioned it one or two louvers up from the bottom so the base of the mast lined up with the bottom of the vent. That left room for the coax to exit cleanly and form a small loop downward before feeding back through the lowest louver.
+If, like me, you can't easily reach the outside of the vent, tighten the bottom fitting fully and carefully slide most of the assembly out through the vent opening. This part is interesting, because you feed it downward to get it out the vent. I positioned it one or two louvers up from the bottom so the base of the mast lined up with the bottom of the vent. That left room for the coax to exit cleanly and form a small loop downward before feeding back through the lowest louver.
 
 Once it was roughly where I wanted it, I slowly rotated the mast until it was vertical. Take your time here, you don't want to drop it. A second set of hands or a firm hold on the antenna cable may alleviate any anxiety.
 
@@ -109,10 +108,10 @@ Power the node up before closing anything up, you may need to make adjustments, 
 
 ## Final notes
 
-For a higher wind location or a taller mast, I’d skip the pipe hanger and go with a second T fitting for the top brace. This setup has been solid where it is, but extra support never hurts if conditions are harsher or if you don’t like the look of the hanger.
+For a higher wind location or a taller mast, I'd skip the pipe hanger and go with a second T fitting for the top brace. This setup has been solid where it is, but extra support never hurts if conditions are harsher or if you don't like the look of the hanger.
 
-Some folks will want to add a lightning arrestor here, and that’s fair. An inline arrestor tied into a proper ground can help with static and nearby activity, but it’s not magic. A direct strike is still a direct strike. I chose to keep this install simple, but if your location or risk tolerance is different, it’s an easy addition.
+Some folks will want to add a lightning arrestor here, and that's fair. An inline arrestor tied into a proper ground can help with static and nearby activity, but it's not magic. A direct strike is still a direct strike. I chose to keep this install simple, but if your location or risk tolerance is different, it's an easy addition.
 
-Getting the antenna fully outside and above the roof line was my main goal. Currently, the vent louvers haven’t shown any meaningful impact on performance. There may be a more elegant or permanent way to do this, but this hit a good balance for me. It solved an RF problem without turning into a home improvement project, and it blends in well with the siding of the house. It’s also easy to undo if I ever need to move or rethink it.
+Getting the antenna fully outside and above the roof line was my main goal. Currently, the vent louvers haven't shown any meaningful impact on performance. There may be a more elegant or permanent way to do this, but this hit a good balance for me. It solved an RF problem without turning into a home improvement project, and it blends in well with the siding of the house. It's also easy to undo if I ever need to move or rethink it.
 
 I also did and alternative version with another vent to mount a weather sealed yagi. It provided an easy way to mount the yagi, and allowed for easy adjustment/rotation.
