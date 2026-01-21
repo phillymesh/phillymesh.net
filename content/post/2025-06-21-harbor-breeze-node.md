@@ -55,7 +55,7 @@ _I break this section out because 1) you may already have some of these parts la
 | [JST PHR-2 2mm connector](https://www.amazon.com/20Pair-JST-PH-Connector-Female-Cables/dp/B09JP1S2RD?th=1) | $8.39 for 20 | The WisBlock board uses a 2mm JST connector. You will need one of these to solder to the solar board and connect to the Wisblock battery terminal.                                                                                                                   |
 | [Waterproof Sealant](https://www.amazon.com/dp/B01B5RBOA6)                                                 | $6.34 for lots | You will need to seal up some holes in the case to make them waterproof if you want to install this outside. You can also get this from Lowes if you want to reduce shipping costs, just make sure the variety you go with works with plastic.                       |
 
-**Total cost: $59.63 + shipping**
+**Total cost: $59.63 + shipping (or about $42 per node if you make lots)**
 
 ## Instructions
 
