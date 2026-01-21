@@ -15,7 +15,7 @@ tags:
   - ipv6
   - pull request
   - tld
-
+#cspell:ignore zielmicha nodedb
 ---
 [fc00][1], a project aimed to make the Hyperboria network more accessible, has been hosting a network map of Hyperboria peers for a few years. The map, updated throughout the day, is available to view [here][2]. Unlike geographic maps, the fc00 map shows the network topology. While I won&#8217;t be able to see if my node in Seattle neighbors any other nodes I&#8217;m not connected to, I can see the edges between nodes and view the centrality of the network.
 

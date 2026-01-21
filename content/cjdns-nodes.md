@@ -6,7 +6,7 @@ date: 2017-03-16T13:44:41+00:00
 draft: true
 
 ---
-Philly Mesh members host and administrate nodes within the Hyperboria network. These nodes may offer various services to the Hyperboria community, and could be physically located juat about anywhere in the world (not just our region). If you believe yourself to be geogtaphically close and would like to peer with an exisiting node, please reach out to the node operator via the contact details provided!
+Philly Mesh members host and administrate nodes within the Hyperboria network. These nodes may offer various services to the Hyperboria community, and could be physically located just about anywhere in the world (not just our region). If you believe yourself to be geographically close and would like to peer with an existing node, please reach out to the node operator via the contact details provided!
 
 [h.peer0.famicoman.phillymesh.net](https://www.fc00.org/#fc9f:990d:2b0f:75ad:8783:5d59:7c84:520b)
 
@@ -35,7 +35,7 @@ Philly Mesh members host and administrate nodes within the Hyperboria network. T
   * Contact: <peering@phillymesh.net>
   * Hyperboria Services:&nbsp;[OpenNIC DNS][2]
   * Clearnet Services: [Tor Relay][3],&nbsp;[OpenNIC DNS][2]
-  * Provider: DigitalOcean ([Use our refferal code)][4]
+  * Provider: DigitalOcean ([Use our referral code)][4]
 
 [h.peer4.famicoman.phillymesh.net](https://www.fc00.org/#fc4a:cb93:88dc:32e1:43ec:e1b8:2b45:dd46) (h.phillymesh.net)
 

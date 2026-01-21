@@ -13,7 +13,7 @@ tags:
   - matrix
   - nodehsot
   - wekan
-
+#cspell:ignore nodehsot
 ---
 As you can see, I have officially put the _phillymesh.net_ domain to full use as the new public-facing site for Philly Mesh. I've finished importing all of the old site content into this new site, and added permanent redirects on all the old permalinks to their respective pages here. This means any existing link for a page on http://mesh.philly2600.net should seamlessly redirect to the proper content on [https://phillymesh.net][1]. If you happen to find any broken links, please let me know! The previous site was suffering from several issues before the move and I was unable to import a database backup; all content was reentered by hand.
 
