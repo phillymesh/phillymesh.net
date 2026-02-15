@@ -17,3 +17,5 @@ date: 2025-03-24T00:00:01+00:00
   * Simulates Meshtastic transmission coverage
 * [RF Line-of-Sight Tool](https://www.scadacore.com/tools/rf-path/rf-line-of-sight/)
   * Shows LOS/obstructions between two locations
+* [Open Infrastructure Map](https://openinframap.org/)
+  * Map showing power, gas, and telecom infrastructure
