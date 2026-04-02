@@ -30,5 +30,5 @@ date: 2025-03-24T00:00:01+00:00
   * Shows LOS/obstructions between two locations
 * [Open Infrastructure Map](https://openinframap.org/)
   * Map showing power, gas, and telecom infrastructure
-* [Rokland Affliate Link](https://store.rokland.com/?ref=phillymesh)
-  * Want to donate to keep this site running? Use our affliate link when buying Rokland products
+* [Rokland Affiliate Link](https://store.rokland.com/?ref=phillymesh)
+  * Want to donate to keep this site running? Use our affiliate link when buying Rokland products
