@@ -56,10 +56,10 @@ Below are some more specific of antennas to target if you can't get line of sigh
 | Center City   | Comcast Technology Center (PM01) |
 | Rittenhouse   | 17th and Lombard (SDRH)          |
 | South Philly  | 12th and Shunk (JPF)             |
-| West Philly   | no antennas here                 |
-| Manayunk      | no antennas here                 |
-| Port Richmond | no antennas here                 |
-| North Philly  | no antennas here                 |
+| West Philly   | no major nodes here                 |
+| Manayunk      | no major nodes here                 |
+| Kensington |  Kensington Ave & Lehigh Ave (PM10)  |
+| North Philly  | no major nodes here                 |
 
 _If you have access to the roof of any tall buildings in the neighborhoods listed above with no antennas, PRM would love to collaborate with you on getting a rooftop node set up!_
 
