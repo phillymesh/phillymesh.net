@@ -2,6 +2,7 @@
 title: "Real-Time Meshtastic Decoding with Scapy and Wireshark"
 author: "Caleb Frey"
 date: 2026-01-10T21:19:45-05:00
+url: /2026/01/10/scapy-meshtastic-decoder/
 draft: false
 tags:
   - meshtastic
