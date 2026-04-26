@@ -1,7 +1,4 @@
-<h1 class="site-title" style="margin-top:0">
-    <!--a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a-->
-    <a href="{{ .Site.BaseURL | relLangURL }}"><img src="{{ "logo.png" | absURL }}" height="77px"></a>
-</h1>
+<a style="margin: auto" href="{{ .Site.BaseURL | relLangURL }}"><img src="{{ "logo.png" | absURL }}" alt="{{ .Site.Title }} Logo"  height="77px"></a>
 
 <nav style="margin-top:auto;margin-bottom:auto;padding-bottom: 7px;">
     {{ $currentPage := . }}
