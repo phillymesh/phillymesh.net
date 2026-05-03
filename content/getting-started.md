@@ -21,6 +21,8 @@ If you're south of Philly, you may be interested in the [Delaware Meshtastic Fac
 
 The official Meshtastic Discord has a [PA/Delaware Valley channel](https://discord.com/channels/867578229534359593/1280671409995255809). Since PhillyMesh started our own Discord server, traffic in that channel has slowed down, but it is still used infrequently by people in Central-Eastern PA. Depending on how far west your suburb lies, you may find some local friends in that channel.
 
+Susquehanna Valley and Lehigh Valley both have Meshtastic communities. [SVMesh](https://svmesh.net/) is trying to connect Meshtastic devices all across Pennsylvania. Check their website, their preset may be MediumFast (which is not the default). If you're near Wilkes-Barre you may be close to folks on the [NEPAMesh](https://nepamesh.com/).
+
 If you're even further west than those in the PA/Del Valley channel, you may want to check out [WPAMesh.net](https://wpamesh.net/), for our Yinzer friends. They list a Discord server on their site as their main communication platform (besides the Mesh of course!).
 
 ## Local Meshtastic Events
