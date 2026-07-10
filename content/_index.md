@@ -13,8 +13,8 @@ Join the [**Philly Radio & Mesh Discord**](https://discord.gg/MWWbAkRR9v) to cha
 If you are interested in learning more about Meshtastic and LoRa check out our [Getting Started guide](/getting-started) which details local groups, Discords, and meetups, as well as best practices and lessons learned for using Meshtastic in our local area.
 
 If you are interested in helping support PhillyMesh and Philly Radio & Mesh, please consider using one of our affiliate links from these awesome vendors:
-
 [affiliate link at Rokland when you purchase Meshtastic hardware](https://store.rokland.com/?ref=phillymesh).
+
 [affiliate link at Battery Hookup](https://batteryhookup.com/discount/PhillyMesh).
 
 <iframe src="https://api.phillymesh.net/map?sidebar-collapsed=true" width="100%" height="500" title="View of PhillyMesh Malla Instance"></iframe>
