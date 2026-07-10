@@ -3,7 +3,7 @@ title: Updated Low Priced Solar Node (Harbor Breeze)
 author: Emily Boda
 type: post
 date: 2026-07-10T00:00:01+00:00
-url: /2026/07/10/harbor-breeze-node/
+url: /2026/07/10/harbor-breeze-node-updated/
 categories:
   - Philly Mesh
 tags:
@@ -40,9 +40,9 @@ The approach I'm going with today can be applied to just about any solar light.
 | ----- | ------ | --------- |
 | [WisBlock Starter Kit](https://store.rakwireless.com/products/wisblock-starter-kit?srsltid=AfmBOoqGNa6h2MSgg5oLSWXtv6xPEiVNtHl4h6oP_BMcHh4kBFPVji3x&variant=41786685063366) | $24.99 | This is the Meshtastic node. You want the RAK19007+RAK4631 (not -R) version. Pick the frequency for your region, USA is 915. |
 | [Harbor Breeze Solar Light](https://www.lowes.com/pd/Harbor-Breeze-1-Watt-Black/5015598033) | $9.98  | Make sure you verify that the Item number is 1234868. If you purchase in person, the item number will be displayed on the packaging. This is technically $14.98, but it's almost always on sale for $9.98 |
-| [Heltec GT-800 868, 915 MHz Whip Antenna](https://heltec.org/project/gt-800-whip-antenna/) | $2.99 | These are cheap clones of the MuziWorks 17cm Whip Antenna that have tested just as well. You can also use the more expensive 8dbi antenna from the Medium Price Solar Node, but in Philly this will be all that is necessary for a roof node.     |
+| [Heltec GT-800 868, 915 MHz Whip Antenna](https://heltec.org/project/gt-800-whip-antenna/) | $3.90 | These are cheap clones of the MuziWorks 17cm Whip Antenna that have tested just as well. You can also use the more expensive 8dbi antenna from the Medium Price Solar Node, but in Philly this will be all that is necessary for a roof node.     |
 
-**Essential parts cost: $37.96 + shipping**
+**Essential parts cost: $38.87 + shipping**
 
 ### Parts you may/may not need or already have laying around
 
@@ -54,11 +54,11 @@ _I break this section out because 1) you may already have some of these parts la
 | [JST PHR-2 2mm connector](https://www.amazon.com/20Pair-JST-PH-Connector-Female-Cables/dp/B09JP1S2RD?th=1) | $8.39 for 20 | The WisBlock board uses a 2mm JST connector. You will need one of these to solder to the solar board and connect to the Wisblock battery terminal. |
 | [Waterproof Sealant](https://www.amazon.com/dp/B01B5RBOA6) | $6.34 for lots | You will need to seal up some holes in the case to make them waterproof if you want to install this outside. You can also get this from Lowes if you want to reduce shipping costs, just make sure the variety you go with works with plastic. |
 
-**Total cost: $59.63 + shipping (or about $42 per node if you make lots)**
+**Total cost: $60.54 + shipping (or about $43 per node if you make lots)**
 
 ## Instructions
 
-![The light before modification](/images/uploads/2026-07-10-harbor-breeze-node/harbor-breeze-unopened.jpg)
+![The light before modification](/images/uploads/2026-07-10-harbor-breeze-node-updated/harbor-breeze-unopened.jpg)
 {width="50%"}
 
 1. Before opening up the node, make sure the power button is off. Face the solar panel flat on a table to make sure it doesn't charge while you're working on it.
@@ -73,7 +73,7 @@ You may snip the light wires off close to the board. Make sure they don't touch 
 
 Unscrew the four screws on the underside of the board.
 
-![The screws](/images/uploads/2026-07-10-harbor-breeze-node/harbor-breeze-screws.jpg)
+![The screws](/images/uploads/2026-07-10-harbor-breeze-node-updated/harbor-breeze-screws.jpg)
 {width="50%"}
 
 Remove the battery and turn the solar panel upside down on a flat surface to ensure there won't be any electricity running through the circuits while you solder.
@@ -84,7 +84,7 @@ You can cut them close to the circuit board.
 
 5. Review the intended wiring.
 
-![Wiring](/images/uploads/2026-07-10-harbor-breeze-node/detailed-wiring.png)
+![Wiring](/images/uploads/2026-07-10-harbor-breeze-node-updated/detailed-wiring.png)
 {width="50%"}
 
 Plug in the JST connector to the port that says "battery" on the RAK4631. Take a look at which wire is on the side with "+" etched into the board. This is the positive wire! This positive wire is the one we want to connect to the positive side of the battery holder.
@@ -103,12 +103,19 @@ If you need to extend the wiring, use wire from the female JST cables that came 
 
 Solder the negative wire from the JST connector to the spot marked negative on the battery holder and the positive end to the tab on the positive side the battery holder. 
 
-![spots circled](/images/uploads/2026-07-10-harbor-breeze-node/wiring.jpg)
+![spots circled](/images/uploads/2026-07-10-harbor-breeze-node-updated/wiring.jpg)
 {width="50%"}
 
-8. Plug in antenna
+8. Plug in LoRa and bluetooth antennas.
 
-Snake the antenna cable through the hole where the light cable was and connect one end to your RAK. Screw the antenna into the other end.
+![antennas](/images/uploads/2026-07-10-harbor-breeze-node-updated/antennas.png)
+{width="50%"}
+
+Your Bluetooth antenna will be plugged in to the push connector labelled "BLE". Push the two circular parts of the antenna and connector right on top of each other. It'll require quite a bit of force, but too much force can break it.
+
+Your RAK4631 kit came with a tiny LoRa antenna, but we're going to use the better one we ordered.
+
+Snake the IPEX to SMA Female antenna cable you ordered through the hole where the light cable was and connect the circular end to your RAK where it says LoRa. Screw the antenna into the other end.
 
 6. Plug the JST connector into the RAK4631.
 
