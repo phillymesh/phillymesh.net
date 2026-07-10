@@ -11,8 +11,8 @@ date: 2025-03-24T00:00:01+00:00
 * [Getting Started with Meshtastic in Philly](/getting-started/)
   * Information that is useful for beginners on what type of Meshtastic set-up is good for our urban environment.
   * There is also info about major nodes in different neighborhoods, buying hardware locally, and other nearby meshes and organizations.
-* [Low-Cost Solar Meshtastic Node (Harbor Breeze)](/2025/06/21/harbor-breeze-node/)
-  * Our suggested build for the lowest cost solar meshtastic node
+* [Low-Cost Solar Meshtastic Node (Harbor Breeze)](/2026/07/10/harbor-breeze-node-updated/)
+  * The new version of our suggested build for the lowest cost solar meshtastic node
 * [Real-Time Meshtastic Decoding with Scapy and Wireshark](/2026/01/10/scapy-meshtastic-decoder/)
   * Want to dive deeper into the packets that Meshtastic runs on? SDR did some innovative research on how to get that set up for a reasonably low cost.
 * [PhillyMesh Malla Dashboard](https://api.phillymesh.net/)

@@ -11,7 +11,8 @@ Philly Mesh members host and administrate several nodes within the Meshtastic ne
 
 Check out these write-ups of node builds that PhillyMesh members are running:
 
-- [Low Priced Solar Node (Harbor Breeze Hack v3)](/2025/06/21/harbor-breeze-node)
+- [Low Priced Solar Node (new version of Harbor Breeze hack!)](/2026/07/10/harbor-breeze-node-updated)
+- [Low Priced Solar Node (old version)](/2025/06/21/harbor-breeze-node)
 - [Medium Priced Solar Node](/2025/05/14/medium-priced-solar-node)
 - [Stealthy Node in a Water Bottle](/2025/05/16/water-bottle-node)
 
