@@ -8,11 +8,14 @@ Philly Mesh is a group for people who enjoy experimenting with mesh networking a
 
 **We are currently running several [Meshtastic](https://meshtastic.org/) nodes in the Greater Philadelphia area.**
 
-Join the [**Philly Radio & Meshtastic Discord**](https://discord.gg/MWWbAkRR9v) to chat with others in the area. There is also a [**US - Philadelphia PA/Delaware Valley** room in the official Meshtastic Discord](https://discord.com/channels/867578229534359593/1280671409995255809).
+Join the [**Philly Radio & Mesh Discord**](https://discord.gg/MWWbAkRR9v) to chat with others in the area. There is also a [**US - Philadelphia PA/Delaware Valley** room in the official Meshtastic Discord](https://discord.com/channels/867578229534359593/1280671409995255809).
 
 If you are interested in learning more about Meshtastic and LoRa check out our [Getting Started guide](/getting-started) which details local groups, Discords, and meetups, as well as best practices and lessons learned for using Meshtastic in our local area.
 
-If you are interested in helping support PhillyMesh and Philly Radio & Meshtastic, please consider using our [affiliate link at Rokland when you purchase Meshtastic hardware](https://store.rokland.com/?ref=phillymesh).
+If you are interested in helping support PhillyMesh and Philly Radio & Mesh, please consider using one of our affiliate links from these awesome vendors:
+
+[affiliate link at Rokland when you purchase Meshtastic hardware](https://store.rokland.com/?ref=phillymesh).
+[affiliate link at Battery Hookup](https://batteryhookup.com/discount/PhillyMesh).
 
 <iframe src="https://api.phillymesh.net/map?sidebar-collapsed=true" width="100%" height="500" title="View of PhillyMesh Malla Instance"></iframe>
 
