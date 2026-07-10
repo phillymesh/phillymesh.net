@@ -13,6 +13,12 @@ tags:
 #cspell:ignore Lowes Muzi Gustafson Tavis Hackaday
 ---
 
+## UPDATE
+
+You can no longer buy this particular Harbor Breeze node! As a result, we need slightly new wiring. [We have a new article with new instructions here](/2026/07/10/harbor-breeze-node/).
+
+## Original Post
+
 After building my [Medium Priced Solar Node](/2025/05/14/medium-priced-solar-node), I wanted to explore cheaper options. I wanted to be able to build nodes to give to friends or community members to place in advantageous locations, and not feel like I was losing $100+ if it doesn't work out.
 
 If you've been around the Meshtastic community for more than a month, you've almost certainly heard of the Harbor Breeze Solar Light hack. This involves using the solar panel, solar management board, battery, and enclosure from a low-cost solar light available in the USA at Lowes for less than $10. The availability of these lights can vary, but if you search hard enough you can find them.
