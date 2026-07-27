@@ -15,7 +15,7 @@ tags:
 
 ## UPDATE
 
-You can no longer buy this particular Harbor Breeze node! As a result, we need slightly new wiring. [We have a new article with new instructions here](/2026/07/10/harbor-breeze-node/).
+You can no longer buy this particular Harbor Breeze node! As a result, we need slightly new wiring. [We have a new article with new instructions here](/2026/07/10/harbor-breeze-node-updated/).
 
 ## Original Post
 
