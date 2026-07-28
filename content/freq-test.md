@@ -1,3 +1,9 @@
+---
+title: Frequency Testing Explaination
+author: Emily Boda (BODA)
+type: page
+---
+
 This is a primer on why we will be testing different Meshtastic frequencies and what that means. The instructions for the new settings and full details about the test can be [found here.](/freq-test-instructions/)
 
 ## What’s going on?
@@ -6,7 +12,7 @@ On Saturday, August 1st at 10pm a group of organized Philadelphia Mesh users wil
 
 Test 1: Aug 1st at 10pm to Aug 8th at 10pm we will be testing MediumSlow 22
 
-Test 2: Aug 8th at 10pm to Aug 14th at 10pm we will be testing LongTurbo 2
+Test 2: Aug 8th at 10pm to Aug 14th at 10pm we will be testing LongTurbo 12
 
 In addition to the different preset and non-default frequency slot, there are some other settings you’re required to change if you want to participate in this test. [Please view the full instructions with screenshots here](/freq-test-instructions/) to participate.
 
