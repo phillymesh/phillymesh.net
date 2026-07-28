@@ -52,7 +52,7 @@ In Philadelphia, as of July 2026, we have about 400-500 nodes on the mesh any gi
 
 This means you're more likely to attempt to send a message and see "Max retries attempted". This usually indicates that your message wasn't received by another radios, but in a congested mesh it can also indicate that your radio never received an acknowledgement that your message was seen by another radio, even if it was. On the receiving end, you may miss a significant percentage of messages and there is no way to know that you haven't received a message that others have seen.
 
-This makes Meshtastic a less reliable communicate method, and it also makes it pretty frustrating to use, defeating the goals of the technology and this community we've developed to support and advance its use.
+This makes Meshtastic a less reliable communication method, and it also makes it pretty frustrating to use, defeating the goals of the technology and this community we've developed to support and advance its use.
 
 ## Success stories
 
