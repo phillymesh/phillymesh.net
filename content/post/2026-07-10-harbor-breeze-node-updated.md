@@ -38,7 +38,7 @@ The approach I'm going with today can be applied to just about any solar light.
 
 | Parts  | Price  | Description |
 | ----- | ------ | --------- |
-| [WisBlock Starter Kit](https://store.rakwireless.com/products/wisblock-starter-kit?srsltid=AfmBOoqGNa6h2MSgg5oLSWXtv6xPEiVNtHl4h6oP_BMcHh4kBFPVji3x&variant=41786685063366) | $24.99 | This is the Meshtastic node. You want the RAK19007+RAK4631 (not -R) version. Pick the frequency for your region, USA is 915. |
+| [WisBlock Starter Kit](https://store.rakwireless.com/products/wisblock-starter-kit?srsltid=AfmBOoqGNa6h2MSgg5oLSWXtv6xPEiVNtHl4h6oP_BMcHh4kBFPVji3x&variant=41786685063366) | $24.99 | This is the Meshtastic node. You want the RAK19007+RAK4631 (not -R) version. Pick the frequency for your region, USA is 915. This node does not come pre-flashed, you will need to flash it yourself. For $5 more [you can purchase this version that comes pre-flashed with Meshtastic firmware](https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit?variant=43884034654406)|
 | [Harbor Breeze Solar Light](https://www.lowes.com/pd/Harbor-Breeze-1-Watt-Black/5015598033) | $9.98  | Make sure you verify that the Item number is 1234868. If you purchase in person, the item number will be displayed on the packaging. This is technically $14.98, but it's almost always on sale for $9.98 |
 | [Heltec GT-800 868, 915 MHz Whip Antenna](https://heltec.org/project/gt-800-whip-antenna/) | $3.90 | These are cheap clones of the MuziWorks 17cm Whip Antenna that have tested just as well. You can also use the more expensive 8dbi antenna from the Medium Price Solar Node, but in Philly this will be all that is necessary for a roof node.     |
 
