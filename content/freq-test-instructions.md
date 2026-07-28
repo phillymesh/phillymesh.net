@@ -62,22 +62,34 @@ If you want more clarification on these categories, the settings themselves, or 
 
 ## Screenshots
 
-Some example screenshots from the Meshtastic app on iOS and Android, and are to help demonstrate where to find the settings from the table above. Note that the actual settings that are filled in are for a Mobile Node. A Base/Stationary Node should use the settings per the above table. These are also shown for the MediumSlow22 test. The LoRa preset and slot settings specifically will change for LongTurbo12.
+Some example screenshots from the Meshtastic app on iOS and Android, and are to help demonstrate where to find the settings from the table above. Note that the actual settings that are filled in are for a Mobile Node. A Base/Stationary Node should use the settings per the above table. These are also shown for the MediumSlow22 test. The LoRa preset and slot settings specifically will change for LongTurbo12. Menu locations of each of these below screenshots are described for iOS (left screenshot) and Android (right screenshot).
 
+iOS: Lora Config = Settings >> Radio Configuration >> Lora
+Android: LoRa Config = Settings >> (Radio Configuration Section) LoRa
 ![LoRa Config](/images/uploads/freq-test/loraconfig-combined.jpg)
 {width="50%"}
 
+iOS: Device Role = Settings >> Device Configuration >> Device
+Android: Device Role Config = Settings >> (Device Configuration Section) Device Configuration >> Device
 ![Device Role](/images/uploads/freq-test/devicerole-combined.jpg)
 {width="50%"}
 
+iOS: Position Config = Settings >> Device Configuration >> Position
+Android: Position Config = Settings >> (Device Configuration Section) Device Configuration >> Position
 ![Position](/images/uploads/freq-test/position-combined.jpg)
 {width="50%"}
 
+iOS: Channel Config = Settings >> Radio Configuration >> Channels
+Android: Channel Config = Settings >> (Radio Configuration Section) Channels
 ![Primary Channel](/images/uploads/freq-test/primarychannel-combined.jpg)
 {width="50%"}
 
+iOS: Channel Config = Settings >> Radio Configuration >> Channels
+Android: Channel Config = Settings >> (Radio Configuration Section) Channels
 ![Secondary Channel (PRM)](/images/uploads/freq-test/secondarychannel-combined.jpg)
 {width="50%"}
 
+iOS: Channel Config = Settings >> Module Configuration>> Telemetry
+Android: Channel Config = Settings >> (Module Configuration Section) Module Configuration >> Telemetry
 ![Telemetry Config](/images/uploads/freq-test/telemetryconfig-combined.jpg)
 {width="50%"}
