@@ -29,13 +29,13 @@ End: Saturday, August 14th at 10pm EST
 
 Below are the baseline recommendations for Meshtastic nodes in the Philadelphia area. If you wish to participate in the test but require an exception to any of the settings, please discuss with the [PhillyMesh Discord](https://discord.phlm.sh) first. 
 
-These settings have been chosen by consensus to prioritize message reliability and reduce mesh congestion at the expense of position and telemetry traffic. [Learn more about the reasons behind this test here](/freq-test/). As PhillyMesh moves to a non-default preset/slot to continue this effort, nodes that wish to prioritize position and/or telemetry should remain on the default LongFast20. 
+These settings have been chosen to prioritize message reliability and reduce mesh congestion at the expense of position and telemetry traffic. [Learn more about the reasons behind this test here](/freq-test/). As PhillyMesh moves to a non-default preset/slot to continue this effort, nodes that wish to prioritize position and/or telemetry should remain on the default LongFast20. 
 
 Nodes on the PhillyMesh non-default preset/slot will be asked to adhere to the below settings, with private and then public asks to tweak settings. If these are not responded to, a non-conforming node may be “ignored” by neighboring nodes to ensure mesh stability and message reliability.
 
 ## What category does my node fall into?
 
-Base/Stationary Nodes are nodes that are generally not moving around. Solar roof nodes, nodes that stay sitting on your desk, and other nodes fall into this category.
+Base/Stationary Nodes are nodes that are generally not moving around. Solar roof nodes, nodes that sit on your desk, or other nodes that stay in one place fall into this category.
 
 Mobile nodes are ones that move around frequently. These can be a node that you keep in your pocket or your bag, or a node built into your vehicle.
 
