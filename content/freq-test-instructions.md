@@ -45,6 +45,8 @@ If you want more clarification on these categories, the settings themselves, or 
 
 ***Before making the below changes, you must update your node to 2.7.26 via https://flasher.meshtastic.org/. Some of the below changes are not compatible with older firmware.***
 
+If your node doesn't support newer firmware or flashing on the webpage and you need help, feel free to ask for some in the [PhillyMesh Discord](https://discord.phlm.sh)!
+
 | Setting Name | Base/Stationary Node | Mobile Node | Notes |
 | ----- | ---- | ---- | ---- |
 | `Preset` | MediumSlow Slot 22 or LongTurbo Slot 12 depending on the test week. | MediumSlow Slot 22 or LongTurbo Slot 12 depending on the test week. | Set Default Hops to `3`. If you are way out in the burbs or a rural area, you can bump this up to `4` or even `5`. Going up to `6` and higher is never needed and is harmful to the mesh. |
@@ -56,7 +58,7 @@ If you want more clarification on these categories, the settings themselves, or 
 | `Position`: `Smart Position` | Disabled | Enabled | If you enable position please use these settings |
 | `Position`: `Smart Position Min Interval` | N/A | `>= 15-30 minutes` | If you enable position please do not set it to more frequently than every 15 minutes to conserve mesh bandwidth. |
 | `Position`: `Smart Position Min Distance` | N/A | `150m` (iOS) or `1,000m` (Android) | The difference is due to iOS/Android app differences. |
-| `Okay to MQTT` | `Enabled` | `Enabled` | This is optional, but enabling this allows PhillyMesh to get a better idea of how the mesh is working. Your node info and messages will show up on the internet at [api.phillymesh.net](https://api.phillymesh.net/), and can be useful for troubleshooting. This also allows others besides Phillymesh to use your messages on the internet. |
+| `Okay to MQTT` | `Enabled` | `Enabled` | This is optional, but enabling this allows PhillyMesh to get a better idea of how the mesh is working. Your node info and messages will show up on the internet at [api.phillymesh.net](https://api.phillymesh.net/), and can be useful for troubleshooting. This also allows others besides PhillyMesh to see your node and messages via MQTT. |
 | `Store & Forward` | Disabled | Disabled | Only enable if you have a specific use case. |
 | `Telemetry` | `Disabled` unless you rely on it to see the health of your node | `Disabled` | For stationary solar nodes, telemetry sending power/environment information may be essential to you. However, if you can connect to your node over Bluetooth or TCP instead we recommend you disable telemetry and monitor your node that way. |
 
