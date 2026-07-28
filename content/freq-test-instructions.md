@@ -9,25 +9,14 @@ type: page
 
 [For more information about this test and why we are conducting it, see this article.](/freq-test/)
 
-## Test 1 - MediumSlow 22
 
-Frequency: MediumSlow
+## Test Timeline
 
-Frequency Slot: 22
+**Saturday, 8/1/26 at 10pm**: switch nodes to MediumFast slot 22
 
-Start: Saturday, August 1st at 10pm EST
+**Saturday, 8/8/26 at 10pm**: switch nodes to LongTurbo slot 12
 
-End: Saturday, August 8th at 10pm EST
-
-## Test 2 - LongTurbo 12
-
-Frequency: LongTurbo
-
-Frequency Slot: 12
-
-Start: Saturday, August 8th at 10pm EST
-
-End: Saturday, August 14th at 10pm EST
+**Saturday, 8/14/26 at 10pm**: switch nodes back to LongFast 20 and tune into the discussion of the result in the [PhillyMesh Discord](https://discord.phlm.sh).
 
 # Full Instructions
 
