@@ -2,6 +2,7 @@
 title: Instructions to Participate In Frequency Testing
 author: Emily Boda (BODA)
 type: page
+#cspell:ignore portnums
 ---
 
 # Test Overview

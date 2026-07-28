@@ -1,7 +1,8 @@
 ---
-title: Frequency Testing Explaination
+title: Frequency Testing Explanation
 author: Emily Boda (BODA)
 type: page
+#cspell:ignore PMXX
 ---
 
 This is a primer on why we will be testing different Meshtastic frequencies and what that means. The instructions for the new settings and full details about the test can be [found here.](/freq-test-instructions/)
