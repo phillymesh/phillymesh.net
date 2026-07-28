@@ -24,7 +24,7 @@ Below are the baseline recommendations for Meshtastic nodes in the Philadelphia 
 
 These settings have been chosen to prioritize message reliability and reduce mesh congestion at the expense of position and telemetry traffic. [Learn more about the reasons behind this test here](/freq-test/). As PhillyMesh moves to a non-default preset/slot to continue this effort, nodes that wish to prioritize position and/or telemetry should remain on the default LongFast20. 
 
-Nodes on the PhillyMesh non-default preset/slot will be asked to adhere to the below settings, with private and then public asks to tweak settings. If these are not responded to, a non-conforming node may be “ignored” by neighboring nodes to ensure mesh stability and message reliability.
+Nodes on the PhillyMesh non-default preset/slot will be asked to adhere to the below settings, with private and then public asks to tweak settings. If these are not responded to, a non-conforming node may be "ignored" by neighboring nodes to ensure mesh stability and message reliability.
 
 ## What category does my node fall into?
 
@@ -66,7 +66,7 @@ Some example screenshots from the Meshtastic app on iOS and Android, and are to 
 [**Android**] Settings >> (Radio Configuration Section) LoRa
 
 ![LoRa Config](/images/uploads/freq-test/loraconfig-combined.jpg)
-{width="50%"}
+{width="100%"}
 
 ### Device Role
 
@@ -75,7 +75,7 @@ Some example screenshots from the Meshtastic app on iOS and Android, and are to 
 [**Android**] Settings >> (Device Configuration Section) Device Configuration >> Device
 
 ![Device Role](/images/uploads/freq-test/devicerole-combined.jpg)
-{width="50%"}
+{width="100%"}
 
 ### Position Config
 
@@ -84,7 +84,7 @@ Some example screenshots from the Meshtastic app on iOS and Android, and are to 
 [**Android**] Settings >> (Device Configuration Section) Device Configuration >> Position
 
 ![Position](/images/uploads/freq-test/position-combined.jpg)
-{width="50%"}
+{width="100%"}
 
 ### Channel Config
 
@@ -93,7 +93,7 @@ Some example screenshots from the Meshtastic app on iOS and Android, and are to 
 [**Android**] Settings >> (Radio Configuration Section) Channels
 
 ![Primary Channel](/images/uploads/freq-test/primarychannel-combined.jpg)
-{width="50%"}
+{width="100%"}
 
 ### Secondary Channel Config
 
@@ -102,7 +102,7 @@ Some example screenshots from the Meshtastic app on iOS and Android, and are to 
 [**Android**] Settings >> (Radio Configuration Section) Channels
 
 ![Secondary Channel (PRM)](/images/uploads/freq-test/secondarychannel-combined.jpg)
-{width="50%"}
+{width="100%"}
 
 ### Telemetry
 
@@ -111,4 +111,4 @@ Some example screenshots from the Meshtastic app on iOS and Android, and are to 
 [**Android**] Settings >> (Module Configuration Section) Module Configuration >> Telemetry
 
 ![Telemetry Config](/images/uploads/freq-test/telemetryconfig-combined.jpg)
-{width="50%"}
+{width="100%"}
