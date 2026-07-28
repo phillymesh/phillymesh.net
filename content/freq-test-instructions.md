@@ -12,17 +12,21 @@ type: page
 ## Test 1 - MediumSlow 22
 
 Frequency: MediumSlow
+
 Frequency Slot: 22
 
 Start: Saturday, August 1st at 10pm EST
+
 End: Saturday, August 8th at 10pm EST
 
 ## Test 2 - LongTurbo 12
 
 Frequency: LongTurbo
+
 Frequency Slot: 12
 
 Start: Saturday, August 8th at 10pm EST
+
 End: Saturday, August 14th at 10pm EST
 
 # Full Instructions
