@@ -12,7 +12,7 @@ type: page
 
 ## Test Timeline
 
-**Saturday, 8/1/26 at 10pm**: switch nodes to MediumFast slot 22
+**Saturday, 8/1/26 at 10pm**: switch nodes to MediumSlow slot 22
 
 **Saturday, 8/8/26 at 10pm**: switch nodes to LongTurbo slot 12
 
