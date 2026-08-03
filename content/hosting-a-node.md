@@ -35,4 +35,20 @@ We are! Philly Radio and Mesh will install the node, maintain it, and even take 
 - Email us via [hello@phillymesh.net](mailto:hello@phillymesh.net)
 
 
+## What do these installs and nodes look like?
+
+![A Node on a desk](/images/uploads/hosting-a-node/nebra_example.jpg)
+{width="50%"}
+
+![A Node in a Radio Tower](/images/uploads/hosting-a-node/tower_node.jpg)
+{width="50%"}
+
+![A small solar-powered node](/images/uploads/hosting-a-node/handheld_node.jpg)
+{width="50%"}
+
+
+![A Node installed on someone's chimney](/images/uploads/hosting-a-node/chimney_node.jpg)
+
+![A node installed on the handrail of a building roof](/images/uploads/hosting-a-node/railing_node.jpg)
+{width="50%"}
 
