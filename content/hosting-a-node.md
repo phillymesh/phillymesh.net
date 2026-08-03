@@ -1,6 +1,6 @@
 ---
 title: Hosting a Node for Philly Radio & Mesh
-author: Kyle Yananich
+author: Kyle Yankanich
 type: post
 date: 2026-08-03
 url: /hosting-a-node
@@ -8,6 +8,7 @@ categories:
   - Philly Mesh
 tags:
   - meshtastic
+#cspell:ignore Yankanich Kyle
 ---
 
 ## What is Philly Radio & Mesh
