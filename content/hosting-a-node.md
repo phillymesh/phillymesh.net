@@ -26,12 +26,12 @@ A Radio Mesh is a decentralized system of small, low-power radio stations commun
 - No Maintenance needed - Philly Radio and Mesh will be happy to maintain the radio, keeping it updated, and part of a healthy mesh in the Philly area.
 
 ## Am I exposing myself?
-Absolutely not. Our radios can work completely off-grid, but we would love to be able to use a local internet connection if one is available. We gather no personal data, no details about your internet, or other devices. You are welcome to see everything the radio does, as we publish the information on our website.
+Absolutely not. Our radios can work completely off-grid, but we would love to be able to use a local internet connection if one is available. We gather no personal data, no details about your internet, or other devices. You are welcome to see everything the radio does, as we publish the information on our website. We do ask if we can publish a rough location of the node, which appears on the mesh itself. This helps other users know which way to orient an antenna for a better signal. 
 
 ## Who is responsible?
 We are! Philly Radio & Mesh will install the node, maintain it, and even take it down if you decide you don't want to do this anymore. We're all local users, so you probably know some of us already.
 
-## Who can I talk to?
+## Who can I talk to with setting up a node?
 - Chat with local meshtastic users in the [**Philly Radio & Meshtastic Discord**](https://discord.gg/MWWbAkRR9v)
 - Email us via [hello@phillymesh.net](mailto:hello@phillymesh.net)
 
