@@ -1,5 +1,5 @@
 ---
-title: Hosting a Node for Philly Radio Mesh
+title: Hosting a Node for Philly Radio & Mesh
 author: Kyle Yananich
 type: post
 date: 2026-08-03
