@@ -16,13 +16,13 @@ Check out these write-ups of node builds that PhillyMesh members are running:
 - [Medium Priced Solar Node](/2025/05/14/medium-priced-solar-node)
 - [Stealthy Node in a Water Bottle](/2025/05/16/water-bottle-node)
 
-## Philly Mesh Map
+## Hosting a PhillyMesh Node
+
+We put together [a guide](/hosting-a-node) for property owners interested in supporting the mesh by hosting an infrastructure node.
+
+## Philly Mesh Infrastructure Map
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Zi9XvyqAW56dq4zsYGZdge8KWYaxoxk&ehbc=2E312F&noprof=1" width="100%" height="500"></iframe><br><br>
-
-## Running your own PM node
-
-To run your own node with the `phillymesh.net-##`/`PM##` name, make sure that the number isn't already taken and check out [our repository for this website](https://github.com/phillymesh/phillymesh.net) for instructions on submitting an update to the site!
 
 Redacted owner names are for privacy purposes and are optional, as is submitting location information for the map.
 
