@@ -33,8 +33,8 @@ Absolutely not. Our radios can work completely off-grid, but we would love to be
 We are! Philly Radio & Mesh will install the node, maintain it, and even take it down if you decide you don't want to do this anymore. We're all local users, so you probably know some of us already.
 
 ## Who can I talk to with setting up a node?
-- Chat with local meshtastic users in the [**Philly Radio & Meshtastic Discord**](https://discord.gg/MWWbAkRR9v)
-- Email us via [hello@phillymesh.net](mailto:hello@phillymesh.net)
+- Chat with local meshtastic users in the [**Philly Radio & Meshtastic Discord**](https://discord.gg/MWWbAkRR9v)
+- Email us via [hello@phillymesh.net](mailto:hello@phillymesh.net)
 
 
 ## What do these installs and nodes look like?
