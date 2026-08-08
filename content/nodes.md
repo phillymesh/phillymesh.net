@@ -26,6 +26,8 @@ We put together [a guide](/hosting-a-node) for property owners interested in sup
 
 Redacted owner names are for privacy purposes and are optional, as is submitting location information for the map.
 
+Our current efforts support both Meshtastic (MT) & MeshCore (MC) with opportunities for future technology expansion!
+
 | Node Short Name | Long Name                            | Location   | Protocol | Owner         |
 | --------------- | -------------------------------------|----------- | -------- | ------------- |
 | PM01            | phillymesh.net-01                    |            | MT       | Famicoman     |
