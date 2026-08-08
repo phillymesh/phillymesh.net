@@ -36,7 +36,7 @@ Our current efforts support but are not just limited to both Meshtastic (MT) & M
 | PM04            |                                      |            | MT       | Redacted      |
 | PM07            | phillymesh.net-07                    |            | MT       | Redacted      |
 | PM08            |                                      |            | MT       | BODA          |
-| PM09            |                                      |            | MT       | Famicoman     |
+| PM09            |                                      |            | MT       | Redacted      |
 | PM10            | PM10 - Kensington - SUSQ VAL PA Mesh | Kensington | MT       | Chris.        |
 | PM11            | PM11 - Phlm.sh -                     | Pending    | MT/MC    | DustyHeatsink |
 | PM12            | PM12 - Phlm.sh -                     | TBD        | MT/MC    | DustyHeatsink |
