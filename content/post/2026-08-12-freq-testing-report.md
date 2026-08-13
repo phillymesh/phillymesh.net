@@ -175,9 +175,9 @@ Preferences: {
   "lora": {
     "usePreset": true,
     "modemPreset": "LONG_FAST",
-    "bandwidth": 250,
-    "spreadFactor": 11,
-    "codingRate": 5,
+    "bandwidth": 0,
+    "spreadFactor": 0,
+    "codingRate": 0,
     "region": "US",
     "hopLimit": 3,
     "txEnabled": true,
@@ -216,7 +216,10 @@ Module preferences: {
 
 The current LF12 test ends on Saturday at 10pm. At that time, switch your radio back to default LT20 presets!
 
-We recommend doing a factory reset to bring your node back to it's default preferences. This will also reset your node database, which you probably want to do between tests anyway since it'll be filled with nodes that you might not be able to communicate with anymore.
+Modem Preset: Long Range / Fast
+Frequency Offset: 0
+
+Verify that your primary channel is set to LongFast / AQ== or Primary.
 
 If you want to change each setting, below shows the particular settings you'll need to change.
 
@@ -225,9 +228,9 @@ Preferences: {
   "lora": {
     "usePreset": true,
     "modemPreset": "LONG_FAST",
-    "bandwidth": 250,
-    "spreadFactor": 11,
-    "codingRate": 5,
+    "bandwidth": 0,
+    "spreadFactor": 0,
+    "codingRate": 0,
     "region": "US",
     "txEnabled": true,
     "txPower": 30,
