@@ -15,6 +15,9 @@ As a review, two weeks ago we tested MediumSlow 22 for one week and then we move
 
 First, a HUGE thank you to everyone who has been so helpful, patient, and willing to share time/effort getting nodes into these test modes. Including this week's frantic "uhhhhhh everyone update firmware nowwww". Y'all have been awesome with all these changes and tests and we sincerely thank you all. These tests would not work without your help. We acknowledge the ask to change Lora settings frequently has been... tiring to put it nicely.
 
+![Memes](/images/uploads/2026-08-12-freq-testing-report/gandalf-dayswithout.jpg)
+{width="100%"}
+
 # Why did we conduct the tests?
 
 So a quick reminder on the WHY. Our mesh on LongFast 20 (LF20) has become super congested. The past few months most of us have noticed our messages traveling shorter and shorter distances, more and more Trace Routes (TRs) failing, and just the general functionality decline over time. 
@@ -54,6 +57,9 @@ You'll also notice the LongTurbo "14 - New Default?" note. Meshtastic is conside
 Other cities like NYC, which are pretty flat, have it easy compared to Philly. We have this unique mix of dense urban, flat topography... and then suburban, hilly terrain with tall hills blocking the city in. 
 
 In addition to geologic challenges, to date our mesh has been pretty ad-hoc. We don't have many infra nodes, meaning we're relying on users like you and me to act as infra nodes if we have a good vantage point and pass traffic to the less fortunate in valleys, riverbeds, etc.
+
+![Meme](/images/uploads/2026-08-12-freq-testing-report/3pathetic.jpg)
+{width="75%"}
 
 We also have a LOT of nodes that were set up, maybe used for a week or two, and then left on. Which is, in theory, helpful because it's a mesh and they pass on traffic. BUT they are running older firmware (we'll get to that with LongTurbo) and in the mindset of congestion - the Meshtastic defaults and/or what many users set is creating needless congestion. 
 
@@ -99,9 +105,10 @@ We see this all over the greater Philadelphia area - PA burbs, Jersey burbs - an
 ![SDR screen cap from CC](/images/uploads/2026-08-12-freq-testing-report/sdr-from-cc.png)
 {width="100%"}
 
-<make sure we ask cluck if we can use this>
-
 While you might be able to avoid some of this if you're using a skinnier bandwidth like 250 kHz, you can't avoid it with the wider 500 kHz bandwidth used by the Turbo presets. You've got multiple interference points with the 9XX.25 and 9XX.75 RFID stuff, as well as all the other little chirps in-between. 
+
+![meme](/images/uploads/2026-08-12-freq-testing-report/wrestler-unoreverse.jpg)
+{width="100%"}
 
 So yeah, all of us looking at our SDRs came to the conclusion that LongTurbo is doomed from the start for us. We thought we were being cutesy avoiding mesh packet collisions ... but we were getting packet collisions no matter what from the ISM Band being the ISM Band.
 
@@ -113,6 +120,9 @@ So yeah, all of us looking at our SDRs came to the conclusion that LongTurbo is 
 We've kinda come to the conclusion that LongTurbo ain't gonna work. As a preset it is demonstrably worse than LF/MS due to the firmware issue as well as the 2x interference issue.
 
 We wanted to update the wider Discord on our findings and open it up to y'all to vote on next steps... But before that vote, we have one more science experiment we're cooking up based on our findings.
+
+![meme](/images/uploads/2026-08-12-freq-testing-report/toystory-7.jpg)
+{width="100%"}
 
 # One last test to try
 
@@ -136,12 +146,15 @@ We aren't asking everyone to participate in this, we realize there might be a li
 
 Switch your node to LF910 until Saturday at 10pm, at which time we will announce next steps.
 
-<insert details about those presets here>
-
 Modem Preset: Long Range / Fast
 Frequency Offset: 0
 Frequency Override: 910
 Bandwidth: 250 kHz
+
+Here is what the settings should look like in your app. Android on the left, and iOS in the center and on the right.
+
+![App settings](/images/uploads/2026-08-12-freq-testing-report/lf910-app-settings.png)
+{width="50%"}
 
 Keep all other settings from the previous test active. The iOS app and Android apps can be confusing, so we recommend installing the Meshtastic CLI and querying your nodes settings that way to verify they're correct. Here's a santized version of what your settings should look like:
 
