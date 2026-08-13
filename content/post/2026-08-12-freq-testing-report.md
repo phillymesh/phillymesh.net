@@ -3,12 +3,12 @@ title: Medium Slow and Long Turbo Testing in Philadelphia
 author: Seth
 type: post
 date: 2026-08-12T00:00:01+00:00
-url: /2026/08/12/freq-tesing-report/
+url: /2026/08/12/freq-testing-report/
 categories:
   - Philly Mesh
 tags:
   - meshtastic
-#cspell:ignore uhhhhhh nowwww shitposting FreqSlots Waymos wellllll MediumSlow LongTurbo f*ckery wellllllll Buuuuuuuuuuuuuut
+#cspell:ignore uhhhhhh nowww wellllll ckery Buuuuuuuuuuuuuut emcomms shoulda hissssss
 ---
 
 As a review, two weeks ago we tested MediumSlow 22 for one week and then we moved to LongTurbo 12 for a week. [Read more about that in our explainer article here](https://phillymesh.net/freq-test/). We now wanted to update everyone with the results of our testing.
@@ -38,7 +38,7 @@ We picked FreqSlots that were non-default as well as requested setting changes s
 ![Past Malla Pie Chart](/images/uploads/2026-08-12-freq-testing-report/malla-pie-chart.png)
 {width="100%"}
 
-*For those newbies amoung us, Meshtastic sends a lot of packets in the background. Messages are just one small part of the pie (called TEXT_MESSAGE_APP in the chart above). Many of our recommended settings changes from the tests aimed to reduce all of the other packets being sent so there's more bandwidth for those messages to be sent.*
+*For those newbies among us, Meshtastic sends a lot of packets in the background. Messages are just one small part of the pie (called TEXT_MESSAGE_APP in the chart above). Many of our recommended settings changes from the tests aimed to reduce all of the other packets being sent so there's more bandwidth for those messages to be sent.*
 
 We also picked freq slots to be kind to those with AirFrames Cavity filters. This is why we didn't just change to the default MediumSlow frequency but instead asked people to use FreqSlot 22. The two reasons for this were:
 
@@ -93,7 +93,7 @@ It is A LOT. And it's everywhere on the ISM band, including where LongFast is, w
 
 <SDR pls help me embed the video from static/images/uploads/2026-08-12-freq-testing-report/2026-08-11 13_50 SDR(1).mp4 here>
 
-One of our members, Dusty, lives next to [REDACTED MANUFACTURING FACILITY] and had picked up a LOT of this and OpsDiv was like "wellllllll I'm sorry that sucks for your location". Little did we know we don't have to live next to [REDACTED MANUFACTURING FACILITY] to be seeing this. 
+One of our members, Dusty, lives next to [REDACTED MANUFACTURING FACILITY] and had picked up a LOT of this and OpsDiv was like "wellllll I'm sorry that sucks for your location". Little did we know we don't have to live next to [REDACTED MANUFACTURING FACILITY] to be seeing this. 
 
 But the interesting find from Dusty is that the RFID card readers seem to use specific frequencies. And the loudest, most frequent chirps we are all seeing on our SDR scopes matches these frequencies. Very specifically at the 9XX.25 and 9XX.75 intersections.
 
@@ -128,7 +128,7 @@ We wanted to update the wider Discord on our findings and open it up to y'all to
 
 All of us were trying to be nice to AirFrames users, but other meshes have comfortably asked them to retune to new presets. I think we have got to that point, too. With the 9XX.25 and 9XX.75 interference being the most common, widespread, and impactful interference ... we CAN play frogger with a 250 kHz bandwidth. But the default slots all line up with one of them at one end of the slot, no matter what. Take a look at the above chart and you can see, every single preset touches a 9XX.25 and 9XX.75.
 
-Buuuuuuuuuuuuuut if we use a *frequency override*, we can slot the 250 kHz slice right inbetween the 9XX.25 and 9XX.75 blips and avoid the interference. By strategically picking one of those slots close to both the pending new Meshtastic preset of LT14 and the Meshcore 910.525 default, we would be asking AirFrames users to retune once and then be able to use that filter for Philly Meshtastic, LT14 soon-to-be-new-default Meshtastic, AND Meshcore. 
+Buuuuuuuuuuuuuut if we use a *frequency override*, we can slot the 250 kHz slice right in-between the 9XX.25 and 9XX.75 blips and avoid the interference. By strategically picking one of those slots close to both the pending new Meshtastic preset of LT14 and the Meshcore 910.525 default, we would be asking AirFrames users to retune once and then be able to use that filter for Philly Meshtastic, LT14 soon-to-be-new-default Meshtastic, AND Meshcore. 
 
 ![Preset chart with LF910 and Meshcore](/images/uploads/2026-08-12-freq-testing-report/new-freq-presets-chart.png)
 {width="50%"}
@@ -156,7 +156,7 @@ Here is what the settings should look like in your app. Android on the left, and
 ![App settings](/images/uploads/2026-08-12-freq-testing-report/lf910-app-settings.png)
 {width="50%"}
 
-Keep all other settings from the previous test active. The iOS app and Android apps can be confusing, so we recommend installing the Meshtastic CLI and querying your nodes settings that way to verify they're correct. Here's a santized version of what your settings should look like:
+Keep all other settings from the previous test active. The iOS app and Android apps can be confusing, so we recommend installing the Meshtastic CLI and querying your nodes settings that way to verify they're correct. Here's a sanitized version of what your settings should look like:
 
 *The following is an example of the settings you should have if you're participating in the test. If a setting is omitted, it's up to you what you want to set it as.*
 
