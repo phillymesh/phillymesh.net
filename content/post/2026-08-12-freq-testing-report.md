@@ -158,8 +158,6 @@ Here is what the settings should look like in your app. Android on the left, and
 
 Keep all other settings from the previous test active. The iOS app and Android apps can be confusing, so we recommend installing the Meshtastic CLI and querying your nodes settings that way to verify they're correct. Here's a santized version of what your settings should look like:
 
-<can someone give me their CLI output to verify this is correct? I'm too dumb to be participating in this test -Boda>
-
 *The following is an example of the settings you should have if you're participating in the test. If a setting is omitted, it's up to you what you want to set it as.*
 
 *Notes: `role` should be set to `Client Mute` if you're in a position where a particular node doesn't need to rebroadcast messages to other nodes, and `position` settings can be turned off if you don't want to send position to the mesh*
@@ -218,11 +216,9 @@ Module preferences: {
 
 The current LF12 test ends on Saturday at 10pm. At that time, switch your radio back to default LT20 presets!
 
-<insert details about those presets here>
+We recommend doing a factory reset to bring your node back to it's default preferences. This will also reset your node database, which you probably want to do between tests anyway since it'll be filled with nodes that you might not be able to communicate with anymore.
 
-*This shows you the settings you need to change to get back to talking on the default LF20. If a setting is omitted, it's because it's personal preference.*
-
-*For example, we asked people to limit telemetry during the test so your telemetry settings might be different than default. Now that you're going back to LF20 you can change any settings not included here to whatever you want.*
+If you want to change each setting, below shows the particular settings you'll need to change.
 
 ```
 Preferences: {
@@ -241,3 +237,7 @@ Preferences: {
   }
 }
 ```
+
+*This shows you only the settings you need to change to get back to talking on the default LF20. If a setting is omitted, it's because it's personal preference.*
+
+*However, for example, we asked people to limit telemetry during the test so your current telemetry settings might be different than default. Now that you're going back to LF20 you can change any settings not included here to whatever you want and still be able to communicate with LF20.*
