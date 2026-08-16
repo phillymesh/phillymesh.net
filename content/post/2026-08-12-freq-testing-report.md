@@ -91,7 +91,9 @@ Here's a video recording of my SDR. For those unfamiliar, there's a spectroscope
 
 It is A LOT. And it's everywhere on the ISM band, including where LongFast is, where LongTurbo12 is, where MediumSlow22 is, insert whatever preset you want... it's got SO much chirps. All the chirps.
 
-<SDR pls help me embed the video from static/images/uploads/2026-08-12-freq-testing-report/2026-08-11 13_50 SDR(1).mp4 here>
+<video controls>
+<source src="/images/uploads/2026-08-12-freq-testing-report/sdr-recording.mp4" type="video/mp4">
+</video>
 
 One of our members, Dusty, lives next to [REDACTED MANUFACTURING FACILITY] and had picked up a LOT of this and OpsDiv was like "wellllll I'm sorry that sucks for your location". Little did we know we don't have to live next to [REDACTED MANUFACTURING FACILITY] to be seeing this. 
 
