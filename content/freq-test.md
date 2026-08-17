@@ -15,7 +15,7 @@ On Saturday, August 1st at 10pm a group of organized Philadelphia Mesh users wil
 
 ~~Test 2: Aug 8th at 10pm to Aug 14th at 10pm we will be testing LongTurbo 12~~ Concluded
 
-Extended Test 3: On Aug 11th we pivoted to a 3rd test based on preliminary data of the first two tests and deeper analysis of the regional noise many members discovered across the bands. This new extended test is being referred to as LongFast 910 or LF910 for short, and shows great promise!
+Extended Test 3: On Aug 12th we pivoted to a 3rd test based on preliminary data of the first two tests and deeper analysis of the regional noise many members discovered across the bands. This new extended test is being referred to as LongFast 910 or LF910 for short, and shows great promise!
 
 In addition to the different preset and non-default frequency slot, there are some other settings you're required to change if you want to participate in this test. [Please view the full instructions with screenshots here](/freq-test-instructions/) to participate.
 
