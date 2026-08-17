@@ -16,13 +16,13 @@ type: page
 
 ~~**Saturday, 8/8/26 at 10pm**: switch nodes to LongTurbo slot 12~~ **Concluded**
 
-~~**Saturday, 8/14/26 at 10pm**: switch nodes back to LongFast 20 and tune into the discussion of the result in the [PhillyMesh Discord](https://discord.phlm.sh).~~ Postponed
+~~**Saturday, 8/14/26 at 10pm**: switch nodes back to LongFast 20 and tune into the discussion of the result in the [PhillyMesh Discord](https://discord.phlm.sh).~~ **Postponed**
 
-**Wednesday, 8/12/26**: Testing Pivoted to a 3rd test based on new findings from the first two tests. Deeper analysis of the regional noise many members experienced was investigated by members using a Software Defined Radio (SDR). 
+**Wednesday, 8/12/26**: Testing pivoted to a 3rd test based on new findings from the first two tests. Deeper analysis of the regional noise many members experienced was investigated by members using a software-defined radio (SDR). 
 
-This new extended test is being referred to as LongFast 910 or LF910 for short. It is slightly different than the previous tests in that you are not selecting a custom frequency slot, but a custom frequency override!. 
+This new extended test is being referred to as LongFast 910 or LF910 for short. It is slightly different than the previous tests in that you are not selecting a custom frequency slot, but a custom frequency override! 
 
-This override allows us to slide between the bands of noise and RFID interference we've discovered and have clearer communications! Preliminary testing has gone so well in fact that we've moved this phase to **extended testing** with no specified end date at this time!
+This override allows us to slide between the bands of noise and RFID interference we've discovered and have clearer communications! Preliminary testing has gone so well, in fact, that we've moved this phase to **extended testing** with no specified end date at this time!
 
 # Full Instructions
 
