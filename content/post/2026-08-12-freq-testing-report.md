@@ -128,7 +128,7 @@ We wanted to update the wider Discord on our findings and open it up to y'all to
 
 # One last test to try
 
-All of us were trying to be nice to AirFrames users, but other meshes have comfortably asked them to retune to new presets. I think we have got to that point too. With the 9XX.25 and 9XX.75 interference being the most common, widespread, and impactful interference ... we CAN play frogger with a 250 kHz bandwidth. But the default slots all line up with one of them at one end of the slot, no matter what. Take a look at the above chart and you can see, every single preset touches a 9XX.25 and 9XX.75.
+All of us were trying to be nice to AirFrames users, but other meshes have comfortably asked them to retune to new presets. I think we have got to that point too. With the 9XX.25 and 9XX.75 interference being the most common, widespread, and impactful interference ... we CAN play frogger with a 250 kHz bandwidth. But the default slots all line up with one of them at one end of the slot, no matter what. Take a look at the below chart and you can see, every single preset touches a 9XX.25 and 9XX.75.
 
 Buuuuuuuuuuuuuut if we use a *frequency override*, we can slot the 250 kHz slice right in-between the 9XX.25 and 9XX.75 blips and avoid the interference. By strategically picking one of those slots close to both the pending new Meshtastic preset of LT14 and the Meshcore 910.525 default, we would be asking AirFrames users to retune once and then be able to use that filter for Philly Meshtastic, LT14 soon-to-be-new-default Meshtastic, AND Meshcore. 
 
@@ -150,10 +150,10 @@ After a few days, a majority of the ~50 or so nodes currently on LF910 (at the t
 
 To do so, switch your node to LF910 using these settings:
 
-Modem Preset: Long Range / Fast
-Frequency Slot: 0 (doesn't matter because we're going to override it)
-Frequency Override: 910.000 MHz
-Bandwidth: 250 kHz (if asked, but should be set by the Long Range / Fast preset)
+- Modem Preset: Long Range / Fast
+- Frequency Slot: 0 (doesn't matter because we're going to override it)
+- Frequency Override: 910.000 MHz
+- Bandwidth: 250 kHz (if asked, but should be set by the Long Range / Fast preset)
 
 Here is what the settings should look like in your app. Android on the left, and iOS in the center and on the right.
 
