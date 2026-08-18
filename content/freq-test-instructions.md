@@ -12,11 +12,17 @@ type: page
 
 ## Test Timeline
 
-**Saturday, 8/1/26 at 10pm**: switch nodes to MediumSlow slot 22
+~~**Saturday, 8/1/26 at 10pm**: switch nodes to MediumSlow slot 22~~ **Concluded**
 
-**Saturday, 8/8/26 at 10pm**: switch nodes to LongTurbo slot 12
+~~**Saturday, 8/8/26 at 10pm**: switch nodes to LongTurbo slot 12~~ **Concluded**
 
-**Saturday, 8/14/26 at 10pm**: switch nodes back to LongFast 20 and tune into the discussion of the result in the [PhillyMesh Discord](https://discord.phlm.sh).
+~~**Saturday, 8/14/26 at 10pm**: switch nodes back to LongFast 20 and tune into the discussion of the result in the [PhillyMesh Discord](https://discord.phlm.sh).~~ **Postponed**
+
+**Wednesday, 8/12/26**: Testing pivoted to a 3rd test based on new findings from the first two tests. Deeper analysis of the regional noise many members experienced was investigated by members using a software-defined radio (SDR). 
+
+This new extended test is being referred to as LongFast 910 or LF910 for short. It is slightly different than the previous tests in that you are not selecting a custom frequency slot, but a custom frequency override! 
+
+This override allows us to slide between the bands of noise and RFID interference we've discovered and have clearer communications! Preliminary testing has gone so well, in fact, that we've moved this phase to **extended testing** with no specified end date at this time!
 
 # Full Instructions
 
@@ -42,7 +48,7 @@ If your node doesn't support newer firmware or flashing on the webpage and you n
 
 | Setting Name | Base/Stationary Node | Mobile Node | Notes |
 | ----- | ---- | ---- | ---- |
-| `Preset` | MediumSlow Slot 22 or LongTurbo Slot 12 depending on the test week. | MediumSlow Slot 22 or LongTurbo Slot 12 depending on the test week. | Set Default Hops to `3`. If you are way out in the burbs or a rural area, you can bump this up to `4` or even `5`. Going up to `6` and higher is never needed and is harmful to the mesh. |
+| `Preset` | LongFast with a frequency override of 910 | LongFast with a frequency override of 910 | Set Default Hops to `3`. If you are way out in the burbs or a rural area, you can bump this up to `4` or even `5`. Going up to `6` and higher is never needed and is harmful to the mesh. |
 | `Device Role` | (Choose one of the following:) `Client`, `Client_Base`, `Client_Mute` | (Choose one of the following:) `Client`, `Client_Mute` | T-1000e and Wismesh Tag (or any mobile node without an external antenna) should always be `client_mute`. Do not use anything other than these roles without consulting the PhillyMesh Discord. The other roles are usually harmful to the mesh without any benefit to you. |
 | `Rebroadcast Mode` | `core_portnums_only` | `core_portnums_only` | `All` is the default, which works, but this setting eliminates non-standard packets such as Range Tests from being rebroadcast. This can help reduce congestion from improperly set-up or rudely operating nodes. |
 | `NodeInfo Broadcast Interval` | `>= 12 Hours` | `>= 12 Hours` | Can be longer than 12 hours, but not shorter. |

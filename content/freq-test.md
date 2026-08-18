@@ -11,9 +11,11 @@ This is a primer on why we will be testing different Meshtastic frequencies and 
 
 On Saturday, August 1st at 10pm a group of organized Philadelphia Mesh users will be switching from the default frequency preset to a custom one to test if custom presets are more reliable than the default. We welcome you to join in on our test and help us improve the Philly Mesh!
 
-Test 1: Aug 1st at 10pm to Aug 8th at 10pm we will be testing MediumSlow 22
+~~Test 1: Aug 1st at 10pm to Aug 8th at 10pm we will be testing MediumSlow 22~~ Concluded
 
-Test 2: Aug 8th at 10pm to Aug 14th at 10pm we will be testing LongTurbo 12
+~~Test 2: Aug 8th at 10pm to Aug 14th at 10pm we will be testing LongTurbo 12~~ Concluded
+
+Extended Test 3: On Aug 12th we pivoted to a 3rd test based on preliminary data of the first two tests and deeper analysis of the regional noise many members discovered across the bands. This new extended test is being referred to as LongFast 910 or LF910 for short, and shows great promise!
 
 In addition to the different preset and non-default frequency slot, there are some other settings you're required to change if you want to participate in this test. [Please view the full instructions with screenshots here](/freq-test-instructions/) to participate.
 
