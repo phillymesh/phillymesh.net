@@ -112,7 +112,7 @@ While you might be able to avoid some of this if you're using a skinnier bandwid
 ![meme](/images/uploads/2026-08-12-freq-testing-report/wrestler-unoreverse.jpg)
 {width="100%"}
 
-So yeah, all of us looking at our SDRs came to the conclusion that LongTurbo is doomed from the start for us. We thought we were being cutesy avoiding mesh packet collisions ... but we were getting packet collisions no matter what from the ISM Band being the ISM Band.
+So yeah, all of us looking at our SDRs came to the conclusion that LongTurbo on any slot is doomed from the start for us. We thought we were being cutesy avoiding mesh packet collisions ... but we were getting packet collisions no matter what from the ISM Band being the ISM Band, and in LongTurbo's case ... double the packet collisions.
 
 ![kyle being kyle](/images/uploads/2026-08-12-freq-testing-report/kyle-demo.png)
 {width="100%"}
@@ -128,30 +128,32 @@ We wanted to update the wider Discord on our findings and open it up to y'all to
 
 # One last test to try
 
-All of us were trying to be nice to AirFrames users, but other meshes have comfortably asked them to retune to new presets. I think we have got to that point, too. With the 9XX.25 and 9XX.75 interference being the most common, widespread, and impactful interference ... we CAN play frogger with a 250 kHz bandwidth. But the default slots all line up with one of them at one end of the slot, no matter what. Take a look at the above chart and you can see, every single preset touches a 9XX.25 and 9XX.75.
+All of us were trying to be nice to AirFrames users, but other meshes have comfortably asked them to retune to new presets. I think we have got to that point too. With the 9XX.25 and 9XX.75 interference being the most common, widespread, and impactful interference ... we CAN play frogger with a 250 kHz bandwidth. But the default slots all line up with one of them at one end of the slot, no matter what. Take a look at the above chart and you can see, every single preset touches a 9XX.25 and 9XX.75.
 
 Buuuuuuuuuuuuuut if we use a *frequency override*, we can slot the 250 kHz slice right in-between the 9XX.25 and 9XX.75 blips and avoid the interference. By strategically picking one of those slots close to both the pending new Meshtastic preset of LT14 and the Meshcore 910.525 default, we would be asking AirFrames users to retune once and then be able to use that filter for Philly Meshtastic, LT14 soon-to-be-new-default Meshtastic, AND Meshcore. 
 
 ![Preset chart with LF910 and Meshcore](/images/uploads/2026-08-12-freq-testing-report/new-freq-presets-chart.png)
 {width="50%"}
 
-So the science experiment of the past 18 hours has been to try out LF-910. Basically it doesn't use a Freq Slot but centers its 250 kHz bandwidth at 910 (again, see green box on the chart). 
+So the science experiment since the conclusion of LT12 and MS22 has been to try out LF-910. Basically it doesn't use a Freq Slot but centers its 250 kHz bandwidth at 910 (again, see green box on the chart). 
 
-It's easy to change, you just type in "910" into the frequency override box in the Lora Settings. It does not require firmware updates (oh thank goodness). And we are picking LongFast because we want to keep it apples to apples compared to LF20 preset (during our testing phase) so that we can compare links with interference vs links without interference. If this works we can evaluate further if we want to stay on LF910 or use MS910.
+It's easy to change, you just type in "910" into the frequency override box in the Lora Settings. It does not require firmware updates (oh thank goodness). And we are picking LongFast because we want to keep it apples to apples compared to LF20 preset (during our testing phase) so that we can compare links with interference vs links without interference. If this works we can evaluate in the future if we want to stay on LF910 or use MS910.
 
 ![see ya presets we're doing our own thing now](/images/uploads/2026-08-12-freq-testing-report/see-ya-meme.png)
 {width="50%"}
 
 We aren't asking everyone to participate in this, we realize there might be a little bit of testing fatigue after two weeks of this, but here's the plan if you'd like to participate:
 
-# Third and final (hopefully) test plan
+# Third and final (hopefully) test plan - EXTENDED LF-910 TEST
 
-Switch your node to LF910 until Saturday at 10pm, at which time we will announce next steps.
+after a few days, a majority of the ~50 or so nodes currently on LF910 (at the time of this post) report that it is working surprisingly well. Links are significantly improved compared to LF20 and mesh users are having stable/reliable conversations that were not previously possible on LF20. As a result, Philly Mesh OpsDiv has decided to conduct an extended test of LF910. If this is where we want to be long term, we want to stay on it longer to make sure there aren't any critical flaws/issues with this change. And to support this being an extended test, we have not chosen a specific end date for this test. We will have an update on the Discord as well as a new blog post when we are ready to recommend a permanent change, and will communicate more details then. It is also possible that during this extended test we *may* find a specific frequency better (with less non-mesh interference) than 910.000 MHz, but for now this is the best we've found and we encourage mesh node owners to hop over and voluntarily try this extended test with us!
+
+To do so, switch your node to LF910 using these settings:
 
 Modem Preset: Long Range / Fast
-Frequency Offset: 0
-Frequency Override: 910
-Bandwidth: 250 kHz
+Frequency Slot: 0 (doesn't matter because we're going to override it)
+Frequency Override: 910.000 MHz
+Bandwidth: 250 kHz (if asked, but should be set by the Long Range / Fast preset)
 
 Here is what the settings should look like in your app. Android on the left, and iOS in the center and on the right.
 
@@ -216,7 +218,7 @@ Module preferences: {
 
 # What if I don't want to participate
 
-The current LF12 test ends on Saturday at 10pm. At that time, switch your radio back to default LT20 presets!
+You are not obligated to test out LF-910 with us, feel free to switch your radio back to default LT20 presets!
 
 Modem Preset: Long Range / Fast
 Frequency Offset: 0
