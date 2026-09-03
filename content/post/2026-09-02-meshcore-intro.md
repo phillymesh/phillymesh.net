@@ -8,7 +8,7 @@ categories:
   - Philly Mesh
 tags:
   - meshtastic
-#cspell:ignore Meshtastic meshcore RemoteTerm ops div opsdiv
+#cspell:ignore RemoteTerm opsdiv
 ---
 
 # MeshCore Settings

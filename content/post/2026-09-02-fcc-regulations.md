@@ -8,7 +8,7 @@ categories:
   - Philly Mesh
 tags:
   - meshtastic
-#cspell:ignore Meshtastic meshcore RemoteTerm ops div opsdiv FHSS APRS Delco APRS
+#cspell:ignore RemoteTerm opsdiv FHSS APRS Delco
 ---
 
 *As a quick note, none of the Operations Division are lawyers, and none of us play lawyers on TV. Even though we discuss FCC regulations throughout this document, nothing in this document or FAQ is legal analysis or legal advice to anyone reading it. Please, for the love of heaven, always consult an actual lawyer when you have questions about the law, or FCC regulations.*

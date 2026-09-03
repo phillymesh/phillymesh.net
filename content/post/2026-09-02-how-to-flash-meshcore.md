@@ -8,7 +8,7 @@ categories:
   - Philly Mesh
 tags:
   - meshtastic
-#cspell:ignore Meshtastic meshcore RemoteTerm ops div opsdiv OTAFIX
+#cspell:ignore RemoteTerm opsdiv OTAFIX
 ---
 
 # How to flash a Meshtastic node to MeshCore
