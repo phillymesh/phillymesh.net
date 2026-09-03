@@ -6,7 +6,7 @@ type: page
 Feel free to reach out and introduce yourself!
 
   <!-- * Chat with us via Matrix at [#phillymesh:matrix.org][1] -->
-  * Chat with local meshtastic users in the [**Philly Radio & Meshtastic Discord**][6]
+  * Chat with local Meshcore & Meshtastic users in the [**Philly Radio & Mesh Discord**][6]
   * Email us via <hello@phillymesh.net><!--      * [Looking for a GPG Key?][2]--><!--     * Something super-sensitive? <phillymesh@protonmail.ch> -->
   * Fork us on the [phillymesh GitHub organization][4]
 
