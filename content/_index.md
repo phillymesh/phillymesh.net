@@ -40,7 +40,7 @@ We also wrote these pages that might be of help if you're new to MeshCore:
 If you are interested in helping support PhillyMesh and Philly Radio & Mesh, please consider using one of our affiliate links from these awesome vendors:
 
 - [Rokland affiliate link for Meshtastic and MeshCore hardware](https://store.rokland.com/?ref=phillymesh)
-- [Battery Hookup affiliate link for legitimate batteries (don't buy batteries from Amazon)](https://batteryhookup.com/discount/PhillyMesh)
+- [Battery Hookup affiliate link for genuine batteries (please don't buy 18650s from Amazon)](https://batteryhookup.com/discount/PhillyMesh)
 
 # PhillyMesh Malla Instance
 

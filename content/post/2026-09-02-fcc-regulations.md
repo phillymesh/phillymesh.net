@@ -177,7 +177,7 @@ A. Some folks who follow the Meshtastic firmware GitHub repo and are part of oth
 
 We realized this default change would fracture the mesh significantly and our Discord would play a key role in informing users about the changes and helping support users change their existing nodes. We thought about it and decided to take the opportunity to not blindly trust the new recommended default, but to find a preset and custom settings that would actually improve PhillyMesh’s performance.
 
-It wasn't until Ehro noticed a warning in the beta build of the Meshtastic app that the violation of FCC guidelines became clear. This resulted in a few days of waiting to see if the Meshtastic project would say anything about it before we decided to stop waiting and make this post ourselves.
+It wasn't until we saw [version 2.8](https://github.com/meshtastic/firmware/pull/11637) and [this heated discussion in the MeshCore Github](https://github.com/meshcore-dev/MeshCore/issues/945) that the violation of FCC regulations became clear. This resulted in a few days of waiting to see if the Meshtastic project would say anything about it before we decided to stop waiting and make this post ourselves.
 
 **Q. Shouldn’t someone be fixing this?**
 
