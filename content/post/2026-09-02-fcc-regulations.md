@@ -8,6 +8,7 @@ categories:
   - Philly Mesh
 tags:
   - meshtastic
+  - meshcore
 #cspell:ignore RemoteTerm opsdiv FHSS APRS Delco
 ---
 
