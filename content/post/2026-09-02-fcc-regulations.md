@@ -8,7 +8,7 @@ categories:
   - Philly Mesh
 tags:
   - meshtastic
-#cspell:ignore Meshtastic meshcore RemoteTerm ops div opsdiv
+#cspell:ignore Meshtastic meshcore RemoteTerm ops div opsdiv FHSS APRS Delco APRS
 ---
 
 *As a quick note, none of the Operations Division are lawyers, and none of us play lawyers on TV. Even though we discuss FCC regulations throughout this document, nothing in this document or FAQ is legal analysis or legal advice to anyone reading it. Please, for the love of heaven, always consult an actual lawyer when you have questions about the law, or FCC regulations.*
@@ -88,7 +88,11 @@ A. Meshtastic has many settings that allow you to change what slice of frequency
 
 Meshtastic’s default settings are a preset called LongFast. This preset uses a bandwidth of 250 kHz, which we now know is in violation of FCC regulations.
 
-The only preset that uses 500 kHz or higher is LongTurbo. In our testing, the issue with the LongTurbo preset was specifically that it uses a bandwidth of 500 kHz, so even if other presets changed to use 500 kHz, we would see the same issues.
+**Q. Can you tell me more about this bandwidth thing?**
+
+Meshtastic (and MeshCore) packets are sent across a frequency spectrum. That spectrum is determined by choosing a starting frequency (or, with Meshtastic, you often choose a "Frequency Slot" and the firmware uses that to [calculate your starting frequency](https://meshtastic.org/docs/overview/radio-settings/)) and then setting a bandwidth which detemrines how large the range of the spectrum wil be. For example if your frequency is 906.500 MHz and your bandwidth is 250 kHz (0.250 MHz), you will be transmitting from 906.500 MHz to 906.750 MHz.
+
+The only preset that uses a 500 kHz or higher bandwidth is LongTurbo, the rest use 250 kHz. In our region there is a lot of interference put off by devices using RFID. The interference exists every 250 kHz (at the .000, .250, .500, and .750 points of each frequency) and is strongest at .250 and .750. Using a smaller bandwidth like 250 kHz, Meshtastic packets are able to keep that interference at the edges and not be affected too much by it. However, because LongTurbo uses 500 kHz, no matter what starting frequency is chosen, it will always overlap with some of the interference. 
 
 **Q. Who is the FCC and why do I care about them?**
 
@@ -136,7 +140,7 @@ If you’re a power user, [RemoteTerm](https://github.com/jkingsman/Remote-Termi
 
 **Q. Can licensed amateur radio operators continue to use Meshtastic and MeshCore at 250 kHz?**
 
-A. Yes. Howver, using Meshtastic as a licensed amateur radio operator requires you to not use encryption which means dropping packets from private channels and only using the default public channel (with the published key of AQ==). Setting your node to "ham mode" will do all of these things.
+A. Yes. However, using Meshtastic as a licensed amateur radio operator requires you to not use encryption which means dropping packets from private channels and only using the default public channel (with the published key of AQ==). Setting your node to "ham mode" will do all of these things.
 
 This is not compatible with the default Meshtastic network and won't allow you to chat with non-licensed users on LongFast. If you're intersted in getting your ham radio license, JawnCon, Philly's local cybersecurity conference in October, has free classes and exams most years.
 
