@@ -11,9 +11,14 @@ tags:
   - meshcore
 #cspell:ignore RemoteTerm opsdiv FHSS APRS Delco
 ---
-**2026-09-09 Clarification: This document is only for sharing what, in our experience, works best in Philadelphia, PA. We aren't suggesting that everyone else nationwide (especially in areas where interference with 33cm is a bigger issue) take up our custom MeshCore 500 settings. This document is to tell you what we did, what we found out, and what we're looking at now. We'd love to see one main recommended legal USA default, but right now it doesn't seem like anyone has found it yet.**
 
-*As a quick note, none of the Operations Division are lawyers, and none of us play lawyers on TV. Even though we discuss FCC regulations throughout this document, nothing in this document or FAQ is legal analysis or legal advice to anyone reading it. Please, for the love of heaven, always consult an actual lawyer when you have questions about the law, or FCC regulations.*
+# 2026-09-09 Clarification
+
+This document is only for sharing what, in our experience, works best in Philadelphia, PA. **We aren't suggesting a new preset nationwide (especially in areas with more interference in the 33cm band), we're simply noting what we did, what we found, and where we're going.** We'd love to see one unified legal default, but with 500 kHz, finding a clear region that works for everyone may not be possible.
+
+We do not see a change in FCC regulations or a new mesh band being created as realistic; more on that [in our FAQ](https://phillymesh.net/2026/09/02/fcc-regulations/#is-there-a-chance-the-fcc-will-change-their-regulations). We recommend coordinating with amateur radio groups and conducting surveys to determine what works best for your region.
+
+*Also, as a quick disclaimer, none of the Operations Division are lawyers, and none of us play lawyers on TV. Even though we discuss FCC regulations throughout this document, nothing in this document or FAQ is legal analysis or legal advice to anyone reading it. Please, for the love of heaven, always consult an actual lawyer when you have questions about the law, or FCC regulations.*
 
 # Hey PhillyMesh community,
 
