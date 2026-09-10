@@ -12,7 +12,15 @@ tags:
 #cspell:ignore RemoteTerm opsdiv FHSS APRS Delco
 ---
 
-*As a quick note, none of the Operations Division are lawyers, and none of us play lawyers on TV. Even though we discuss FCC regulations throughout this document, nothing in this document or FAQ is legal analysis or legal advice to anyone reading it. Please, for the love of heaven, always consult an actual lawyer when you have questions about the law, or FCC regulations.*
+# 2026-09-10 Clarification
+
+This document is only for sharing what in our experience works best for the immediate area around Philadelphia, PA. During our testing we found no traffic; using this preset in other areas may cause interference in the 33cm band, and we argue that it should not be a national preset for Meshcore or Meshtastic - please do not use without testing.
+
+Please use proper tools, such as a software defined radio, to identify the quietest part of the band. Additionally, reach out to your local 33cm amateur radio groups and frequency coordinators to confirm no interference occurs while testing. The center of the band is less likely to interfere with their operations, but other sources of interference may impact performance.
+
+We do not see a change in FCC regulations or a new mesh band being created as realistic; more on that in our [FAQ](/2026/09/02/fcc-regulations/#is-there-a-chance-the-fcc-will-change-their-regulations).
+
+*Also, as a quick disclaimer, none of the Operations Division are lawyers, and none of us play lawyers on TV. Even though we discuss FCC regulations throughout this document, nothing in this document or FAQ is legal analysis or legal advice to anyone reading it. Please, for the love of heaven, always consult an actual lawyer when you have questions about the law, or FCC regulations.*
 
 # Hey PhillyMesh community,
 
@@ -90,14 +98,14 @@ Meshtastic has many settings that allow you to change what slice of frequency yo
 Meshtastic's default settings are a preset called LongFast. This preset uses a bandwidth of 250 kHz, which we now know is in violation of FCC regulations.
 
 ### Can you tell me more about this bandwidth thing?
-Meshtastic (and MeshCore) packets are sent across a frequency spectrum. That spectrum is determined by choosing a starting frequency (or, with Meshtastic, you often choose a "Frequency Slot" and the firmware uses that to [calculate your starting frequency](https://meshtastic.org/docs/overview/radio-settings/)) and then setting a bandwidth which determines how large the range of the spectrum wil be. For example if your frequency is 906.500 MHz and your bandwidth is 250 kHz (0.250 MHz), you will be transmitting from 906.500 MHz to 906.750 MHz.
+Meshtastic (and MeshCore) packets are sent across a frequency spectrum. That spectrum is determined by choosing a starting frequency (or, with Meshtastic, you often choose a "Frequency Slot" and the firmware uses that to [calculate your starting frequency](https://meshtastic.org/docs/overview/radio-settings/)) and then setting a bandwidth which determines how large the range of the spectrum will be. The frequency you set is the middle of your range. For example, if your frequency is 906.500 MHz and your bandwidth is 250 kHz (0.250 MHz), you will be transmitting from 906.375 MHz to 906.625 MHz. Our MeshCore 500 setting of 902.250 MHz at 500 kHz occupies 902.000 to 902.500 MHz.
 
-The only preset that uses a 500 kHz or higher bandwidth is LongTurbo, the rest use 250 kHz. In our region there is a lot of interference put off by devices using RFID, among many other things. The interference exists every 250 kHz (at the .000, .250, .500, and .750 points of each frequency) and is strongest at .250 and .750. Using a smaller bandwidth like 250 kHz, Meshtastic packets are able to keep that interference at the edges and not be affected too much by it. However, because LongTurbo uses 500 kHz, no matter what starting frequency is chosen, it will always overlap with some of the interference. 
+The only presets that uses a 500 kHz or higher bandwidth are LongTurbo and ShortTurbo, the rest use 250 kHz. In our region there is a lot of interference put off by devices using RFID, among many other things. The interference exists every 250 kHz (at the .000, .250, .500, and .750 points of each frequency) and is strongest at .250 and .750. Using a smaller bandwidth like 250 kHz, Meshtastic packets are able to keep that interference at the edges and not be affected too much by it. However, because the Turbo presets use 500 kHz, no matter what starting frequency is chosen, it will always overlap with some of the interference. 
 
 ### Who is the FCC and why do I care about them?
 The FCC makes and enforces the regulations regarding which frequency bands people and companies can use and what the rules are for the packets they send. As with all regulations in the US, it's possible to get in trouble for unknowingly violating them (regardless of motive/intent), and that's what we've all been doing while using Meshtastic on LongFast.
 
-The FCC requires all packets sent in the ISM band (the band Meshtastic and MeshCore use) to have a bandwidth of 500 kHz or more. The only Meshtastic preset that uses a 500 kHz bandwidth is called LongTurbo, and that's now what the Meshtastic project will be suggesting as the default in the US. The default MeshCore setting uses a 62.5 kHz bandwidth and is even less compliant, hence the custom settings to use a 500 kHz bandwidth.
+The FCC requires all packets sent in the ISM band (the band Meshtastic and MeshCore use) to have a bandwidth of 500 kHz or more. The only Meshtastic presets that uses a 500 kHz bandwidth are LongTurbo and ShortTurbo (LongTurbo is the only viable one for long distance communication), and LongTurbo is now what the Meshtastic project will be suggesting as the default in the US. The default MeshCore setting uses a 62.5 kHz bandwidth and is even less compliant, hence the custom settings to use a 500 kHz bandwidth.
 
 ### Is this a new FCC regulation?
 No. It seems that most people did not understand the FCC regulations. This includes Meshtastic devs, MeshCore devs, and device manufacturers selling devices where the default settings were out of compliance. 
@@ -163,7 +171,7 @@ It seems a lot of this discussion has been happening in private Discords, so sou
 
 Meshtastic's leadership has discussed on other Discords that further "friction" will come in version 3.0 and later.
 
-### Did some people know about this? It's suspicious that we did LongTurbo tests a month before we found out that LongTurbo is the only legal default.
+### Did some people know about this? It's suspicious that we did LongTurbo tests a month before we found out that LongTurbo will be the new default.
 Some folks who follow the Meshtastic firmware GitHub repo and are part of other Meshtastic Discords had heard rumors that the default preset might be changing. No one knew why; we're not even sure if the default preset change was because of the FCC regulations or because of [this meshtastic.org post](https://meshtastic.org/blog/why-your-mesh-should-switch-from-longfast/) about LongFast not being the best default for cities. 
 
 We realized this default change would fracture the mesh significantly and our Discord would play a key role in informing users about the changes and helping support users change their existing nodes. We thought about it and decided to take the opportunity to not blindly trust the new recommended default, but to find a preset and custom settings that would actually improve PhillyMesh's performance.
