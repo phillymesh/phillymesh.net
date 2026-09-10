@@ -12,13 +12,13 @@ tags:
 #cspell:ignore RemoteTerm opsdiv FHSS APRS Delco
 ---
 
-# 2026-09-09 Clarification
+# 2026-09-10 Clarification
 
-This document is only for sharing what in our experience works best for the immediate area around Philadelphia, PA. During our testing we found no traffic; using this preset in other areas may cause interference in the 33cm band, and we argue that it should not be a national preset for Meshcore or Meshtastic -- please do not use without testing.
+This document is only for sharing what in our experience works best for the immediate area around Philadelphia, PA. During our testing we found no traffic; using this preset in other areas may cause interference in the 33cm band, and we argue that it should not be a national preset for Meshcore or Meshtastic - please do not use without testing.
 
 Please use proper tools, such as a software defined radio, to identify the quietest part of the band. Additionally, reach out to your local 33cm amateur radio groups and frequency coordinators to confirm no interference occurs while testing. The center of the band is less likely to interfere with their operations, but other sources of interference may impact performance.
 
-We do not see a change in FCC regulations or a new mesh band being created as realistic; more on that in our [FAQ](<https://phillymesh.net/2026/09/02/fcc-regulations/#is-there-a-chance-the-fcc-will-change-their-regulations>).
+We do not see a change in FCC regulations or a new mesh band being created as realistic; more on that in our [FAQ](/2026/09/02/fcc-regulations/#is-there-a-chance-the-fcc-will-change-their-regulations).
 
 *Also, as a quick disclaimer, none of the Operations Division are lawyers, and none of us play lawyers on TV. Even though we discuss FCC regulations throughout this document, nothing in this document or FAQ is legal analysis or legal advice to anyone reading it. Please, for the love of heaven, always consult an actual lawyer when you have questions about the law, or FCC regulations.*
 
