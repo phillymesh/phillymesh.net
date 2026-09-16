@@ -23,7 +23,7 @@ We also wrote a [Getting Started guide](/getting-started) which details local gr
 
 # Getting started with MeshCore
 
-*These are the settings we recommend for using MeshCore with 500 kHz bandwidth. They are FCC-compliant and avoid the heaviest ISM band interference that we found during our summer 2026 testing in the Philadelphia area. Please make sure your MeshCore node is updated to the latest firmware before using these settings!*
+*These are the settings we recommend for using MeshCore with 500 kHz bandwidth. They are FCC-compliant and avoid the heavier ISM band interference that we found during our summer 2026 testing in the Philadelphia area. Please make sure your MeshCore node is updated to the latest firmware before using these settings!*
 
 - Frequency: `902.250 MHz`
 - Bandwidth: `500 kHz`
@@ -35,18 +35,23 @@ We also wrote these pages that might be of help if you're new to MeshCore:
 - [What you need to know about MeshCore coming from Meshtastic](https://phillymesh.net/2026/09/02/meshcore-intro)
 - [How to flash MeshCore coming from Meshtastic](https://phillymesh.net/2026/09/02/how-to-flash-meshcore)
 
+# PhillyMesh Corescope Instance (Meshcore)
+This shows some of the Meshcore nodes on 500khz in the Philadelphia area and the live traffic on the network.
+
+<iframe src="https://corescope500.phlm.sh/#/live" width="100%" height="500" title="View of PhillyMesh Corescope Instance"></iframe>
+
+# PhillyMesh Malla Instance (Meshtastic)
+
+This shows some of the Meshtastic nodes on LongFast in the Philadelphia area. It does not show all of them because nodes must opt-in to participate in MQTT.
+
+<iframe src="https://api.phillymesh.net/map?sidebar-collapsed=true" width="100%" height="500" title="View of PhillyMesh Malla Instance"></iframe>
+
 # Supporting PhillyMesh
 
 If you are interested in helping support PhillyMesh and Philly Radio & Mesh, please consider using one of our affiliate links from these awesome vendors:
 
 - [Rokland affiliate link for Meshtastic and MeshCore hardware](https://store.rokland.com/?ref=phillymesh)
 - [Battery Hookup affiliate link for genuine batteries (please don't buy 18650s from Amazon)](https://batteryhookup.com/discount/PhillyMesh)
-
-# PhillyMesh Malla Instance
-
-This shows some of the Meshtastic nodes on LongFast in the Philadelphia area. It does not show all of them because nodes must opt-in to participate in MQTT.
-
-<iframe src="https://api.phillymesh.net/map?sidebar-collapsed=true" width="100%" height="500" title="View of PhillyMesh Malla Instance"></iframe>
 
 # History
 
