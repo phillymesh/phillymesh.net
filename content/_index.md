@@ -38,7 +38,7 @@ We also wrote these pages that might be of help if you're new to MeshCore:
 # PhillyMesh Corescope Instance (Meshcore)
 This shows some of the Meshcore nodes on 500khz in the Philadelphia area and the live traffic on the network.
 
-<iframe src="https://corescope500.phlm.sh/#/live" width="100%" height="500" title="View of PhillyMesh Corescope Instance"></iframe>
+<iframe src="https://corescope500.phlm.sh/#/live" width="100%" height="800" title="View of PhillyMesh Corescope Instance"></iframe>
 
 # PhillyMesh Malla Instance (Meshtastic)
 
