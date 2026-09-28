@@ -15,9 +15,9 @@ tags:
 
 *These are the settings we're recommending for MeshCore 500. They are FCC-compliant and avoid the heaviest ISM band interference that we found during our testing in the Philadelphia area. Please make sure your MeshCore node is updated to the latest firmware before using these settings!*
 
-- Frequency: `902.250 MHz`
+- Frequency: `919.500 MHz`
 - Bandwidth: `500 kHz`
-- Spreading Factor: `11`
+- Spreading Factor: `10`
 - Coding Rate: `4/5` (some apps may just say `5`)
 - Path Hash Mode: `1` (2-byte mode, some apps list this setting as `1-2 byte`)
 
