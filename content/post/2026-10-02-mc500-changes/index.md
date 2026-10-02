@@ -52,7 +52,7 @@ After our testing, we have a few changes that we will be making for where/how we
 1. **Frequency:** Based on the issues with being on the band edge and in the weak-signal-work zone of the 902-928 ISM Band, we looked for a spot in the middle of the 902-928 ISM Band and **we have landed on 919.500 MHz** for a center frequency. We have confirmed that there are no listed conflicts with hams at this specific spot via RepeaterBook and the ham clubs we're in contact with. Again if there is something we missed, PLEASE reach out to us.
 
 2. **Spreading Factor:** Also abbreviated to SF, this is a parameter that describes how a LoRa transmission encodes its signal over time. High number SFs mean that the chirp signal is spread over a longer duration, so the data rate is lower but can travel farther. Lower number SFs mean the signal is compressed into a shorter duration, so the data rate is higher but it typically results in shorter ranges.
-    - Our assumption when moving to 500 kHz bandwidth (and corroborated by some of the MeshCore and Meshtastic blogs) was that we would have to use SF11 for links to survive the wider bandwidth (which impacts range) as well as the higher bandwidth. Basically "talk slower to be better understood" but in LoRa.
+    - Our assumption when moving to 500 kHz bandwidth (and corroborated by some of the MeshCore and Meshtastic blogs) was that we would have to use SF11 for links to survive the wider bandwidth (which impacts range) as well as the higher interference. Basically "talk slower to be better understood"
     - That assumption was proven incorrect based on our testing. Faster SF10 (instead of slower SF11) has shown to work best with our settings. Our theory is that the longer SF11 transmit time means that there is more likelihood that the packet will get interfered with by 902-928 ISM Band noise. Finishing the transmission quicker using SF10 means less opportunity for random 902-928 ISM Band noise to interfere. This is a balance because moving even lower in SF does indeed degrade link quality. This balance is something we're going to continue to monitor and OpsDiv may prescribe additional testing in the future. For now we believe we've struck the right balance for the mesh we have now with SF10.
     - A nice upside of this SF pick is that it is noticeably faster and "snappier" for the end-user to manage repeaters over LoRa.
 
@@ -90,7 +90,7 @@ rtl_power -f 902M:928M:5k -i 5 -e 30m -g 32
 5k           Target roughly 5 kHz frequency-bin resolution
 -i 5         Complete/report a sweep every 5 seconds
 -e 30m       Keep collecting for 30 minutes
--g 32        Fixed RTL-SDR gain of 32 dB```
+-g 32        Fixed RTL-SDR gain of 32 dB
 ```
 
 The downside to lots of collections across multiple regions, was that the larger meshcore community went from not enough data, to waaaaaaaaaaaaay too much data, and everyone had different opinions on how to wrangle it.
