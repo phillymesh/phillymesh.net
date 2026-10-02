@@ -105,6 +105,7 @@ We took all the RTL_POWER data and looked for the regions with the lowest noise 
 Our next step was to have people spread out across the region manually look at their SDRs in the three areas with the lowest noise floors identified above. The goal was to try and find region-wide low-interference spots we have here in Philly.
 
 ![Philly Mesh Longing For The Quiet of 902.250](LongingFor902.jpg)
+{style="max-height: 500px;"}
 
 ### 3) Automated Lora packet delivery testing
 After we distilled it down to 3-4 top areas, we ran a [custom packet test script](https://github.com/dustyheatsink/prm-lorasweep) based on the awesome concept from [cisien on the MeshCore discord](https://github.com/Cisien/meshcore-snr-sweep), tweaked to match our Pi-based infrastructure, using two nodes that had line of sight: one at our worst location (in terms of interference) and our best.
@@ -126,3 +127,4 @@ After some quick checking to ensure the data lined up with reality between 3 dev
 Our awesome community members jumped in and really did an amazing job putting them all through their paces. In the end, the top pick across the data held true. 919.5 MHz SF10 was the best candidate for our real-world mesh testing and communications.
 
 ![Philly Mesh Drinking Lesson Learning Juice](LearningLessons.jpg)
+{style="max-height: 500px;"}
