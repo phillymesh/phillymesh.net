@@ -108,7 +108,7 @@ Set a location for your node, especially if it's a repeater.
 ## So I'm on MeshCore... What now?
 First, let us be the first to welcome you to the mesh!
 - It may seem a bit empty at first, remember the default advertising intervals are much longer than on a Meshtastic mesh!
-- If you are on or near PhillyMesh open our [Live CoreScope Map](https://corescope500.phlm.sh/#/live) to watch the current mesh tradfic.
+- If you are on or near PhillyMesh open our [Live CoreScope Map](https://corescope500.phlm.sh/#/live) to watch the current mesh traffic.
 - If you are on your companion you should manually send out a flood & zero hop advertisement.
 - Under your tools or settings menu (depending on app) there should be a "Discover Nearby Nodes" option, click that.
 - Try saying hello in the public channel!
