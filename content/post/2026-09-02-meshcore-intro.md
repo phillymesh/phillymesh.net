@@ -52,3 +52,6 @@ You can force your node to advertise itself across the MeshCore network by using
 ## Reach
 
 The maximum Hop Limit on Meshtastic is seven, and by default it's set to three. In MeshCore, the default Hop Limit is 64, meaning your messages can travel much further than with Meshtastic. It is recommended to use the Path Hash Mode of "1", aka a 2-byte path hash, which has the downside of limiting your hops to 32 instead of 64. The upside is that your repeater ID in flood path / loop-detects is encoded with 65,536 possible variations instead of only 256, making for a much more stable overall mesh. This setting is commonly used in MeshCore-default meshes as well.
+
+We also wrote an intro that might be of help if you're interested in trying out MeshCore:
+- [How to flash MeshCore coming from Meshtastic](https://phillymesh.net/2026/09/02/how-to-flash-meshcore)
