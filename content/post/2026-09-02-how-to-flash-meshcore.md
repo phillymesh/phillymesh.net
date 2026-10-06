@@ -109,11 +109,11 @@ Set a location for your node, especially if it's a repeater.
 First, let us be the first to welcome you to the mesh!
 - It may seem a bit empty at first, remember the default advertising intervals are much longer than on a Meshtastic mesh!
 - If you are on or near PhillyMesh open our [Live CoreScope Map](https://corescope500.phlm.sh/#/live) to watch the current mesh tradfic.
-- If you are on your companion you should manually send out a flood advert & a zero hop advert.
+- If you are on your companion you should manually send out a flood & zero hop advertisement.
 - Under your tools or settings menu (depending on app) there should be a "Discover Nearby Nodes" option, click that.
 - Try saying hello in the public channel!
 - Add your first hashtag channel "#test" and try sending out a message with "test" or "ping" in it. We have members running bots in there that should reply if they hear your message.
-- Be patient! the first day can take a while for your map to fill in and local devices to discover your new devices and their routes! 
+- Be patient! The first day can take a while for your map to fill in and local devices to discover your new devices and their routes! 
 
 ## Done! Unless...
 For any step, when in doubt, feel free to reach out! We're happy to help on the Discord.
