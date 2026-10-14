@@ -13,7 +13,7 @@ tags:
 
 # Hosting a node
 
-*First read [our quick overview of what mesh networking is](/overview.md).*
+*First, please read [our quick overview of what mesh networking is](/overview.md).*
 
 Are you interested in hosting a node? Reach out to us at hello@phillymesh.net. We have experienced installers who can assess your proposed location and determine what’s the best fit for you.
 
