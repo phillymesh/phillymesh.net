@@ -17,15 +17,19 @@ tags:
 
 Are you interested in hosting a node? Reach out to us at hello@phillymesh.net. We have experienced installers who can assess your proposed location and determine what’s the best fit for you.
 
-# Nebra Node
+Below is an overview of the types of nodes we can install.
 
-Our Nebra Dual-Radio nodes are the flagship mesh networking nodes. They support both MeshCore and Meshtastic and they are the highest priority for us to deploy. However, they require on-site power and preferably an internet connection.
+## Nebra Node
+
+Our Nebra Dual-Radio nodes are the flagship mesh networking nodes. They support both MeshCore and Meshtastic and they are the highest priority for us to deploy. However, they require on-site power and preferably an internet connection. We also only have one or two on hand at a time.
 
 They cost us a few hundred dollars to build, and we are an entirely volunteer organization, so we try to save these nodes for locations where they would substantially improve the surrounding mesh.
 
-If you’re able to host one, PhillyMesh would still be the owners of the equipment and we choose what frequency settings and mesh technology it runs based on what’s best for the area. We will handle all updates and maintenance remotely over the internet connection. We build these nodes to survive all kinds of weather, but there is always the possibility that an unforeseen storm may take the node offline. If that happens, we ask that you allow us to coordinate with you so we can come out and service the node. We anticipate service to be required less than once a year, and when it is needed it will not be urgent: we can work around your schedule.
+If you’re able to host one, PhillyMesh would still be the owners of the equipment and we choose what frequency settings and mesh technology it runs based on what’s best for the area. We will handle all updates and maintenance remotely over the internet connection.
 
-Requirements:
+We build these nodes to survive all kinds of weather, but there is always the possibility that an unforeseen storm may take the node offline. If that happens, we ask that you allow us to coordinate with you so we can come out and service the node. We anticipate service to be required less than once a year, and when it is needed it will not be urgent: we can work around your schedule.
+
+### Requirements:
 
 - Permission to install
 - A location that is advantageous to the surrounding mesh
@@ -41,7 +45,7 @@ Preferred:
   - If there is no internet, we can make do with a cellular internet connection, but that costs us about $100/year (or more) and is less reliable, so we prefer not to
 - A pole or other solid mounting location
 
-# Solar-Powered Node
+## Solar-Powered Node
 
 If you’re an individual or organization who wants to improve the mesh, but you don’t have a location with power, you may be a better fit for a solar node. These nodes are much smaller and can be mounted in many more places than a Nebra node.
 
@@ -53,7 +57,7 @@ Over-the-air updates are a new and exciting feature that’s recently been intro
 
 There are also more expensive pre-built solar-powered nodes that you can purchase. Options include Seeed Studio’s P1 Pro ($90) and Heltec’s MeshTower ($200). We recommend adding extra weatherproofing to any off-the-shelf node that you purchase (particularly around the antenna), and you will still have to flash the firmware yourself, but this is a better option if you don’t want to DIY.
 
-Requirements:
+### Requirements:
 
 - Permission to install
 - A location that you can easily return to for biannual updates
@@ -64,8 +68,6 @@ Preferred:
   - high on a roof
   - line-of-site to surrounding area
   - an area that has little-to-no existing mesh networking nodes
- 
-
 
 ## Why should I place a node on my property?
 - Boosts Public Safety: when other services go down, the radio mesh still operates to get people help they need and share information
