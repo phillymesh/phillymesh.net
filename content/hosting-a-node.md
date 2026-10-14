@@ -73,14 +73,13 @@ There are also more expensive pre-built solar-powered nodes that you can purchas
   - line-of-site to surrounding area
   - an area that has little-to-no existing mesh networking nodes
 
+# FAQ
+
 ## Why should I place a node on my property?
-- Boosts Public Safety: when other services go down, the radio mesh still operates to get people help they need and share information
-- Builds Community: When one radio pops up, others inevitably join in your area
 
-## What is involved in hosting a node?
-- Small Equipment - The largest radio we use is about 1/2 the size of a shoebox, and go down to the size of a candy bar. 
-- Low Power usage at most our radios 3 watts of power - about the same as your home wifi router, and they decrease in power from there. We also can solar power our nodes, to avoid the concern, or place nodes where power isn't available.
-- No Maintenance needed - Philly Radio and Mesh will be happy to maintain the radio, keeping it updated, and part of a healthy mesh in the Philly area.
+- Boosts Public Safety: when other services go down, the mesh networking still operates to get people help they need and share information
+- Builds Community: When one node pops up, others inevitably join in your area
 
-## Am I exposing myself?
-Absolutely not. Our radios can work completely off-grid, but we would love to be able to use a local internet connection if one is available. We gather no personal data, no details about your internet, or other devices. You are welcome to see everything the radio does, as we publish the information on our website. We do ask if we can publish a rough location of the node, which appears on the mesh itself. This helps other users know which way to orient an antenna for a better signal. 
+## What information about myself am I exposing to the world by hosting a node?
+
+Basically none. Mesh nodes do not make any information like your WiFi network name public or give anyone access to your internet connection. You choose the name for your node that is viewable by others on the mesh, which can be as generic as "Repeater #4". We ask that you choose a nearby location for your node to report, but it does not have to be at the exact point it is in real life. A nearby spot that is down the street or at the next intersection over is good enough for other users to be able to point their antennas in the correct direction.
