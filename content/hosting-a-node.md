@@ -21,6 +21,8 @@ Below is an overview of the types of nodes we can install.
 
 ## Nebra Node
 
+<add picture>
+
 Our Nebra Dual-Radio nodes are the flagship mesh networking nodes. They support both MeshCore and Meshtastic and they are the highest priority for us to deploy. However, they require on-site power and preferably an internet connection. We also only have one or two on hand at a time.
 
 They cost us a few hundred dollars to build, and we are an entirely volunteer organization, so we try to save these nodes for locations where they would substantially improve the surrounding mesh.
@@ -39,13 +41,15 @@ We build these nodes to survive all kinds of weather, but there is always the po
 - Power on-site
 - Coordination from you for install site-visit and subsequent visits (less than annually)
 
-Preferred:
+### Preferred:
 
 - Internet connection (Wi-fi or POE)
   - If there is no internet, we can make do with a cellular internet connection, but that costs us about $100/year (or more) and is less reliable, so we prefer not to
 - A pole or other solid mounting location
 
 ## Solar-Powered Node
+
+<add picture>
 
 If you’re an individual or organization who wants to improve the mesh, but you don’t have a location with power, you may be a better fit for a solar node. These nodes are much smaller and can be mounted in many more places than a Nebra node.
 
@@ -62,7 +66,7 @@ There are also more expensive pre-built solar-powered nodes that you can purchas
 - Permission to install
 - A location that you can easily return to for biannual updates
 
-Preferred:
+### Preferred:
 
 - A location that is advantageous to the surrounding mesh
   - high on a roof
@@ -80,29 +84,3 @@ Preferred:
 
 ## Am I exposing myself?
 Absolutely not. Our radios can work completely off-grid, but we would love to be able to use a local internet connection if one is available. We gather no personal data, no details about your internet, or other devices. You are welcome to see everything the radio does, as we publish the information on our website. We do ask if we can publish a rough location of the node, which appears on the mesh itself. This helps other users know which way to orient an antenna for a better signal. 
-
-## Who is responsible?
-We are! Philly Radio & Mesh will install the node, maintain it, and even take it down if you decide you don't want to do this anymore. We're all local users, so you probably know some of us already.
-
-## Who can I talk to with setting up a node?
-- Chat with local meshtastic users in the [**Philly Radio & Meshtastic Discord**](https://discord.gg/MWWbAkRR9v)
-- Email us via [hello@phillymesh.net](mailto:hello@phillymesh.net)
-
-
-## What do these installs and nodes look like?
-
-![A Node on a desk](/images/uploads/hosting-a-node/nebra_example.jpg)
-{width="50%"}
-
-![A Node in a Radio Tower](/images/uploads/hosting-a-node/tower_node.jpg)
-{width="50%"}
-
-![A small solar-powered node](/images/uploads/hosting-a-node/handheld_node.jpg)
-{width="50%"}
-
-
-![A Node installed on someone's chimney](/images/uploads/hosting-a-node/chimney_node.jpg)
-
-![A node installed on the handrail of a building roof](/images/uploads/hosting-a-node/railing_node.jpg)
-{width="50%"}
-
