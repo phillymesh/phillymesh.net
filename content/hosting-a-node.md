@@ -1,6 +1,6 @@
 ---
 title: Hosting a Node for Philly Radio & Mesh
-author: Kyle Yankanich
+author: Kyle Yankanich and Emily Boda
 type: post
 date: 2026-08-03
 url: /hosting-a-node
