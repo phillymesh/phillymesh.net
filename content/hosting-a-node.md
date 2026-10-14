@@ -23,7 +23,7 @@ Below is an overview of the types of nodes we can install.
 
 <add picture>
 
-Our Nebra Dual-Radio nodes are the flagship mesh networking nodes. They support both MeshCore and Meshtastic and they are the highest priority for us to deploy. However, they require on-site power and preferably an internet connection. We also only have one or two on hand at a time.
+Our Nebra Dual-Radio nodes are the flagship mesh networking nodes. They support both MeshCore and Meshtastic and they are the highest priority for us to deploy. However, they require on-site power and preferably an internet connection.
 
 They cost us a few hundred dollars to build, and we are an entirely volunteer organization, so we try to save these nodes for locations where they would substantially improve the surrounding mesh.
 
