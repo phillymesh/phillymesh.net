@@ -18,3 +18,59 @@ header nav {
 :root {
     --nav-bg-color: unset;
 }
+
+.pm-hero { margin: 1.5em 0 2em; }
+.pm-hero p { font-size: 1.15em; margin: 0 0 1.2em; }
+.pm-discord {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  padding: 0.9em 2em;
+  border-radius: 10px;
+  background: #5865F2;
+  color: #fff !important;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-decoration: none !important;
+  border: none !important;
+}
+.pm-discord:hover, .pm-discord:focus-visible { background: #4752C4; }
+.pm-discord svg { width: 1.4em; height: 1.4em; fill: currentColor; flex-shrink: 0; }
+.pm-discord-note { display: block; margin-top: 0.6em; font-size: 0.9em; color: var(--post-info-color); }
+
+.pm-switch > input { position: absolute; opacity: 0; pointer-events: none; }
+.pm-tabs { display: flex; gap: 0.5em; margin: 0.5em 0 0; }
+.pm-tabs label {
+  flex: 1;
+  text-align: center;
+  padding: 0.8em 0.5em;
+  border: 2px solid var(--hr-color);
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: var(--nav-link-color);
+}
+.pm-tabs label small { display: block; font-weight: normal; font-size: 0.75em; }
+#pm-pick-mc:checked ~ .pm-tabs label[for="pm-pick-mc"],
+#pm-pick-mt:checked ~ .pm-tabs label[for="pm-pick-mt"] {
+  border-color: var(--link-color);
+  color: var(--font-color);
+  background: var(--nav-bg-color);
+}
+#pm-pick-mc:focus-visible ~ .pm-tabs label[for="pm-pick-mc"],
+#pm-pick-mt:focus-visible ~ .pm-tabs label[for="pm-pick-mt"] { outline: 2px solid var(--link-color); }
+.pm-panel {
+  display: none;
+  border: 2px solid var(--link-color);
+  border-radius: 0 0 10px 10px;
+  padding: 0.5em 1.2em 1.2em;
+}
+#pm-pick-mc:checked ~ .pm-mc, #pm-pick-mt:checked ~ .pm-mt { display: block; }
+.pm-panel iframe { border: 0; border-radius: 6px; }
+.pm-map { margin: 1em 0; border: 1px solid var(--hr-color); border-radius: 8px; padding: 0 1em; }
+.pm-map summary { cursor: pointer; font-weight: bold; font-size: 1.15em; padding: 0.7em 0; }
+.pm-map summary::after { content: " (click to show)"; font-weight: normal; font-size: 0.8em; color: var(--post-info-color); }
+.pm-map[open] summary::after { content: " (click to hide)"; }
+.pm-map[open] { padding-bottom: 1em; }
