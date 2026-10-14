@@ -13,7 +13,7 @@ tags:
 
 # Hosting a node
 
-*First, please read [our quick overview of what mesh networking is](/overview.md).*
+*First, please read [our quick overview of mesh networking](/overview.md).*
 
 Are you interested in hosting a node? Reach out to us at hello@phillymesh.net. We have experienced installers who can assess your proposed location and determine what’s the best fit for you.
 
@@ -80,6 +80,6 @@ There are also more expensive pre-built solar-powered nodes that you can purchas
 - Boosts Public Safety: when other services go down, the mesh networking still operates to get people help they need and share information
 - Builds Community: When one node pops up, others inevitably join in your area
 
-## What information about myself am I exposing to the world by hosting a node?
+## Am I exposing personal information about myself to the world by hosting a node?
 
 Basically none. Mesh nodes do not make any information like your WiFi network name public or give anyone access to your internet connection. You choose the name for your node that is viewable by others on the mesh, which can be as generic as "Repeater #4". We ask that you choose a nearby location for your node to report, but it does not have to be at the exact point it is in real life. A nearby spot that is down the street or at the next intersection over is good enough for other users to be able to point their antennas in the correct direction.
