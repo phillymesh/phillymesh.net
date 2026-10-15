@@ -11,7 +11,7 @@ tags:
 #cspell:ignore meshtastic meshcore PhillyWisper MeshMapper
 ---
 
-# Recent History
+# PhillyMesh Overview
 
 Since the Meshtastic project started in 2019, sending off-the-grid text messages with LoRa wireless technology has become an increasingly popular hobby all over the world. In the greater Philadelphia area alone, we have seen almost 500 independent nodes active on our networks in a single week.
 
@@ -21,7 +21,7 @@ PhillyMesh aims to support all free and open-source mesh networking projects by 
 
 # What are Meshtastic and MeshCore?
 
-The Meshtastic and MeshCore projects use LoRa (long range) wireless networking to send text messages through the air to other mesh nodes. These messages are sent without using the internet or cell towers and the network is operated almost entirely on cheap ~$30 LoRa boards, many of them solar powered. Unlike amateur radio, these mesh networking projects operate on unlicensed bands, so users do not need a ham radio license to get started.
+The Meshtastic and MeshCore projects use LoRa (long range) wireless networking to send text messages through the air to other mesh nodes. These messages are sent without using the internet or cell towers and the network is operated almost entirely on cheap ~$30 LoRa boards, many of them solar-powered. Unlike amateur radio, these mesh networking projects operate on unlicensed bands, so users do not need a ham radio license to get started.
 
 Because of the low cost, Meshtastic and MeshCore are great projects to learn:
 
@@ -47,15 +47,15 @@ Communicating over the internet or cell networks usually works reliably, but tho
 
 When the cell network is overloaded, at an event like a festival or convention, text messaging and internet-reliant messaging no longer work. Mesh networking has the opposite effect in crowded environments: its reliability improves as you add more nodes.
 
-If you're going camping in the woods where there aren't existing cell towers, you can't exactly bring your own cell tower with you. For about $100 you can build a handful of solar powered mesh networking devices that allow you to communicate with those around you.
+If you're going camping in the woods where there aren't existing cell towers, you can't exactly bring your own cell tower with you. For about $100 you can build a handful of solar-powered mesh networking devices that allow you to communicate with those around you.
 
-Mesh networking hobbyists also enjoy the challenges that come along with new technology, especially the fact that we get to build it ourselves. We have folks in our community that get really into the radio frequency science side of things, running tests to figure out the optimal settings to improve signal across the region. We have other folks who enjoy designing and building the cheapest and most effective solar powered mesh nodes to make hosting a mesh node more accessible to more people.
+Mesh networking hobbyists also enjoy the challenges that come along with new technology, especially the fact that we get to build it ourselves. We have folks in our community that get really into the radio frequency science side of things, running tests to figure out the optimal settings to improve signal across the region. We have other folks who enjoy designing and building the cheapest and most effective solar-powered mesh nodes to make hosting a mesh node more accessible to more people.
 
 # Comparing Meshtastic and MeshCore
 
 Meshtastic and MeshCore, while they are built on the same fundamental concepts, are different enough that they cannot interoperate. A MeshCore text message cannot be received and decrypted by a Meshtastic node and vice versa.
 
-From 2021-2026 Meshtastic was overwhelmingly the most popular mesh networking project in Philadelphia. However, in the summer of 2026, Meshtastic introduced some config changes that, when tested by PhillyMesh users, proved to not perform very well in Philadelphia. As a result, many users decided to try out the MeshCore project.
+From 2021 to 2026 Meshtastic was overwhelmingly the most popular mesh networking project in Philadelphia. However, in the summer of 2026, Meshtastic introduced some config changes that, when tested by PhillyMesh users, proved to not perform very well in Philadelphia. As a result, many users decided to try out the MeshCore project.
 
 As much as possible, our PhillyMesh nodes support both projects. That being said, as of fall 2026, if you're a beginner who wants to try out the project with which you'll be able to communicate with the most people in Philadelphia, we recommend starting with MeshCore.
 
@@ -66,7 +66,7 @@ We have a getting started guide for both MeshCore and Meshtastic:
 - [Intro to MeshCore](/2026/09/02/meshcore-intro/)
 - [Intro to Meshtastic](/getting-started)
 
-The currently recommended local settings for both Meshtastic and MeshCore can be found on the [PhillyMesh.net homepage](https://phillymesh.net).
+The currently recommended local settings for both Meshtastic and MeshCore can be found on the [PhillyMesh.net homepage](/).
 
 ## Live Maps
 

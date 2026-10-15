@@ -36,14 +36,14 @@ We build these nodes to survive all kinds of weather, but there is always the po
 - Permission to install
 - A location that is advantageous to the surrounding mesh
   - high on a roof
-  - line-of-site to surrounding area
+  - line-of-sight to surrounding area
   - an area that has little-to-no existing mesh networking nodes
 - Power on-site
 - Coordination from you for install site-visit and subsequent visits (less than annually)
 
 ### Preferred:
 
-- Internet connection (Wi-fi or POE)
+- Internet connection (WiFi or POE)
   - If there is no internet, we can make do with a cellular internet connection, but that costs us about $100/year (or more) and is less reliable, so we prefer not to
 - A pole or other solid mounting location
 
@@ -53,11 +53,11 @@ We build these nodes to survive all kinds of weather, but there is always the po
 
 If you're an individual or organization who wants to improve the mesh, but you don't have a location with power, you may be a better fit for a solar node. These nodes are much smaller and can be mounted in many more places than a Nebra node.
 
-We recommend making one of these Harbor Breeze Solar Light nodes yourself for about $40. Whether we have any parts or full builds to donate, depends entirely on our volunteer's availability and how much they are willing to donate out of their own wallets. We are an all-volunteer organization with no funding, so if your install location is extremely valuable to one of our volunteers, that will definitely sweeten the deal :)
+We recommend making one of these Harbor Breeze Solar Light nodes yourself for about $40. Whether we have any parts or full builds to donate depends entirely on our volunteers' availability and how much they are willing to donate out of their own wallets. We are an all-volunteer organization with no funding, so if your install location is extremely valuable to one of our volunteers, that will definitely sweeten the deal :)
 
-Once installed, these solar nodes will be your responsibility. We're always available to assist remotely, and we may even be able to send a volunteer to help out, but that's not guaranteed. You're under no obligation to keep them updated on any sort of schedule, but we ask that you plan to update them at least once every 3-6 months and join our Discord so, at the very least, we can reach out to you if we have question/suggestions/new information about what mesh technologies are popular in your neighborhood.
+Once installed, these solar nodes will be your responsibility. We're always available to assist remotely, and we may even be able to send a volunteer to help out, but that's not guaranteed. You're under no obligation to keep them updated on any sort of schedule, but we ask that you plan to update them at least once every 3-6 months and join our Discord so, at the very least, we can reach out to you if we have questions/suggestions/new information about what mesh technologies are popular in your neighborhood.
 
-Over-the-air updates are a new and useful feature that's recently been introduced into some mesh networking firmware, however, it is not the most reliable way of updating your node. We don't recommend installing these solar nodes anywhere that you can't easily access and connect to your computer for infrequent updates.
+Over-the-air updates are a new and useful feature that's recently been introduced into some mesh networking firmware; however, it is not the most reliable way of updating your node. We don't recommend installing these solar nodes anywhere that you can't easily access and connect to your computer for infrequent updates.
 
 There are also more expensive pre-built solar-powered nodes that you can purchase. Options include Seeed Studio's P1 Pro ($90) and Heltec's MeshTower ($200). We recommend adding extra weatherproofing to any off-the-shelf node that you purchase (particularly around the antenna), and you will still have to flash the firmware yourself, but this is a better option if you don't want to DIY.
 
@@ -70,14 +70,14 @@ There are also more expensive pre-built solar-powered nodes that you can purchas
 
 - A location that is advantageous to the surrounding mesh
   - high on a roof
-  - line-of-site to surrounding area
+  - line-of-sight to surrounding area
   - an area that has little-to-no existing mesh networking nodes
 
 # FAQ
 
 ## Why should I place a node on my property?
 
-- Improves public safety: when other services go down, the mesh networking still operates to get people help they need and share information
+- Improves public safety: when other services go down, the mesh network still operates to get people help they need and share information
 - Builds community: When one node pops up, others inevitably join in your area
 
 ## Am I exposing personal information about myself to the world by hosting a node?
