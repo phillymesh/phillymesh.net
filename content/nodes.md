@@ -30,17 +30,20 @@ Our current efforts support but are not just limited to both Meshtastic (MT) & M
 
 | Node Short Name | Long Name                            | Location   | Protocol | Owner         |
 | --------------- | -------------------------------------|----------- | -------- | ------------- |
-| PM01            | phillymesh.net-01                    |            | MT       | Famicoman     |
+| PM01            | phillymesh.net-01                    | C. City    | MC       | Famicoman     |
 | PM02            | phillymesh.net-02                    |            | MT       | Famicoman     |
 | PM03            | phillymesh.net-03                    |            | MT       | Famicoman     |
 | PM04            |                                      |            | MT       | Redacted      |
 | PM07            | phillymesh.net-07                    |            | MT       | Redacted      |
-| PM08            |                                      |            | MT       | BODA          |
+| PM08            | Reserved                             | N/A        | MT       | BODA          |
 | PM09            |                                      |            | MT       | Redacted      |
-| PM10            | PM10 - Kensington - SUSQ VAL PA Mesh | Kensington | MT       | Chris.        |
-| PM11            | PM11 - Phlm.sh -                     | Pending    | MT/MC    | DustyHeatsink |
+| PM10            | PM10 - Kensington - SVMI             | Kensington | MC       | Chris C.      |
+| PM11            | PM11 - Phlm.sh - Bok                 | S. Philly  | MT/MC    | DustyHeatsink |
 | PM12            | PM12 - Phlm.sh -                     | TBD        | MT/MC    | DustyHeatsink |
-| PM13            | PM13 - Phlm.sh -                     | TBD        | MT/MC    | DustyHeatsink |
-| PM14            | Phlm.sh - Hitchbot's Head.           | TBD        | MT/MC    | Kyle Y.       |
+| PM13            | PM13 - Phlm.sh -                     | TBD        | TBD      | DustyHeatsink |
+| PM14            | Phlm.sh - Hitchbot's Head            | TBD        | MT/MC    | Kyle Y.       |
 | PM15            | Phlm.sh -                            | TBD        | MT/MC    | Kyle Y.       |
-| PM069           | -                                    | Redacted   | MT       | Redacted      |
+| PM16            | PM16 - Phlm.sh -                     | TBD        | TBD      | DustyHeatsink |
+| PM19            | 19th & Mkt 1w Phlm.sh                | C. City    | MC       | DustyHeatsink |
+| PM67            | PM67 - Phlm.sh -                     | TBD        | TBD      | Jonathan      |
+| PM69            | -                                    | Redacted   | MC       | Redacted      |
