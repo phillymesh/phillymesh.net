@@ -77,8 +77,8 @@ There are also more expensive pre-built solar-powered nodes that you can purchas
 
 ## Why should I place a node on my property?
 
-- Boosts Public Safety: when other services go down, the mesh networking still operates to get people help they need and share information
-- Builds Community: When one node pops up, others inevitably join in your area
+- Improves public safety: when other services go down, the mesh networking still operates to get people help they need and share information
+- Builds community: When one node pops up, others inevitably join in your area
 
 ## Am I exposing personal information about myself to the world by hosting a node?
 
