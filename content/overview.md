@@ -13,7 +13,7 @@ tags:
 
 # Recent History
 
-Since the Meshtastic project started in 2019, sending off-the-grid text messages with LoRa wireless technology has become an increasingly popular hobby all over the world. In the greater Philadelphia area alone, we have seen almost 500 independent nodes active on our networks in a single week. 
+Since the Meshtastic project started in 2019, sending off-the-grid text messages with LoRa wireless technology has become an increasingly popular hobby all over the world. In the greater Philadelphia area alone, we have seen almost 500 independent nodes active on our networks in a single week.
 
 In recent years, the number of mesh networking projects has increased as MeshCore and several other variants of the same basic idea have emerged and seen wide adoption. This, as well as mesh networking hobbyists becoming more organized in the PhillyMesh group, has resulted in our networks becoming more efficient and farther-reaching than ever before.
 
@@ -27,19 +27,19 @@ Because of the low cost, Meshtastic and MeshCore are great projects to learn:
 
 * radio fundamentals, such as frequency and wavelength concepts and basic signal propagation
 * electronics basics, like building circuits and soldering
-* antenna and signal attenuation fundamentals 
+* antenna and signal attenuation fundamentals
 
 # How does mesh networking work?
 
-The core concepts for Meshtastic and MeshCore are the same. 
+The core concepts for Meshtastic and MeshCore are the same.
 
-A user sends a text message from their handheld radio, called a "node". This node can be a stand-alone device with a screen and a keyboard, or it could be a low-powered, pocketable device with just an antenna that the user connects to over Bluetooth from their phone. Any nodes that are nearby and can hear that initial message repeat the message to any other devices that can hear them. Nodes that heard that repeated message in turn repeat the message to those that are within their range, and so on. 
+A user sends a text message from their handheld radio, called a "node". This node can be a stand-alone device with a screen and a keyboard, or it could be a low-powered, pocketable device with just an antenna that the user connects to over Bluetooth from their phone. Any nodes that are nearby and can hear that initial message repeat the message to any other devices that can hear them. Nodes that heard that repeated message in turn repeat the message to those that are within their range, and so on.
 
 This results in a "mesh" network. Each individual device doesn't need to be powerful enough to reach every other device in Philadelphia, it only needs to reach one other device, which then in turn can reach one other device, and so on.
 
-To expand this network further, in Philadelphia we have a number of dedicated "repeater" nodes that are installed on rooftops. While messages between small ground-level nodes might only travel 5-10 blocks on their own, messages sent from or repeated by these rooftop repeaters can travel many miles, depending on how much clear line-of-sight they have around them. 
+To expand this network further, in Philadelphia we have a number of dedicated "repeater" nodes that are installed on rooftops. While messages between small ground-level nodes might only travel 5-10 blocks on their own, messages sent from or repeated by these rooftop repeaters can travel many miles, depending on how much clear line-of-sight they have around them.
 
-Most of these repeater nodes are installed and maintained independently by hobbyists who happen to have access to a high roof. PhillyMesh also maintains some official nodes in partnership with local organizations such as Philly Community Wireless and PhillyWisper. We are always open to new partnerships! While we cannot pay you to host a node, we provide all parts, materials, and installation and can also provide educational talks and future support to interested parties.
+Most of these repeater nodes are installed and maintained independently by hobbyists who happen to have access to a high roof. PhillyMesh also maintains some official nodes in partnership with local organizations such as Philly Community Wireless and PhillyWisper. We are always open to new partnerships! While we cannot pay you to host a node, we provide all parts, materials, and installation and can also provide educational talks and future support to interested parties. Find out more information about [hosting a node here](/hosting-a-node).
 
 # Why do people use mesh networking to communicate?
 
