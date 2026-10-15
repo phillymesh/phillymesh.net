@@ -35,12 +35,14 @@ Our current efforts support but are not just limited to both Meshtastic (MT) & M
 | PM03            | phillymesh.net-03                    |            | MT       | Famicoman     |
 | PM04            |                                      |            | MT       | Redacted      |
 | PM07            | phillymesh.net-07                    |            | MT       | Redacted      |
-| PM08            |                                      |            | MT       | BODA          |
+| PM08            | Reserved                             | N/A        | MT       | BODA          |
 | PM09            |                                      |            | MT       | Redacted      |
 | PM10            | PM10 - Kensington - SUSQ VAL PA Mesh | Kensington | MT       | Chris.        |
-| PM11            | PM11 - Phlm.sh -                     | Pending    | MT/MC    | DustyHeatsink |
+| PM11            | PM11 - Phlm.sh - Bok                 | S. Philly  | MT/MC    | DustyHeatsink |
 | PM12            | PM12 - Phlm.sh -                     | TBD        | MT/MC    | DustyHeatsink |
-| PM13            | PM13 - Phlm.sh -                     | TBD        | MT/MC    | DustyHeatsink |
+| PM13            | PM13 - Phlm.sh -                     | TBD        | TBD      | DustyHeatsink |
 | PM14            | Phlm.sh - Hitchbot's Head.           | TBD        | MT/MC    | Kyle Y.       |
 | PM15            | Phlm.sh -                            | TBD        | MT/MC    | Kyle Y.       |
+| PM16            | PM16 - Phlm.sh -                     | TBD        | TBD      | DustyHeatsink |
+| PM67            | PM67 - Phlm.sh -                     | TBD        | TBD      | Jonathan      |
 | PM069           | -                                    | Redacted   | MT       | Redacted      |
