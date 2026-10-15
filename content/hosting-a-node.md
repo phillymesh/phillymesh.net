@@ -43,7 +43,7 @@ We build these nodes to survive all kinds of weather, but there is always the po
 
 ### Preferred:
 
-- Internet connection (WiFi or POE)
+- Internet connection (WiFi or PoE)
   - If there is no internet, we can make do with a cellular internet connection, but that costs us about $100/year (or more) and is less reliable, so we prefer not to
 - A pole or other solid mounting location
 
